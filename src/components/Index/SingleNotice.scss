@@ -1,0 +1,30 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+@import "../../assets/scss/mixin";
+
+.single-notice-wrapper {
+  padding: 8px;
+  border-bottom: solid 1px $border-color;
+
+  .content {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: $grey;
+
+    &:hover {
+      @include transition(all, 0.3s);
+      color: $main-color;
+    }
+  }
+
+  .time {
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    color: $light-grey;
+  }
+
+}

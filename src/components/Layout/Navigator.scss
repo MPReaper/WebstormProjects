@@ -1,0 +1,75 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+@import "../../assets/scss/mixin";
+
+.nav-wrapper {
+  height: 50px;
+  width: 100%;
+  z-index: 10;
+  background-color: $white-color;
+  position: fixed;
+  box-shadow: 0px 1px 3px $light-grey;
+
+  .left-wrapper {
+    display: inline-block;
+    padding-top: 11px;
+    cursor: pointer;
+    p {
+      font-weight: 400;
+    }
+  }
+
+  .right-wrapper {
+    display: inline-block;
+    padding-top: 11px;
+    float: right;
+    margin-right: 100px;
+
+    .el-button, .el-dropdown {
+      padding-left: 30px;
+      font-size: 15px;
+      font-weight: 400;
+      color: $grey;
+      @include transition(all .5s);
+
+      &:hover {
+        @include transition(all .5s);
+        color: $main-color;
+      }
+
+      /deep/ .el-icon-caret-bottom:before {
+        font-size: 10px;
+      }
+    }
+
+  }
+}
+
+li {
+  padding: 2px 10px;
+  width: 150px;
+  font-size: 14px;
+  color: $grey;
+
+  &:hover {
+    background-color: $background-color;
+  }
+}
+
+.el-dropdown {
+  margin-left: 10px;
+}
+
+.el-dropdown-menu {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.el-dropdown-menu__item:not(.is-disabled) {
+  @include transition(all .5s);
+  &:hover {
+    @include transition(all .5s);
+    background-color: $background-color;
+    color: $main-color;
+  }
+}

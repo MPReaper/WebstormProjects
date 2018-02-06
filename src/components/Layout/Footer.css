@@ -1,0 +1,45 @@
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  list-style: none; }
+
+html {
+  height: 100%; }
+
+* {
+  position: relative;
+  box-sizing: border-box; }
+
+button {
+  outline: none; }
+
+/*
+ * grid
+ */
+.footer-wrapper {
+  height: auto;
+  padding: 50px 0 50px 0;
+  background-color: #4e7ede;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 100px; }
+  .footer-wrapper .name-wrapper {
+    display: inline-block; }
+    .footer-wrapper .name-wrapper span {
+      font-size: 14px; }
+  .footer-wrapper .info-wrapper {
+    padding-top: 5px; }
+    .footer-wrapper .info-wrapper span {
+      font-size: 14px; }
+
+.footer-company-wrapper {
+  width: 30%;
+  display: inline-block;
+  padding: 50px 0 50px 100px;
+  text-align: left;
+  vertical-align: text-top; }
+
+/*# sourceMappingURL=Footer.css.map */

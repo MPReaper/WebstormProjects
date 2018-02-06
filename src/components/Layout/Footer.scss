@@ -1,0 +1,36 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+@import "../../assets/scss/mixin";
+
+.footer-wrapper {
+  height: auto;
+  padding: 50px 0 50px 0;
+  background-color: $main-color;
+  text-align: center;
+  color: $white-color;
+  margin-top: 100px;
+
+  .name-wrapper {
+    display: inline-block;
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .info-wrapper {
+    padding-top: 5px;
+
+    span {
+      font-size: 14px;
+    }
+  }
+}
+
+.footer-company-wrapper {
+  width: 30%;
+  display: inline-block;
+  padding: 50px 0 50px 100px;
+  text-align: left;
+  vertical-align: text-top;
+}

@@ -1,0 +1,43 @@
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  list-style: none; }
+
+html {
+  height: 100%; }
+
+* {
+  position: relative;
+  box-sizing: border-box; }
+
+button {
+  outline: none; }
+
+/*
+ * grid
+ */
+.figure-wrapper {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 30px;
+  width: 100%;
+  height: 300px;
+  background-size: 100% 100%; }
+
+.figure-item-wrapper {
+  padding: 40px;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  color: #ffffff; }
+  .figure-item-wrapper .title {
+    font-size: 20px;
+    font-weight: 400; }
+  .figure-item-wrapper .figure {
+    font-size: 60px;
+    font-weight: 500; }
+
+/*# sourceMappingURL=FigureIndex.css.map */
