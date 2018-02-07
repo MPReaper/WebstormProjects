@@ -1,14 +1,15 @@
 <template>
 
   <div class="index-wrapper">
-    <div-header :header="'大赛日程'"></div-header>
+    <div-header :header="'赛程计划'"></div-header>
 
     <div>
       <el-steps :active="0" align-center>
-        <el-step title="大赛报名" description="登录mooctest.net填写报名信息 安装工具 调试环境 赛前练习" icon="el-icon-edit"></el-step>
-        <el-step title="夏季/秋季预选赛" description="6月/10月" icon="el-icon-document"></el-step>
-        <el-step title="分区决赛" description="10月 获取分区赛证书和奖金" icon="el-icon-location-outline"></el-step>
-        <el-step title="总决赛" description="10月 获取总决赛证书和奖金" icon="el-icon-star-off"></el-step>
+        <el-step title="大赛启动" description="3月12日" icon="el-icon-edit"></el-step>
+        <el-step title="互联网夏季预选赛" description="6月9日-10日" icon="el-icon-document"></el-step>
+        <el-step title="互联网秋季预选赛" description="11月3日-4日" icon="el-icon-document"></el-step>
+        <el-step title="互联网+现场省赛" description="11月10日-11日" icon="el-icon-location-outline"></el-step>
+        <el-step title="现场总决赛" description="11月24日-25日" icon="el-icon-star-off"></el-step>
       </el-steps>
     </div>
 

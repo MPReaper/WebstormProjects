@@ -2,64 +2,40 @@
   <div class="footer-wrapper">
     <div class="footer-company-wrapper">
       <ul>
-        <b>指导单位</b>
+        <b>主办单位</b>
         <li>教育部软件工程专业教学指导委员会</li>
         <li>中国计算机学会软件工程专业委员会</li>
         <li>中国软件测评机构联盟</li>
         <li>中国计算机学会系统软件专业委员会</li>
         <li>中国计算机学会容错计算专业委员会</li>
       </ul>
-      <br>
+
+    </div>
+
+    <div class="footer-company-wrapper">
       <ul>
         <b>总承办单位</b>
         <li>南京大学</li>
         <li>陆军工程大学</li>
         <li>金陵科技学院</li>
-        <li>南京慕测信息科技有限公司</li>
+        <li>江苏软件产业人才发展基金会</li>
         <li>江苏省软件新技术与产业化协同创新中心</li>
       </ul>
     </div>
 
     <div class="footer-company-wrapper">
       <ul>
-        <b>分项承办单位</b>
-        <li>上海市计算机软件评测重点实验室</li>
-        <li>中国信息通信研究院</li>
-        <li>杭州安恒信息技术有限公司</li>
-        <li>凯云联创（北京）科技有限公司</li>
-        <li>珠海南方软件网络评测中心</li>
-        <li>上海泽众软件科技有限公司</li>
-      </ul>
-      <br>
-      <ul>
-        <b>分赛区赞助商</b>
-        <li>苏州洞察云信息技术有限公司</li>
-        <li>广东拓思软件科学园有限公司</li>
-        <li>山东道普测评技术有限公司</li>
-        <li>西安葡萄城信息技术有限公司</li>
-        <li>重庆东软睿道信息技术有限公司</li>
-      </ul>
-    </div>
-
-    <div class="footer-company-wrapper">
-      <ul>
-        <b>银牌赞助商</b>
-        <li>百度MTC移动云测试中心</li>
-        <li>北京云测信息技术有限公司</li>
-        <li>北京大开科技有限公司</li>
-      </ul>
-      <br>
-      <ul>
-        <b>云平台赞助商</b>
-        <li>杭州数梦工场科技有限公司</li>
-      </ul>
-      <br>
-      <ul>
-        <b>支持单位</b>
-        <li>IEEE Reliability Society</li>
-        <li>CSTQB</li>
-        <li>TesterHome</li>
-        <li>AppetizerIO</li>
+        <b>指导委员会</b>
+        <li>吕建(主席) 南京大学教授、中国科学院院士</li>
+        <li>黄松 陆军工程大学教授</li>
+        <li>金芝 北京大学教授</li>
+        <li>刘超 北京航空航天大学教授</li>
+        <li>王戟 国防科技大学教授</li>
+        <li>Eric Wong 德州大学达拉斯分校教授</li>
+        <li>徐宝文 南京大学教授</li>
+        <li>杨根兴 中国软件测评机构联盟常务副理事长</li>
+        <li>臧斌宇 上海交通大学教授</li>
+        <li>张健 中国科学院软件所研究员</li>
       </ul>
     </div>
     <div class="name-wrapper">
