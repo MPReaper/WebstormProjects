@@ -57,5 +57,3 @@
     methods: {}
   }
 </script>
-
-<style scoped src="./IndexPage.css"></style>

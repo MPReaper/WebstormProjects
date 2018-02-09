@@ -2,7 +2,7 @@
 
   <div class="single-sub-index-wrapper">
 
-    <el-col :xs="8" :sm="8" :md="4" :lg="4" :xl="4">
+    <el-col :xs="10" :sm="10" :md="8" :lg="4" :xl="4">
       <div class="single-intro" @click="goToDetailPage">
         <div class="img-wrapper" :style="{ backgroundImage: 'url(' + photoUrl + ')' }">
 

@@ -12,39 +12,35 @@
           2018赛事<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
           <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item>大赛报名</el-dropdown-item>
+            <a target="_blank" :href="'http://www.mooctest.net/contest/list'">
+              <el-dropdown-item>大赛报名
+              </el-dropdown-item>
+            </a>
             <el-dropdown-item>分项赛</el-dropdown-item>
             <el-dropdown-item>分区赛</el-dropdown-item>
             <el-dropdown-item>比赛安排</el-dropdown-item>
-            <el-dropdown-item>大赛论坛</el-dropdown-item>
+            <a target="_blank" :href="'http://forum.mooctest.net/'">
+              <el-dropdown-item>大赛论坛</el-dropdown-item>
+            </a>
             <el-dropdown-item>大赛通知</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 
-        <el-dropdown placement="bottom-start" @command="">
+        <el-dropdown placement="bottom-start" @command="handleTrainCommand">
           <span class="el-dropdown-link">
           培训交流<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
-          <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item>学生培训</el-dropdown-item>
+          <el-dropdown-menu slot="dropdown" @command="">
+            <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
             <el-dropdown-item>教授培训</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 
-        <el-dropdown placement="bottom-start" @command="">
-          <span class="el-dropdown-link">
-          国际赛事<i class="el-icon-caret-bottom el-icon--right"></i>
-          </span>
-          <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item>欧洲赛</el-dropdown-item>
-            <el-dropdown-item>北美赛</el-dropdown-item>
-          </el-dropdown-menu>
-        </el-dropdown>
-
-        <el-button type="text">组织机构</el-button>
+        <el-button type="text" @click="goToInternationalPage">国际赛事</el-button>
+        <el-button type="text" @click="goToCommitteePage">组织机构</el-button>
         <el-button type="text">就业通道</el-button>
         <el-button type="text">奖状查询</el-button>
-        <el-button type="text">协同育人</el-button>
+        <el-button type="text" @click="goToEducationPage">协同育人</el-button>
         <el-button type="text">往届赛事</el-button>
 
       </div>
@@ -56,29 +52,36 @@
 
 
 <script>
-  import {Input, Button, Dropdown, DropdownMenu, DropdownItem, Message} from 'element-ui'
+  import {Button, Dropdown, DropdownMenu, DropdownItem, Message} from 'element-ui'
   import {router} from '../../main'
-  //  import { mapMutations, mapState, mapActions } from 'vuex'
-  //  Vue.use(Input)
 
   export default {
     name: 'navigator',
     components: {
-      elInput: Input,
       elButton: Button,
       elDropdown: Dropdown,
       elDropdownMenu: DropdownMenu,
       elDropdownItem: DropdownItem,
     },
     data() {
-      return {
-        input2: ''
-      }
+      return {}
     },
     computed: {},
     methods: {
       goToIndexPage() {
         router.push({name: 'IndexPage'})
+      },
+      goToInternationalPage() {
+        router.push({name: 'InternationalPage'})
+      },
+      goToEducationPage() {
+        router.push({name: 'EducationPage'})
+      },
+      goToCommitteePage() {
+        router.push({name: 'CommitteePage'})
+      },
+      handleTrainCommand(command) {
+        router.push({name: command})
       }
     }
   }

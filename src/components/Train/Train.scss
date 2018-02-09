@@ -1,0 +1,25 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+@import "../../assets/scss/mixin";
+
+.train-wrapper {
+  display: inline-block;
+  margin-top: 100px;
+  padding: 30px;
+  width: 100%;
+  height: auto;
+  background-color: #FFF;
+
+  p {
+    color: $grey;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  a {
+    color: $main-color;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

@@ -31,7 +31,8 @@ button {
     padding-top: 11px;
     cursor: pointer; }
     .nav-wrapper .left-wrapper p {
-      font-weight: 400; }
+      font-weight: 400;
+      color: #4e7ede; }
   .nav-wrapper .right-wrapper {
     display: inline-block;
     padding-top: 11px;
@@ -63,7 +64,10 @@ li {
   font-size: 14px;
   color: #595959; }
   li:hover {
-    background-color: #f3f3f3; }
+    background-color: #f3f3f3;
+    color: #4e7ede; }
+    li:hover a {
+      color: #4e7ede; }
 
 .el-dropdown {
   margin-left: 10px; }
@@ -71,6 +75,9 @@ li {
 .el-dropdown-menu {
   margin-top: 5px;
   margin-left: 20px; }
+  .el-dropdown-menu a {
+    color: #595959;
+    text-decoration: none; }
 
 .el-dropdown-menu__item:not(.is-disabled) {
   -webkit-transition: all 0.5s;

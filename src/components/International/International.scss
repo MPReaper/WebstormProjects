@@ -1,0 +1,43 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+@import "../../assets/scss/mixin";
+
+.international-wrapper {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 30px;
+  width: 100%;
+  height: auto;
+  background-color: #FFF;
+
+  p {
+    color: $grey;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.words-wrapper {
+  width: 650px;
+  display: inline-block;
+}
+
+.american-photo-wrapper {
+  float: right;
+  display: inline-block;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 250px;
+  margin: 0 0 0 40px;
+}
+
+.european-photo-wrapper {
+  float: left;
+  display: inline-block;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 250px;
+  margin: 0 40px 0 0;
+}

@@ -21,7 +21,7 @@ button {
  */
 .footer-wrapper {
   height: auto;
-  padding: 50px 0 50px 0;
+  padding: 100px 0 50px 0;
   background-color: #4e7ede;
   text-align: center;
   color: #ffffff;
@@ -34,12 +34,5 @@ button {
     padding-top: 5px; }
     .footer-wrapper .info-wrapper span {
       font-size: 14px; }
-
-.footer-company-wrapper {
-  width: 30%;
-  display: inline-block;
-  padding: 50px 0 50px 50px;
-  text-align: left;
-  vertical-align: text-top; }
 
 /*# sourceMappingURL=Footer.css.map */

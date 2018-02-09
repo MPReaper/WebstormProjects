@@ -3,14 +3,14 @@
 @import "../../assets/scss/mixin";
 
 .header-wrapper {
-  
+
   padding-bottom: 10px;
 
   h4 {
-    border-left: 3px solid $main-color;
+    border-left: 5px solid $main-color;
     margin-bottom: 15px;
     padding-left: 10px;
-    color: $grey;
+    color: $main-color;
     font-size: 16px;
     font-weight: 400;
   }

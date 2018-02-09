@@ -22,10 +22,10 @@ button {
 .header-wrapper {
   padding-bottom: 10px; }
   .header-wrapper h4 {
-    border-left: 3px solid #4e7ede;
+    border-left: 5px solid #4e7ede;
     margin-bottom: 15px;
     padding-left: 10px;
-    color: #595959;
+    color: #4e7ede;
     font-size: 16px;
     font-weight: 400; }
 
