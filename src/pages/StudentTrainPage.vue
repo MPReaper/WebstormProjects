@@ -2,6 +2,7 @@
   <div class="body-wrapper">
     <layout>
       <div class="container">
+        <student-train-title></student-train-title>
         <student-train></student-train>
       </div>
 
@@ -13,12 +14,14 @@
 <script>
   import Layout from '../components/Layout/Layout.vue'
   import StudentTrain from '../components/Train/StudentTrain.vue'
+  import StudentTrainTitle from '../components/Train/StudentTrainTitle.vue'
 
   export default {
     name: 'train-page',
     components: {
       Layout,
-      StudentTrain
+      StudentTrain,
+      StudentTrainTitle
     },
     data() {
       return {}

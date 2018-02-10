@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="committee-wrapper first-wrapper">
+    <div class="committee-wrapper">
       <div-header :header="'主办单位'"></div-header>
       <div>
         <ul>

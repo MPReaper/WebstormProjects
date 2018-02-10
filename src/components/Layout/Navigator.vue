@@ -17,7 +17,7 @@
               </el-dropdown-item>
             </a>
             <el-dropdown-item>分项赛</el-dropdown-item>
-            <el-dropdown-item>分区赛</el-dropdown-item>
+            <!--<el-dropdown-item>分区赛</el-dropdown-item>-->
             <el-dropdown-item>比赛安排</el-dropdown-item>
             <a target="_blank" :href="'http://forum.mooctest.net/'">
               <el-dropdown-item>大赛论坛</el-dropdown-item>

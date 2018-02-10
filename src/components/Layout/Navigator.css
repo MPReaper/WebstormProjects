@@ -20,12 +20,12 @@ button {
  * grid
  */
 .nav-wrapper {
-  height: 50px;
+  height: 6%;
   width: 100%;
   z-index: 10;
   background-color: #ffffff;
   position: fixed;
-  box-shadow: 0px 1px 3px #bababa; }
+  box-shadow: 0 1px 3px #bababa; }
   .nav-wrapper .left-wrapper {
     display: inline-block;
     padding-top: 11px;
