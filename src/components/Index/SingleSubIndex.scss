@@ -3,12 +3,11 @@
 @import "../../assets/scss/mixin";
 
 .single-sub {
-  padding: 10px;
+  padding: 2%;
   background-color: $white-color;
   cursor: pointer;
   text-align: center;
-  height: 250px;
-  width: 220px;
+  width: 170px;
   display: inline-block;
 
   &:hover {
@@ -27,8 +26,8 @@
     left: 0;
     right: 0;
 
-    width: 60%;
-    height: 50%;
+    width: 80%;
+    height: 60%;
   }
 
   .name {

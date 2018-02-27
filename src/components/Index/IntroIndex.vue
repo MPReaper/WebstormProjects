@@ -12,12 +12,10 @@
       </p>
     </div>
 
-    <el-row :gutter="20">
       <single-intro-card v-for="item in 4"
                          :key="item"
                          :photoName="photoNames[item - 1]"
                          :intro="intros[item - 1]"></single-intro-card>
-    </el-row>
 
   </div>
 

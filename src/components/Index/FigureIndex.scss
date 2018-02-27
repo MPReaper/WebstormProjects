@@ -3,28 +3,28 @@
 @import "../../assets/scss/mixin";
 
 .figure-wrapper {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 50px 0 0 80px;
+
+  margin-top: 3%;
+  padding: 24% 0 0 8%;
   width: 100%;
-  height: 250px;
+  height: 150%;
   background-size: 100% 100%;
 }
 
 .figure-item-wrapper {
-  padding: 40px;
+  padding: 5%;
   display: inline-block;
   width: 30%;
   text-align: center;
   color: $white-color;
 
   .title {
-    font-size: 20px;
+    font-size: 100%;
     font-weight: 400;
   }
 
   .figure {
-    font-size: 60px;
+    font-size: 300%;
     font-weight: 500;
   }
 }

@@ -19,15 +19,16 @@ button {
 /*
  * grid
  */
-.photo-wrapper {
+.sub-index-wrapper {
   display: inline-block;
-  width: 40%;
-  margin-left: 8%;
+  margin-top: 3%;
+  padding: 4%;
+  width: 100%;
+  height: auto;
   background-color: #FFF; }
+  .sub-index-wrapper p {
+    color: #595959;
+    font-size: 80%;
+    font-weight: 400; }
 
-.el-carousel__item:nth-child(n) {
-  position: absolute;
-  background-size: 100% 100%;
-  background-repeat: no-repeat; }
-
-/*# sourceMappingURL=Photo.css.map */
+/*# sourceMappingURL=SubIndex.css.map */

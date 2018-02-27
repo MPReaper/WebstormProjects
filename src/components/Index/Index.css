@@ -21,14 +21,14 @@ button {
  */
 .index-wrapper {
   display: inline-block;
-  margin-top: 30px;
-  padding: 30px;
+  margin-top: 3%;
+  padding: 4%;
   width: 100%;
   height: auto;
   background-color: #FFF; }
   .index-wrapper p {
     color: #595959;
-    font-size: 14px;
+    font-size: 80%;
     font-weight: 400; }
 
 /*# sourceMappingURL=Index.css.map */

@@ -3,24 +3,29 @@
 @import "../../assets/scss/mixin";
 
 .single-intro {
-  margin-top: 40px;
-  padding: 10px 60px;
+  margin-top: 10%;
+  padding: 5% 10%;
   background-color: $white-color;
-  height: 220px;
   text-align: center;
 
   .img-wrapper {
     @include cover-img();
-    width: 100px;
-    height: 100px;
-    padding: 60px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 50%;
+    height: 55%;
+    padding: 6%;
     border: 10px $main-color solid;
     border-radius: 100px;
   }
 
   .intro {
-    margin: 15px 0 5px 0;
-    font-size: 16px;
+    margin-top: 60%;
+    font-size: 100%;
     font-weight: 400;
     color: $main-color;
   }

@@ -14,7 +14,6 @@
 
   export default {
     name: 'single-notice',
-    components: {},
     data() {
       return {}
     },

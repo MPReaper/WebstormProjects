@@ -11,8 +11,9 @@
   box-shadow: 0 1px 3px $light-grey;
 
   .left-wrapper {
+    width: 10%;
     display: inline-block;
-    padding-top: 11px;
+    padding-top: 1%;
     cursor: pointer;
     p {
       font-weight: 400;
@@ -22,13 +23,12 @@
 
   .right-wrapper {
     display: inline-block;
-    padding-top: 11px;
-    float: right;
-    margin-right: 100px;
+    padding-top: 1%;
+    width: 80%;
 
     .el-button, .el-dropdown {
-      padding-left: 30px;
-      font-size: 15px;
+      padding-left: 1%;
+      font-size: 90%;
       font-weight: 400;
       color: $grey;
       @include transition(all .5s);
@@ -39,7 +39,7 @@
       }
 
       /deep/ .el-icon-caret-bottom:before {
-        font-size: 10px;
+        font-size: 60%;
       }
     }
 

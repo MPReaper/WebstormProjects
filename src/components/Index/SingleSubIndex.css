@@ -20,12 +20,11 @@ button {
  * grid
  */
 .single-sub {
-  padding: 10px;
+  padding: 2%;
   background-color: #ffffff;
   cursor: pointer;
   text-align: center;
-  height: 250px;
-  width: 220px;
+  width: 170px;
   display: inline-block; }
   .single-sub:hover .name, .single-sub:hover .intro {
     color: #4e7ede;
@@ -45,8 +44,8 @@ button {
     top: 0;
     left: 0;
     right: 0;
-    width: 60%;
-    height: 50%; }
+    width: 80%;
+    height: 60%; }
   .single-sub .name {
     font-size: 14px;
     color: #595959;
