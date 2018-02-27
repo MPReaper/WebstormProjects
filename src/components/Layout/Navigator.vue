@@ -78,7 +78,7 @@
           <el-dropdown-menu slot="dropdown" @command="">
             <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
             <el-dropdown-item>教授培训</el-dropdown-item>
-            <el-dropdown-item command="InternatinoalPage">国际赛事</el-dropdown-item>
+            <el-dropdown-item command="InternationalPage">国际赛事</el-dropdown-item>
             <el-dropdown-item command="CommitteePage">组织机构</el-dropdown-item>
             <el-dropdown-item>就业通道</el-dropdown-item>
             <el-dropdown-item>奖状查询</el-dropdown-item>

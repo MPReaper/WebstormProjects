@@ -21,24 +21,19 @@ button {
  */
 .committee-wrapper {
   display: inline-block;
-  margin-top: 30px;
-  padding: 30px;
+  margin-top: 3%;
+  padding: 4%;
   width: 100%;
   height: auto;
   background-color: #FFF; }
   .committee-wrapper li {
     color: #595959;
-    font-size: 16px;
+    font-size: 90%;
     font-weight: 400; }
     .committee-wrapper li span {
       color: #595959;
-      font-size: 16px;
-      margin-left: 20px;
+      font-size: 90%;
+      margin-left: 2%;
       font-weight: 300; }
-  .committee-wrapper a {
-    color: #4e7ede;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400; }
 
 /*# sourceMappingURL=Committee.css.map */

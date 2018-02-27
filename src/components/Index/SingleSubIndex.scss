@@ -42,3 +42,22 @@
     color: $grey;
   }
 }
+
+.phone-wrapper {
+
+  text-align: left;
+  margin-left: 1%;
+  color: $grey;
+  display: inline-block;
+  width: 200%;
+
+  .phone-name {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .phone-intro {
+    font-size: 12px;
+    margin-left: 1%;
+  }
+}

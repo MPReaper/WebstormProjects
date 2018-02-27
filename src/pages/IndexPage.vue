@@ -13,7 +13,7 @@
 
         <intro-index></intro-index>
 
-        <figure-index></figure-index>
+        <figure-index class="hidden-xs-only"></figure-index>
 
         <hint-index></hint-index>
 

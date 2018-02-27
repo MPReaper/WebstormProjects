@@ -3,7 +3,7 @@
   <div class="index-wrapper">
     <div-header :header="'赛程计划'"></div-header>
 
-    <div>
+    <div class="routine-wrapper">
       <el-steps :active="0" align-center>
         <el-step title="大赛启动" description="3月12日" icon="el-icon-edit"></el-step>
         <el-step title="互联网夏季预选赛" description="6月9日-10日" icon="el-icon-document"></el-step>

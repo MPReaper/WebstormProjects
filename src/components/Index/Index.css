@@ -30,5 +30,7 @@ button {
     color: #595959;
     font-size: 80%;
     font-weight: 400; }
+  .index-wrapper .routine-wrapper {
+    margin-left: -5%; }
 
 /*# sourceMappingURL=Index.css.map */
