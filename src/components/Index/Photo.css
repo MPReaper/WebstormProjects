@@ -20,10 +20,9 @@ button {
  * grid
  */
 .photo-wrapper {
-  margin-top: 30px;
-  padding: 30px;
-  width: 460px;
-  float: right;
+  display: inline-block;
+  width: 40%;
+  margin-left: 5%;
   background-color: #FFF; }
 
 .el-carousel__item:nth-child(n) {

@@ -23,12 +23,14 @@ button {
   display: inline-block;
   margin-top: 30px;
   padding: 30px;
-  width: 700px;
+  width: 100%;
   height: auto;
   background-color: #FFF; }
+  .notice-wrapper .notice-left-wrapper {
+    display: inline-block;
+    width: 50%; }
 
 .more-button {
-  float: right;
   margin-top: 20px;
   padding: 5px 20px;
   border-radius: 100px;
@@ -50,4 +52,4 @@ button {
     -o-transition: all, 0.3s;
     transition: all, 0.3s; }
 
-/*# sourceMappingURL=NoticeIndex.cssx.css.map */
+/*# sourceMappingURL=NoticeIndex.css.map */

@@ -1,7 +1,6 @@
 <template>
 
   <div class="photo-wrapper">
-    <div-header :header="'往届精彩回顾'"></div-header>
 
     <el-carousel class="carousel" height="245px">
       <el-carousel-item :style="{ backgroundImage: 'url(' + bannerUrl1 + ')' }"></el-carousel-item>
@@ -16,13 +15,11 @@
 
 <script>
 
-  import DivHeader from '../Util/DivHeader.vue'
   import {Carousel, CarouselItem} from 'element-ui'
 
   export default {
     name: 'photo',
     components: {
-      DivHeader,
       elCarousel: Carousel,
       elCarouselItem: CarouselItem
     },

@@ -3,14 +3,12 @@
   <div class="index-wrapper">
     <div-header :header="'分项赛'"></div-header>
 
-    <el-row :gutter="20">
-      <single-sub-index v-for="item in 5"
-                        :key="item"
-                        :photoName="photoNames[item - 1]"
-                        :name="names[item - 1]"
-                        :intro="intros[item - 1]"
-                        :link="link[item - 1]"></single-sub-index>
-    </el-row>
+    <single-sub-index v-for="item in 5"
+                      :key="item"
+                      :photoName="photoNames[item - 1]"
+                      :name="names[item - 1]"
+                      :intro="intros[item - 1]"
+                      :link="link[item - 1]"></single-sub-index>
 
   </div>
 
@@ -19,15 +17,13 @@
 <script>
 
   import DivHeader from '../Util/DivHeader.vue'
-  import {Row} from 'element-ui'
   import SingleSubIndex from './SingleSubIndex.vue'
 
   export default {
     name: 'sub-index',
     components: {
       DivHeader,
-      SingleSubIndex,
-      elRow: Row
+      SingleSubIndex
     },
     data() {
       return {

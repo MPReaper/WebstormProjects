@@ -7,8 +7,6 @@
 
         <notice-index></notice-index>
 
-        <photo></photo>
-
         <sub-index></sub-index>
 
         <routine-index></routine-index>
@@ -31,7 +29,6 @@
   import Layout from '../components/Layout/Layout.vue'
   import Banner from '../components/Banner/Banner.vue'
   import NoticeIndex from '../components/Index/NoticeIndex.vue'
-  import Photo from '../components/Index/Photo.vue'
   import SubIndex from '../components/Index/SubIndex.vue'
   import RoutineIndex from '../components/Index/RoutineIndex.vue'
   import IntroIndex from '../components/Index/IntroIndex.vue'
@@ -44,7 +41,6 @@
       Layout,
       Banner,
       NoticeIndex,
-      Photo,
       SubIndex,
       RoutineIndex,
       IntroIndex,

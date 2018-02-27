@@ -2,17 +2,16 @@
 @import "../../assets/scss/base";
 @import "../../assets/scss/mixin";
 
-.single-intro {
-  margin-top: 10px;
+.single-sub {
   padding: 10px;
   background-color: $white-color;
   cursor: pointer;
   text-align: center;
-  height: 220px;
+  height: 250px;
+  width: 220px;
+  display: inline-block;
 
   &:hover {
-
-    border: 2px white solid;
 
     .name, .intro {
       color: $main-color;
@@ -22,14 +21,20 @@
 
   .img-wrapper {
     @include cover-img();
-    width: 100%;
-    height: 140px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 60%;
+    height: 50%;
   }
 
   .name {
     font-size: 14px;
     color: $grey;
-    margin: 10px 0 5px 0;
+    margin: 120px 0 5px 0;
     font-weight: 500;
   }
 

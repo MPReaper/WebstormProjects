@@ -1,32 +1,21 @@
 <template>
 
-  <div class="single-sub-index-wrapper">
+  <div class="single-sub" @click="goToDetailPage">
+    <div class="img-wrapper" :style="{ backgroundImage: 'url(' + photoUrl + ')' }">
 
-    <el-col :xs="10" :sm="10" :md="8" :lg="4" :xl="4">
-      <div class="single-intro" @click="goToDetailPage">
-        <div class="img-wrapper" :style="{ backgroundImage: 'url(' + photoUrl + ')' }">
-
-        </div>
-        <div class="name">{{name}}</div>
-        <div class="intro">{{intro}}</div>
-      </div>
-    </el-col>
-
+    </div>
+    <div class="name">{{name}}</div>
+    <div class="intro">{{intro}}</div>
   </div>
-
 
 </template>
 
 <script>
 
-  import {Col} from 'element-ui'
   import {router} from '../../main'
 
   export default {
     name: 'single-sub-index',
-    components: {
-      elCol: Col
-    },
     props: ['photoName', 'name', 'intro', 'link'],
     data() {
       let name = this.photoName;
