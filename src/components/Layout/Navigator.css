@@ -20,26 +20,23 @@ button {
  * grid
  */
 .nav-wrapper {
-  height: 8%;
+  height: 6%;
   width: 100%;
   z-index: 10;
   background-color: #ffffff;
   position: fixed;
   box-shadow: 0 1px 3px #bababa; }
   .nav-wrapper .left-wrapper {
-    width: 30%;
-    margin-left: -5%;
-    display: inline-block;
-    padding-top: 1.5%;
-    cursor: pointer; }
-    .nav-wrapper .left-wrapper p {
-      font-weight: 400;
-      color: #4e7ede; }
-  .nav-wrapper .right-wrapper {
     display: inline-block;
     padding-top: 1%;
-    width: 80%;
-    margin-left: -10%; }
+    cursor: pointer;
+    width: 30%; }
+  .nav-wrapper .right-wrapper {
+    display: inline-block;
+    width: 70%;
+    margin-left: -10%;
+    margin-top: 1%;
+    vertical-align: top; }
     .nav-wrapper .right-wrapper .el-button, .nav-wrapper .right-wrapper .el-dropdown {
       padding-left: 2%;
       font-size: 90%;

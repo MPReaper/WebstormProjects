@@ -1,38 +1,30 @@
 <template>
   <div class="body-wrapper">
     <layout>
-
       <div class="container">
-        <web-title></web-title>
-        <web></web>
+        <employ-title></employ-title>
+        <employ></employ>
       </div>
+
     </layout>
-
-
-    <div class="up-to-top-button el-icon-arrow-up" @click="goToTop">
-    </div>
-
   </div>
 
 </template>
 
 <script>
   import Layout from '../components/Layout/Layout.vue'
-  import Web from '../components/Sub/Web.vue'
-  import WebTitle from '../components/Sub/WebTitle.vue'
-  import {router} from '../main'
+  import EmployTitle from '../components/Train/EmployTitle.vue'
+  import Employ from '../components/Train/Employ.vue'
 
   export default {
-    name: 'web-page',
+    name: 'train-page',
     components: {
       Layout,
-      Web,
-      WebTitle
+      EmployTitle,
+      Employ
     },
     data() {
       return {}
-    },
-    mounted() {
     },
     created() {
       this.menu();
@@ -47,5 +39,3 @@
     }
   }
 </script>
-
-<style scoped src="./Page.css"></style>

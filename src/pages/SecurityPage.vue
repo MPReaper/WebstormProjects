@@ -2,16 +2,16 @@
   <div class="body-wrapper">
     <layout>
 
-      <div class="container" id="top">
+      <div class="container">
         <security-title></security-title>
         <security></security>
       </div>
     </layout>
 
-    <a href="#top">
-      <div class="up-to-top-button el-icon-arrow-up">
-      </div>
-    </a>
+
+    <div class="up-to-top-button el-icon-arrow-up" @click="goToTop">
+    </div>
+
   </div>
 
 </template>
@@ -33,9 +33,18 @@
       return {}
     },
     mounted() {
-
     },
-    methods: {}
+    created() {
+      this.menu();
+    },
+    methods: {
+      menu() {
+        window.scrollTo(0, 0);
+      },
+      goToTop() {
+        window.scrollTo(0, 0);
+      }
+    }
   }
 </script>
 

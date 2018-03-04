@@ -1,38 +1,30 @@
 <template>
   <div class="body-wrapper">
     <layout>
-
       <div class="container">
-        <web-title></web-title>
-        <web></web>
+        <teacher-train-title></teacher-train-title>
+        <teacher-train></teacher-train>
       </div>
+
     </layout>
-
-
-    <div class="up-to-top-button el-icon-arrow-up" @click="goToTop">
-    </div>
-
   </div>
 
 </template>
 
 <script>
   import Layout from '../components/Layout/Layout.vue'
-  import Web from '../components/Sub/Web.vue'
-  import WebTitle from '../components/Sub/WebTitle.vue'
-  import {router} from '../main'
+  import TeacherTrain from '../components/Train/TeacherTrain.vue'
+  import TeacherTrainTitle from '../components/Train/TeacherTrainTitle.vue'
 
   export default {
-    name: 'web-page',
+    name: 'train-page',
     components: {
       Layout,
-      Web,
-      WebTitle
+      TeacherTrain,
+      TeacherTrainTitle
     },
     data() {
       return {}
-    },
-    mounted() {
     },
     created() {
       this.menu();
@@ -47,5 +39,3 @@
     }
   }
 </script>
-
-<style scoped src="./Page.css"></style>

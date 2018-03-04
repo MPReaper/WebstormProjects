@@ -1,38 +1,33 @@
 <template>
   <div class="body-wrapper">
     <layout>
-
       <div class="container">
-        <web-title></web-title>
-        <web></web>
+        <certificate-title></certificate-title>
+        <certificate></certificate>
       </div>
-    </layout>
 
+    </layout>
 
     <div class="up-to-top-button el-icon-arrow-up" @click="goToTop">
     </div>
-
   </div>
 
 </template>
 
 <script>
   import Layout from '../components/Layout/Layout.vue'
-  import Web from '../components/Sub/Web.vue'
-  import WebTitle from '../components/Sub/WebTitle.vue'
-  import {router} from '../main'
+  import CertificateTitle from '../components/Certificate/CertificateTitle.vue'
+  import Certificate from '../components/Certificate/Certificate.vue'
 
   export default {
-    name: 'web-page',
+    name: 'train-page',
     components: {
       Layout,
-      Web,
-      WebTitle
+      Certificate,
+      CertificateTitle
     },
     data() {
       return {}
-    },
-    mounted() {
     },
     created() {
       this.menu();

@@ -2,8 +2,10 @@
 
   <div class="single-notice-wrapper">
 
-    <p class="content">大赛焦点大赛焦点大赛焦点</p>
-    <p class="time">2018-02-08</p>
+    <p class="content" @click="jumpTo(link)">
+      {{title}}
+    </p>
+    <p class="time">{{time}}</p>
 
   </div>
 
@@ -17,7 +19,12 @@
     data() {
       return {}
     },
-    methods: {}
+    props: ['title', 'time', 'link'],
+    methods: {
+      jumpTo(link) {
+        window.location.href = link
+      }
+    }
   }
 </script>
 

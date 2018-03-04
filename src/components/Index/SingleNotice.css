@@ -23,10 +23,21 @@ button {
   padding: 1.5%;
   border-bottom: solid 1px #e8e8e8;
   width: 100%; }
+  .single-notice-wrapper a {
+    color: #595959;
+    text-decoration: none;
+    font-weight: 400; }
+    .single-notice-wrapper a:hover {
+      -webkit-transition: all, 0.3s;
+      -moz-transition: all, 0.3s;
+      -ms-transition: all, 0.3s;
+      -o-transition: all, 0.3s;
+      transition: all, 0.3s;
+      color: #4e7ede; }
   .single-notice-wrapper .content {
     cursor: pointer;
     display: inline-block;
-    font-size: 80%;
+    font-size: 90%;
     font-weight: 400;
     color: #595959; }
     .single-notice-wrapper .content:hover {
@@ -41,6 +52,7 @@ button {
     display: inline-block;
     font-size: 80%;
     font-weight: 300;
-    color: #bababa; }
+    color: #bababa;
+    margin-top: 1%; }
 
 /*# sourceMappingURL=SingleNotice.css.map */

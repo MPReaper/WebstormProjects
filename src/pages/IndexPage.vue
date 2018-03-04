@@ -48,6 +48,16 @@
     data() {
       return {}
     },
-    methods: {}
+    created() {
+      this.menu();
+    },
+    methods: {
+      menu() {
+        window.scrollTo(0, 0);
+      },
+      goToTop() {
+        window.scrollTo(0, 0);
+      }
+    }
   }
 </script>

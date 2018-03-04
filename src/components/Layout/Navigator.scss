@@ -3,7 +3,7 @@
 @import "../../assets/scss/mixin";
 
 .nav-wrapper {
-  height: 8%;
+  height: 6%;
   width: 100%;
   z-index: 10;
   background-color: $white-color;
@@ -11,22 +11,18 @@
   box-shadow: 0 1px 3px $light-grey;
 
   .left-wrapper {
-    width: 30%;
-    margin-left: -5%;
     display: inline-block;
-    padding-top: 1.5%;
+    padding-top: 1%;
     cursor: pointer;
-    p {
-      font-weight: 400;
-      color: $main-color;
-    }
+    width: 30%;
   }
 
   .right-wrapper {
     display: inline-block;
-    padding-top: 1%;
-    width: 80%;
+    width: 70%;
     margin-left: -10%;
+    margin-top: 1%;
+    vertical-align: top;
 
     .el-button, .el-dropdown {
       padding-left: 2%;

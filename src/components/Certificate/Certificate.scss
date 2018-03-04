@@ -1,0 +1,77 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+@import "../../assets/scss/mixin";
+
+.certificate-wrapper {
+  display: inline-block;
+  padding: 4%;
+  margin-top: 3%;
+  width: 100%;
+  height: auto;
+  background-color: $white-color;
+
+  p {
+    color: $grey;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.sub-title {
+  font-size: 100%;
+  font-weight: 400;
+
+  color: $main-color;
+  padding: 0.2% 2%;
+  border-radius: 100px;
+  border: 1px $main-color solid;
+  background-color: $white-color;
+  margin: 3% 0;
+}
+
+.certificate-table {
+  text-align: center;
+  width: 90%;
+  font-size: 90%;
+  font-weight: 400;
+
+  th {
+    color: $main-color;
+  }
+
+  td {
+    color: $grey;
+  }
+}
+
+.left-certificate-wrapper {
+  width: 15%;
+  height: auto;
+  position: fixed;
+  top: 40%;
+  left: 80%;
+  padding: 1%;
+  background-color: $sub-color;
+  opacity: 0.5;
+
+  b {
+    color: $white-color;
+  }
+
+  li {
+    margin: 5% 5%;
+    font-size: 90%;
+    color: $white-color;
+    font-weight: 300;
+    cursor: pointer;
+
+    &:hover {
+      margin: 5% 6%;
+    }
+  }
+
+  &:hover {
+    opacity: 1;
+    @include transition(all, 0.5s);
+  }
+}

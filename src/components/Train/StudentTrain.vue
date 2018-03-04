@@ -4,7 +4,7 @@
     <div-header :header="'学生在线培训计划'"></div-header>
     <div>
       <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大赛培训将在5月份开课，敬请关注官网通知。
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大赛学生培训将在5月份开课，敬请关注官网通知。
       </p>
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 在线培训主要为短期（10课时左右）技术性培训，以测试脚本编写为主，不包含测试基础知识。

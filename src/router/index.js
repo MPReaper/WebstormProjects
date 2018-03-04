@@ -6,6 +6,8 @@ import InternationalPage from '@/pages/InternationalPage'
 import EducationPage from '@/pages/EducationPage'
 import CommitteePage from '@/pages/CommitteePage'
 import StudentTrainPage from '@/pages/StudentTrainPage'
+import TeacherTrainPage from '@/pages/TeacherTrainPage'
+import EmployPage from '@/pages/EmployPage'
 import RoutinePage from '@/pages/RoutinePage'
 import European2017Page from '@/pages/European2017Page'
 import European2018Page from '@/pages/European2018Page'
@@ -15,6 +17,7 @@ import EmbeddedPage from '@/pages/EmbeddedPage'
 import MobilePage from '@/pages/MobilePage'
 import SecurityPage from '@/pages/SecurityPage'
 import WebPage from '@/pages/WebPage'
+import CertificatePage from '@/pages/CertificatePage'
 
 Vue.use(Router);
 
@@ -44,6 +47,16 @@ export default new Router({
       path: '/StudentTrain',
       name: 'StudentTrainPage',
       component: StudentTrainPage
+    },
+    {
+      path: '/TeacherTrain',
+      name: 'TeacherTrainPage',
+      component: TeacherTrainPage
+    },
+    {
+      path: '/Employ',
+      name: 'EmployPage',
+      component: EmployPage
     },
     {
       path: '/Routine',
@@ -89,6 +102,11 @@ export default new Router({
       path: '/Web',
       name: 'WebPage',
       component: WebPage
+    },
+    {
+      path: '/Certificate',
+      name: 'CertificatePage',
+      component: CertificatePage
     }
   ]
 })

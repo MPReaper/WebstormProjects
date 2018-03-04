@@ -1,13 +1,13 @@
 <template>
   <div class="nav-wrapper">
     <div class="container">
-      <div class="hidden-sm-and-down left-wrapper" @click="goToIndexPage">
-        <!--<p>全国大学生软件测试大赛</p>-->
+      <div class="left-wrapper" @click="goToIndexPage">
+        <img src="../../assets/img/logo.png" width="50px">
       </div>
 
       <div class="right-wrapper">
 
-        <el-button type="text" @click="goToIndexPage">首页
+        <el-button type="text" @click="goToIndexPage"class="hidden-xs-only">首页
         </el-button>
 
         <el-dropdown placement="bottom-start" @command="handleIndexCommand">
@@ -28,7 +28,7 @@
           </el-dropdown-menu>
         </el-dropdown>
 
-        <el-dropdown placement="bottom-start" @command="handleSubCommand">
+        <el-dropdown placement="bottom-start" @command="handleSubCommand" class="hidden-xs-only">
           <span class="el-dropdown-link">
             分项赛<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
@@ -41,21 +41,21 @@
           </el-dropdown-menu>
         </el-dropdown>
 
-        <el-dropdown placement="bottom-start" @command="handleTrainCommand">
+        <el-dropdown placement="bottom-start" @command="handleTrainCommand" class="hidden-xs-only">
           <span class="el-dropdown-link">
           培训就业<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
           <el-dropdown-menu slot="dropdown" @command="">
             <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
-            <el-dropdown-item>师资培训</el-dropdown-item>
-            <el-dropdown-item>就业通道</el-dropdown-item>
+            <el-dropdown-item command="TeacherTrainPage">师资培训</el-dropdown-item>
+            <el-dropdown-item command="EmployPage">就业通道</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 
-        <el-button type="text" @click="goToEducationPage">协同育人
+        <el-button type="text" @click="goToEducationPage" class="hidden-xs-only">协同育人
         </el-button>
 
-        <el-dropdown placement="bottom-start" @command="handleInternationalCommand">
+        <el-dropdown placement="bottom-start" @command="handleInternationalCommand" class="hidden-xs-only">
           <span class="el-dropdown-link">
           国际赛事<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
@@ -66,15 +66,15 @@
           </el-dropdown-menu>
         </el-dropdown>
 
-        <el-button type="text" @click="goToCommitteePage">组织机构
+        <el-button type="text" @click="goToCommitteePage" class="hidden-xs-only">组织机构
         </el-button>
 
-        <el-dropdown placement="bottom-start" @command="">
+        <el-dropdown placement="bottom-start" @command="handleCertificateCommand" class="hidden-xs-only">
           <span class="el-dropdown-link">
           历史查询<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
-          <el-dropdown-menu slot="dropdown" @command="">
-            <el-dropdown-item>证书查询</el-dropdown-item>
+          <el-dropdown-menu slot="dropdown" @command="handleCertificateCommand">
+            <el-dropdown-item command="CertificatePage">证书查询</el-dropdown-item>
             <a target="_blank" :href="'http://mooctest.org'">
               <el-dropdown-item>2017赛事</el-dropdown-item>
             </a>
@@ -85,20 +85,29 @@
         </el-dropdown>
 
         <!--extreme-small-->
-        <!--<el-dropdown placement="bottom-start" @command="handleXSCommand"-->
-                     <!--class="hidden-sm-and-up">-->
-          <!--<span class="el-dropdown-link">-->
-          <!--大赛相关<i class="el-icon-caret-bottom el-icon&#45;&#45;right"></i>-->
-          <!--</span>-->
-          <!--<el-dropdown-menu slot="dropdown" @command="">-->
-            <!--<el-dropdown-item command="InternationalPage">国际赛事</el-dropdown-item>-->
-            <!--<el-dropdown-item command="CommitteePage">组织机构</el-dropdown-item>-->
-            <!--<el-dropdown-item command="EducationPage">协同育人</el-dropdown-item>-->
-            <!--<el-dropdown-item>证书查询</el-dropdown-item>-->
-            <!--<el-dropdown-item>2016赛事</el-dropdown-item>-->
-            <!--<el-dropdown-item>2017赛事</el-dropdown-item>-->
-          <!--</el-dropdown-menu>-->
-        <!--</el-dropdown>-->
+        <el-dropdown placement="bottom-start" @command="handleXSCommand"
+                     class="hidden-sm-and-up">
+          <span class="el-dropdown-link">
+          大赛相关<i class="el-icon-caret-bottom el-icon--right"></i>
+          </span>
+          <el-dropdown-menu slot="dropdown" @command="">
+            <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
+            <el-dropdown-item command="TeacherTrainPage">师资培训</el-dropdown-item>
+            <el-dropdown-item command="EmployPage">就业通道</el-dropdown-item>
+            <el-dropdown-item command="EducationPage">协同育人</el-dropdown-item>
+            <el-dropdown-item command="European2018Page">2018欧洲赛</el-dropdown-item>
+            <el-dropdown-item command="American2018Page">2018北美赛</el-dropdown-item>
+            <el-dropdown-item command="European2017Page">2017欧洲赛</el-dropdown-item>
+            <el-dropdown-item command="CommitteePage">组织机构</el-dropdown-item>
+            <el-dropdown-item command="CertificatePage">证书查询</el-dropdown-item>
+            <a target="_blank" :href="'http://mooctest.org'">
+              <el-dropdown-item>2017赛事</el-dropdown-item>
+            </a>
+            <a target="_blank" :href="'http://mooctest.org/cst2016/index.html'">
+              <el-dropdown-item>2016赛事</el-dropdown-item>
+            </a>
+          </el-dropdown-menu>
+        </el-dropdown>
 
       </div>
 
@@ -150,6 +159,9 @@
         router.push({name: command})
       },
       handleSubCommand(command) {
+        router.push({name: command})
+      },
+      handleCertificateCommand(command) {
         router.push({name: command})
       },
       handleXSCommand(command) {
