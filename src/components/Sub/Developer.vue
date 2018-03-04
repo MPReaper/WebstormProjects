@@ -1,0 +1,130 @@
+<template>
+  <div>
+    <div class="sub-wrapper">
+      <div-header :header="'夏季预选赛和秋季预选赛'"></div-header>
+
+      <button class="sub-title">
+        比赛内容
+      </button>
+
+      <div class="sub-content">
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录<a target="_blank"
+                                                   :href="'http://www.mooctest.net/contest/list'">慕测平台</a>，报名“2018年大学生开发者测试大赛”，直接采用慕测WebIDE或者下载安装Eclipse客户端，在比赛前完成“我的任务”中的“2018开发者测试资格练习”并达到规定分数。
+        </p>
+      </div>
+
+      <button class="sub-title">
+        评分标准
+      </button>
+
+      <div class="sub-content">
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 评分标准1：分支覆盖率（50%），覆盖分支数/总分支数*50；
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 评分标准2：Bug检测率（50%），Bug杀死数/Bug总数*50；
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 比赛为两道题，两道题分数相加得总分；
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同按测试用例集运行时间二次排名，运行时间短优先。
+        </p>
+      </div>
+    </div>
+
+    <div class="sub-wrapper">
+      <div-header :header="'省区赛'"></div-header>
+
+      <button class="sub-title">
+        比赛内容
+      </button>
+
+      <div class="sub-content">
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自开源社区的Java程序代码，在慕测WebIDE或者Eclipse客户端完成JUnit测试脚本。
+        </p>
+      </div>
+
+      <button class="sub-title">
+        评分标准
+      </button>
+
+      <div class="sub-content">
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 评分标准1：分支覆盖率（50%），覆盖分支数/总分支数*50；
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 评分标准2：Bug检测率（50%），Bug杀死数/Bug总数*50；
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 比赛为两道题，两道题分数相加得总分；
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同按测试用例集运行时间二次排名，运行时间短优先。
+        </p>
+      </div>
+    </div>
+
+    <div class="sub-wrapper">
+      <div-header :header="'总决赛'"></div-header>
+      <button class="sub-title">
+        比赛内容
+      </button>
+
+      <div class="sub-content">
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自开源社区的Java程序代码，在慕测WebIDE或者Eclipse客户端完成JUnit测试脚本。
+        </p>
+      </div>
+
+      <button class="sub-title">
+        评分标准
+      </button>
+
+      <div class="sub-content">
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 评分标准1：加权分支覆盖率（50%），覆盖分支数/总分支数*50；
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 评分标准2：加权Bug检测率（50%），Bug杀死数/Bug总数*50；
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 比赛为两道题，两道题分数加权累计得总分；
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同的选手按测试用例集运行时间二次排名，运行时间短优先。
+        </p>
+      </div>
+
+      <button class="sub-title">
+        备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注
+      </button>
+      <div class="sub-content">
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;评分标准1和2中的动态权重为(n/k)，其中n为该分区决赛参赛人数，k为该得分点（覆盖或者Bug）的得分人数，只计算k不为0的得分点。
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+
+  import DivHeader from '../Util/DivHeader.vue'
+  import {router} from '../../main'
+
+  export default {
+    name: 'developer',
+    components: {
+      DivHeader
+    },
+    data() {
+      return {}
+    },
+    methods: {}
+  }
+</script>
+
+<style scoped src="./Sub.css"></style>

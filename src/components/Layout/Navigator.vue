@@ -2,7 +2,7 @@
   <div class="nav-wrapper">
     <div class="container">
       <div class="hidden-sm-and-down left-wrapper" @click="goToIndexPage">
-
+        <!--<p>全国大学生软件测试大赛</p>-->
       </div>
 
       <div class="right-wrapper">
@@ -28,16 +28,16 @@
           </el-dropdown-menu>
         </el-dropdown>
 
-        <el-dropdown placement="bottom-start" @command="">
+        <el-dropdown placement="bottom-start" @command="handleSubCommand">
           <span class="el-dropdown-link">
             分项赛<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
           <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item>开发者测试</el-dropdown-item>
-            <el-dropdown-item>移动应用测试</el-dropdown-item>
-            <el-dropdown-item>Web应用测试</el-dropdown-item>
-            <el-dropdown-item>Web安全测试</el-dropdown-item>
-            <el-dropdown-item>嵌入式测试</el-dropdown-item>
+            <el-dropdown-item command="DeveloperPage">开发者测试</el-dropdown-item>
+            <el-dropdown-item command="MobilePage">移动应用测试</el-dropdown-item>
+            <el-dropdown-item command="WebPage">Web应用测试</el-dropdown-item>
+            <el-dropdown-item command="SecurityPage">Web安全测试</el-dropdown-item>
+            <el-dropdown-item command="EmbeddedPage">嵌入式测试</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 
@@ -52,7 +52,7 @@
           </el-dropdown-menu>
         </el-dropdown>
 
-        <el-button class="hidden-xs-only" type="text" @click="goToEducationPage">协同育人
+        <el-button type="text" @click="goToEducationPage">协同育人
         </el-button>
 
         <el-dropdown placement="bottom-start" @command="handleInternationalCommand">
@@ -66,10 +66,10 @@
           </el-dropdown-menu>
         </el-dropdown>
 
-        <el-button class="hidden-xs-only" type="text" @click="goToCommitteePage">组织机构
+        <el-button type="text" @click="goToCommitteePage">组织机构
         </el-button>
 
-        <el-dropdown class="hidden-xs-only" placement="bottom-start" @command="">
+        <el-dropdown placement="bottom-start" @command="">
           <span class="el-dropdown-link">
           历史查询<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
@@ -85,20 +85,20 @@
         </el-dropdown>
 
         <!--extreme-small-->
-        <el-dropdown placement="bottom-start" @command="handleXSCommand"
-                     class="hidden-sm-and-up">
-          <span class="el-dropdown-link">
-          大赛相关<i class="el-icon-caret-bottom el-icon--right"></i>
-          </span>
-          <el-dropdown-menu slot="dropdown" @command="">
-            <el-dropdown-item command="InternationalPage">国际赛事</el-dropdown-item>
-            <el-dropdown-item command="CommitteePage">组织机构</el-dropdown-item>
-            <el-dropdown-item command="EducationPage">协同育人</el-dropdown-item>
-            <el-dropdown-item>证书查询</el-dropdown-item>
-            <el-dropdown-item>2016赛事</el-dropdown-item>
-            <el-dropdown-item>2017赛事</el-dropdown-item>
-          </el-dropdown-menu>
-        </el-dropdown>
+        <!--<el-dropdown placement="bottom-start" @command="handleXSCommand"-->
+                     <!--class="hidden-sm-and-up">-->
+          <!--<span class="el-dropdown-link">-->
+          <!--大赛相关<i class="el-icon-caret-bottom el-icon&#45;&#45;right"></i>-->
+          <!--</span>-->
+          <!--<el-dropdown-menu slot="dropdown" @command="">-->
+            <!--<el-dropdown-item command="InternationalPage">国际赛事</el-dropdown-item>-->
+            <!--<el-dropdown-item command="CommitteePage">组织机构</el-dropdown-item>-->
+            <!--<el-dropdown-item command="EducationPage">协同育人</el-dropdown-item>-->
+            <!--<el-dropdown-item>证书查询</el-dropdown-item>-->
+            <!--<el-dropdown-item>2016赛事</el-dropdown-item>-->
+            <!--<el-dropdown-item>2017赛事</el-dropdown-item>-->
+          <!--</el-dropdown-menu>-->
+        <!--</el-dropdown>-->
 
       </div>
 
@@ -147,6 +147,9 @@
         router.push({name: command})
       },
       handleInternationalCommand(command) {
+        router.push({name: command})
+      },
+      handleSubCommand(command) {
         router.push({name: command})
       },
       handleXSCommand(command) {

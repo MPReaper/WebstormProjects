@@ -10,6 +10,11 @@ import RoutinePage from '@/pages/RoutinePage'
 import European2017Page from '@/pages/European2017Page'
 import European2018Page from '@/pages/European2018Page'
 import American2018Page from '@/pages/American2018Page'
+import DeveloperPage from '@/pages/DeveloperPage'
+import EmbeddedPage from '@/pages/EmbeddedPage'
+import MobilePage from '@/pages/MobilePage'
+import SecurityPage from '@/pages/SecurityPage'
+import WebPage from '@/pages/WebPage'
 
 Vue.use(Router);
 
@@ -59,6 +64,31 @@ export default new Router({
       path: '/American2018',
       name: 'American2018Page',
       component: American2018Page
+    },
+    {
+      path: '/Developer',
+      name: 'DeveloperPage',
+      component: DeveloperPage
+    },
+    {
+      path: '/Embedded',
+      name: 'EmbeddedPage',
+      component: EmbeddedPage
+    },
+    {
+      path: '/Mobile',
+      name: 'MobilePage',
+      component: MobilePage
+    },
+    {
+      path: '/Security',
+      name: 'SecurityPage',
+      component: SecurityPage
+    },
+    {
+      path: '/Web',
+      name: 'WebPage',
+      component: WebPage
     }
   ]
 })

@@ -1,0 +1,50 @@
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  list-style: none; }
+
+html {
+  height: 100%; }
+
+* {
+  position: relative;
+  box-sizing: border-box; }
+
+button {
+  outline: none; }
+
+/*
+ * grid
+ */
+.sub-wrapper {
+  margin-top: 3%;
+  padding: 4%;
+  width: 100%;
+  height: auto;
+  background-color: #FFF; }
+  .sub-wrapper a {
+    color: #4e7ede;
+    text-decoration: none;
+    font-weight: 400; }
+  .sub-wrapper .href-span {
+    color: #4e7ede;
+    cursor: pointer; }
+  .sub-wrapper .sub-title {
+    font-size: 90%;
+    font-weight: 400;
+    color: #4e7ede;
+    padding: 0.2% 2%;
+    border-radius: 100px;
+    border: 1px #4e7ede solid;
+    background-color: #ffffff; }
+  .sub-wrapper .sub-content {
+    margin: 1% 0 2% 0; }
+    .sub-wrapper .sub-content p {
+      color: #595959;
+      font-size: 90%;
+      font-weight: 400; }
+
+/*# sourceMappingURL=Sub.css.map */

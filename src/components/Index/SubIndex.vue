@@ -31,7 +31,7 @@
         photoNames: ['index1.png', 'index2.png', 'index3.png', 'index4.png', 'index6.png'],
         names: ['开发者测试', '移动应用测试', 'Web应用测试', 'Web安全测试', '嵌入式测试'],
         intros: ['"上海软件杯"测试大赛', '"智测云杯"测试大赛', '"安恒杯"测试大赛', '"凯云杯"测试大赛', '"择众杯"测试大赛'],
-        link: ['IndexPage', 'IndexPage', 'IndexPage', 'IndexPage', 'IndexPage']
+        link: ['DeveloperPage', 'MobilePage', 'WebPage', 'SecurityPage', 'EmbeddedPage']
       }
     },
     methods: {}
