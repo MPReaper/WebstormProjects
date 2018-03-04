@@ -32,7 +32,7 @@ button {
     background-size: cover; }
 
 .title-wrapper {
-  padding: 10% 10%;
+  padding: 5% 0 2% 10%;
   text-shadow: 0 0 10px #595959; }
   .title-wrapper .main-title {
     font-size: 300%;

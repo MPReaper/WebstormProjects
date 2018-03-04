@@ -7,6 +7,9 @@ import EducationPage from '@/pages/EducationPage'
 import CommitteePage from '@/pages/CommitteePage'
 import StudentTrainPage from '@/pages/StudentTrainPage'
 import RoutinePage from '@/pages/RoutinePage'
+import European2017Page from '@/pages/European2017Page'
+import European2018Page from '@/pages/European2018Page'
+import American2018Page from '@/pages/American2018Page'
 
 Vue.use(Router);
 
@@ -41,6 +44,21 @@ export default new Router({
       path: '/Routine',
       name: 'RoutinePage',
       component: RoutinePage
+    },
+    {
+      path: '/European2017',
+      name: 'European2017Page',
+      component: European2017Page
+    },
+    {
+      path: '/European2018',
+      name: 'European2018Page',
+      component: European2018Page
+    },
+    {
+      path: '/American2018',
+      name: 'American2018Page',
+      component: American2018Page
     }
   ]
 })

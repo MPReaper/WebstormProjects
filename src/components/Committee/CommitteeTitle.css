@@ -22,12 +22,13 @@ button {
 .title-wrapper {
   display: inline-block;
   margin-top: 10%;
-  padding: 10% 5%;
+  padding: 2% 5%;
   width: 100%;
   background-size: 100% 100%;
   color: #ffffff;
   font-size: 300%;
   font-weight: 500;
-  letter-spacing: 5px; }
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #595959; }
 
 /*# sourceMappingURL=CommitteeTitle.css.map */

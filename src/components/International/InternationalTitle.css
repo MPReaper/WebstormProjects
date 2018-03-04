@@ -19,20 +19,16 @@ button {
 /*
  * grid
  */
-.train-wrapper {
+.title-wrapper {
   display: inline-block;
-  margin-top: 3%;
-  padding: 4%;
+  margin-top: 10%;
+  padding: 2% 5%;
   width: 100%;
-  height: auto;
-  background-color: #FFF; }
-  .train-wrapper p {
-    color: #595959;
-    font-size: 90%;
-    font-weight: 400; }
-  .train-wrapper a {
-    color: #4e7ede;
-    text-decoration: none;
-    font-weight: 400; }
+  background-size: 100% 100%;
+  color: #ffffff;
+  font-size: 300%;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #595959; }
 
-/*# sourceMappingURL=Train.css.map */
+/*# sourceMappingURL=InternationalTitle.css.map */

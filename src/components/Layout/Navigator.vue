@@ -2,13 +2,13 @@
   <div class="nav-wrapper">
     <div class="container">
       <div class="hidden-sm-and-down left-wrapper" @click="goToIndexPage">
-        <p>全国大学生软件测试大赛</p>
-      </div>
-      <div class="hidden-md-and-up left-wrapper" @click="goToIndexPage">
-        <p>首页</p>
+
       </div>
 
       <div class="right-wrapper">
+
+        <el-button type="text" @click="goToIndexPage">首页
+        </el-button>
 
         <el-dropdown placement="bottom-start" @command="handleIndexCommand">
           <span class="el-dropdown-link">
@@ -36,7 +36,7 @@
             <el-dropdown-item>开发者测试</el-dropdown-item>
             <el-dropdown-item>移动应用测试</el-dropdown-item>
             <el-dropdown-item>Web应用测试</el-dropdown-item>
-            <el-dropdown-item>软件安全测试</el-dropdown-item>
+            <el-dropdown-item>Web安全测试</el-dropdown-item>
             <el-dropdown-item>嵌入式测试</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
@@ -55,7 +55,16 @@
         <el-button class="hidden-xs-only" type="text" @click="goToEducationPage">协同育人
         </el-button>
 
-        <el-button class="hidden-xs-only" type="text" @click="goToInternationalPage">国际赛事</el-button>
+        <el-dropdown placement="bottom-start" @command="handleInternationalCommand">
+          <span class="el-dropdown-link">
+          国际赛事<i class="el-icon-caret-bottom el-icon--right"></i>
+          </span>
+          <el-dropdown-menu slot="dropdown" @command="">
+            <el-dropdown-item command="European2018Page">2018欧洲赛</el-dropdown-item>
+            <el-dropdown-item command="American2018Page">2018北美赛</el-dropdown-item>
+            <el-dropdown-item command="European2017Page">2017欧洲赛</el-dropdown-item>
+          </el-dropdown-menu>
+        </el-dropdown>
 
         <el-button class="hidden-xs-only" type="text" @click="goToCommitteePage">组织机构
         </el-button>
@@ -135,6 +144,9 @@
         router.push({name: command})
       },
       handleTrainCommand(command) {
+        router.push({name: command})
+      },
+      handleInternationalCommand(command) {
         router.push({name: command})
       },
       handleXSCommand(command) {

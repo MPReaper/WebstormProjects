@@ -2,9 +2,8 @@
   <div class="body-wrapper">
     <layout>
       <div class="container">
+        <international-title></international-title>
         <european2017></european2017>
-        <american2018></american2018>
-        <european2018></european2018>
       </div>
 
     </layout>
@@ -15,17 +14,15 @@
 <script>
   import Layout from '../components/Layout/Layout.vue'
   import European2017 from '../components/International/European2017.vue'
-  import European2018 from '../components/International/European2018.vue'
-  import American2018 from '../components/International/American2018.vue'
+  import InternationalTitle from '../components/International/InternationalTitle.vue'
   import Photo from '../components/Index/Photo.vue'
 
   export default {
     name: 'index-page',
     components: {
       Layout,
-      American2018,
+      InternationalTitle,
       European2017,
-      European2018,
       Photo
     },
     data() {
