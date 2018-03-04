@@ -1,7 +1,7 @@
 <template>
 
   <div class="international-wrapper">
-    <div-header :header="'北美赛'"></div-header>
+    <div-header :header="'2018北美赛'"></div-header>
 
     <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
       <div class="words-wrapper">

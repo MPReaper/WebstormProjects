@@ -19,18 +19,15 @@ button {
 /*
  * grid
  */
-.index-wrapper {
+.title-wrapper {
   display: inline-block;
-  margin-top: 3%;
-  padding: 4%;
+  margin-top: 10%;
+  padding: 10% 5%;
   width: 100%;
-  height: auto;
-  background-color: #FFF; }
-  .index-wrapper p {
-    color: #595959;
-    font-size: 90%;
-    font-weight: 400; }
-  .index-wrapper .routine-wrapper {
-    margin-left: -5%; }
+  background-size: 100% 100%;
+  color: #595959;
+  font-size: 300%;
+  font-weight: 500;
+  letter-spacing: 5px; }
 
-/*# sourceMappingURL=Index.css.map */
+/*# sourceMappingURL=RoutineTitle.css.map */

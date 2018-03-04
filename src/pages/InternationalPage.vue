@@ -4,8 +4,9 @@
 
       <international-banner></international-banner>
       <div class="container">
-        <european></european>
-        <american></american>
+        <european2017></european2017>
+        <american2018></american2018>
+        <european2018></european2018>
       </div>
 
     </layout>
@@ -16,8 +17,9 @@
 <script>
   import Layout from '../components/Layout/Layout.vue'
   import InternationalBanner from '../components/Banner/InternationalBanner.vue'
-  import European from '../components/International/European.vue'
-  import American from '../components/International/American.vue'
+  import European2017 from '../components/International/European2017.vue'
+  import European2018 from '../components/International/European2018.vue'
+  import American2018 from '../components/International/American2018.vue'
   import Photo from '../components/Index/Photo.vue'
 
   export default {
@@ -25,8 +27,9 @@
     components: {
       InternationalBanner,
       Layout,
-      American,
-      European,
+      American2018,
+      European2017,
+      European2018,
       Photo
     },
     data() {

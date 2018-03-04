@@ -12,7 +12,7 @@
 
   &:hover {
 
-    .name, .intro {
+    .name, .intro, .phone-name, .phone-intro {
       color: $main-color;
       @include transition(all, 0.3s);
     }

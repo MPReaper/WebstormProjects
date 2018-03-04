@@ -3,8 +3,18 @@
   <div class="index-wrapper">
     <div-header :header="'赛程计划'"></div-header>
 
-    <div class="routine-wrapper">
+    <div class="routine-wrapper hidden-sm-and-down">
       <el-steps :active="0" align-center>
+        <el-step title="大赛启动" description="3月12日" icon="el-icon-edit"></el-step>
+        <el-step title="互联网夏季预选赛" description="6月9日-10日" icon="el-icon-document"></el-step>
+        <el-step title="互联网秋季预选赛" description="11月3日-4日" icon="el-icon-document"></el-step>
+        <el-step title="互联网+现场省赛" description="11月10日-11日" icon="el-icon-location-outline"></el-step>
+        <el-step title="现场总决赛" description="11月24日-25日" icon="el-icon-star-off"></el-step>
+      </el-steps>
+    </div>
+
+    <div class="hidden-md-and-up">
+      <el-steps :active="0" align-center direction="vertical">
         <el-step title="大赛启动" description="3月12日" icon="el-icon-edit"></el-step>
         <el-step title="互联网夏季预选赛" description="6月9日-10日" icon="el-icon-document"></el-step>
         <el-step title="互联网秋季预选赛" description="11月3日-4日" icon="el-icon-document"></el-step>

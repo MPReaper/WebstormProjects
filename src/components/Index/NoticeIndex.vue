@@ -12,7 +12,7 @@
       </div>
     </el-col>
 
-    <photo class="hidden-xs-only hidden-sm-only"></photo>
+    <photo class="hidden-sm-and-down"></photo>
   </div>
 </template>
 

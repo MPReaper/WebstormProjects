@@ -28,12 +28,11 @@ button {
   background-color: #FFF; }
   .train-wrapper p {
     color: #595959;
-    font-size: 14px;
+    font-size: 90%;
     font-weight: 400; }
   .train-wrapper a {
     color: #4e7ede;
     text-decoration: none;
-    font-size: 14px;
     font-weight: 400; }
 
 /*# sourceMappingURL=Train.css.map */

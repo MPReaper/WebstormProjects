@@ -2,10 +2,10 @@
 @import "../../assets/scss/base";
 @import "../../assets/scss/mixin";
 
-.train-wrapper {
+.committee-wrapper {
   display: inline-block;
-  margin-top: 30px;
-  padding: 30px;
+  margin-top: 3%;
+  padding: 4%;
   width: 100%;
   height: auto;
   background-color: #FFF;
@@ -20,5 +20,10 @@
     color: $main-color;
     text-decoration: none;
     font-weight: 400;
+  }
+
+  .href-span {
+    color: $main-color;
+    cursor: pointer;
   }
 }

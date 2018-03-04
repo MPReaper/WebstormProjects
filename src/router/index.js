@@ -6,6 +6,7 @@ import InternationalPage from '@/pages/InternationalPage'
 import EducationPage from '@/pages/EducationPage'
 import CommitteePage from '@/pages/CommitteePage'
 import StudentTrainPage from '@/pages/StudentTrainPage'
+import RoutinePage from '@/pages/RoutinePage'
 
 Vue.use(Router);
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/StudentTrain',
       name: 'StudentTrainPage',
       component: StudentTrainPage
+    },
+    {
+      path: '/Routine',
+      name: 'RoutinePage',
+      component: RoutinePage
     }
   ]
 })
