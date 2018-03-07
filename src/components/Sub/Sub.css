@@ -26,20 +26,19 @@ button {
   height: auto;
   background-color: #FFF; }
   .sub-wrapper a {
-    color: #4e7ede;
+    color: #316fb3;
     text-decoration: none;
     font-weight: 400; }
   .sub-wrapper .href-span {
-    color: #4e7ede;
+    color: #316fb3;
     cursor: pointer; }
   .sub-wrapper .sub-title {
     font-size: 90%;
     font-weight: 400;
-    color: #4e7ede;
+    color: #ffffff;
+    background-color: #316fb3;
     padding: 0.2% 2%;
-    border-radius: 100px;
-    border: 1px #4e7ede solid;
-    background-color: #ffffff; }
+    border-radius: 100px; }
   .sub-wrapper .sub-content {
     margin: 1% 0 2% 0; }
     .sub-wrapper .sub-content p {

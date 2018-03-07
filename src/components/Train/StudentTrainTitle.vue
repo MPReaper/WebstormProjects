@@ -12,7 +12,7 @@
     name: 'sub-index',
     components: {},
     data() {
-      let name = 'student-train.png';
+      let name = 'banner.png';
       return {
         bannerUrl: require('../../assets/img/' + name)
       }

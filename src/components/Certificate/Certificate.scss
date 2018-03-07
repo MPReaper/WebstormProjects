@@ -21,11 +21,11 @@
   font-size: 100%;
   font-weight: 400;
 
-  color: $main-color;
+  color: $white-color;
+  background-color: $main-color;
   padding: 0.2% 2%;
   border-radius: 100px;
   border: 1px $main-color solid;
-  background-color: $white-color;
   margin: 3% 0;
 }
 
@@ -53,6 +53,7 @@
   padding: 1%;
   background-color: $sub-color;
   opacity: 0.5;
+  @include transition(all, 0.3s);
 
   b {
     color: $white-color;

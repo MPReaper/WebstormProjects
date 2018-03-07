@@ -38,12 +38,12 @@ button {
     width: 50%;
     height: 55%;
     padding: 6%;
-    border: 10px #4e7ede solid;
+    border: 10px #316fb3 solid;
     border-radius: 100px; }
   .single-intro .intro {
     margin-top: 60%;
     font-size: 100%;
     font-weight: 400;
-    color: #4e7ede; }
+    color: #316fb3; }
 
 /*# sourceMappingURL=SingleIntroCard.css.map */

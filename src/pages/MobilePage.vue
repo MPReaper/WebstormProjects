@@ -8,9 +8,8 @@
       </div>
     </layout>
 
-
-    <div class="up-to-top-button el-icon-arrow-up" @click="goToTop">
-    </div>
+    <sign-button></sign-button>
+    <top-button></top-button>
 
   </div>
 
@@ -21,10 +20,14 @@
   import Mobile from '../components/Sub/Mobile.vue'
   import MobileTitle from '../components/Sub/MobileTitle.vue'
   import {router} from '../main'
+  import SignButton from "../components/Util/SignButton.vue";
+  import TopButton from "../components/Util/TopButton.vue";
 
   export default {
     name: 'mobile-page',
     components: {
+      SignButton,
+      TopButton,
       Layout,
       Mobile,
       MobileTitle

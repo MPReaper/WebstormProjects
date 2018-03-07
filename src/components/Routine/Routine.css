@@ -19,22 +19,22 @@ button {
 /*
  * grid
  */
-.committee-wrapper {
+.routine-wrapper {
   margin-top: 3%;
   padding: 4%;
   width: 100%;
   height: auto;
   background-color: #FFF; }
-  .committee-wrapper p {
+  .routine-wrapper p {
     color: #595959;
     font-size: 90%;
     font-weight: 400; }
-  .committee-wrapper a {
-    color: #4e7ede;
+  .routine-wrapper a {
+    color: #316fb3;
     text-decoration: none;
     font-weight: 400; }
-  .committee-wrapper .href-span {
-    color: #4e7ede;
+  .routine-wrapper .href-span {
+    color: #316fb3;
     cursor: pointer; }
 
 /*# sourceMappingURL=Routine.css.map */

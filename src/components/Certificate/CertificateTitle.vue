@@ -12,7 +12,7 @@
     name: 'certificate-title',
     components: {},
     data() {
-      let name = 'certificate.png';
+      let name = 'banner.png';
       return {
         bannerUrl: require('../../assets/img/' + name)
       }

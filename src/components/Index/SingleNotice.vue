@@ -1,8 +1,8 @@
 <template>
 
-  <div class="single-notice-wrapper">
+  <div class="single-notice-wrapper" @click="jumpTo(link)">
 
-    <p class="content" @click="jumpTo(link)">
+    <p class="content">
       {{title}}
     </p>
     <p class="time">{{time}}</p>

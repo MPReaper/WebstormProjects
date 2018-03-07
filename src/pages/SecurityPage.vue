@@ -8,9 +8,8 @@
       </div>
     </layout>
 
-
-    <div class="up-to-top-button el-icon-arrow-up" @click="goToTop">
-    </div>
+    <sign-button></sign-button>
+    <top-button></top-button>
 
   </div>
 
@@ -21,10 +20,14 @@
   import Security from '../components/Sub/Security.vue'
   import SecurityTitle from '../components/Sub/SecurityTitle.vue'
   import {router} from '../main'
+  import SignButton from "../components/Util/SignButton.vue";
+  import TopButton from "../components/Util/TopButton.vue";
 
   export default {
     name: 'security-page',
     components: {
+      SignButton,
+      TopButton,
       Layout,
       Security,
       SecurityTitle

@@ -3,22 +3,23 @@
   <div class="single-sub" @click="goToDetailPage">
 
     <!--pc-->
-    <div class="hidden-xs-only">
-      <el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">
-        <div class="img-wrapper"
-             :style="{ backgroundImage: 'url(' + photoUrl + ')' }">
-        </div>
-        <div class="name">{{name}}</div>
-        <div class="intro">{{intro}}</div>
-      </el-col>
-    </div>
+    <!--<div class="hidden-xs-only">-->
+    <!--<el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">-->
+    <!--<div class="img-wrapper"-->
+    <!--:style="{ backgroundImage: 'url(' + photoUrl + ')' }">-->
+    <!--</div>-->
+    <!--<div class="name">{{name}}</div>-->
+    <!--<div class="intro">{{intro}}</div>-->
+    <!--</el-col>-->
+    <!--</div>-->
 
     <!--phone-->
-    <div class="hidden-sm-and-up">
+    <!--<div class="hidden-sm-and-up">-->
+    <div>
       <el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">
         <div class="phone-wrapper">
           <span class="phone-name">{{name}}</span>
-          <span class="phone-intro">{{intro}}</span>
+          <!--<span class="phone-intro">{{intro}}</span>-->
         </div>
       </el-col>
     </div>

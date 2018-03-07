@@ -5,7 +5,7 @@
     <div>
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017年9月教育部高等教育司发布了<a target="_blank"
-                                                                 :href="'http://www.moe.gov.cn/s78/A08/A08_gggs/A08_sjhj/201801/t20180131_326117.html'">《教育部高等教育司关于公布有关企业支持的产学合作协同育人项目申报指南（2017年第二批）的函》</a>，慕测信息的“教学内容和课程系统改革“经过层层的严格遴选，最终入围。
+                                                                 :href="'http://www.moe.gov.cn/s78/A08/A08_gggs/A08_sjhj/201801/t20180131_326117.html'">《教育部高等教育司关于公布有关企业支持的产学合作协同育人项目申报指南 (2017年第二批) 的函》</a>，慕测信息的“教学内容和课程系统改革“经过层层的严格遴选，最终入围。
       </p>
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -38,8 +38,7 @@
     data() {
       return {}
     },
-    methods: {
-    }
+    methods: {}
   }
 </script>
 

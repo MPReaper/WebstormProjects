@@ -12,7 +12,7 @@
     name: 'education-title',
     components: {},
     data() {
-      let name = 'education.png';
+      let name = 'banner.png';
       return {
         bannerUrl: require('../../assets/img/' + name)
       }

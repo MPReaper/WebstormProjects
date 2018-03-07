@@ -25,6 +25,7 @@
   font-size: 80%;
   vertical-align: middle;
   cursor: pointer;
+  font-weight: 400;
   @include transition(all, 0.3s);
 
   &:hover {

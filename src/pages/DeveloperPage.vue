@@ -8,10 +8,8 @@
       </div>
     </layout>
 
-
-    <div class="up-to-top-button el-icon-arrow-up" @click="goToTop">
-    </div>
-
+    <sign-button></sign-button>
+    <top-button></top-button>
   </div>
 
 </template>
@@ -21,10 +19,14 @@
   import Developer from '../components/Sub/Developer.vue'
   import DeveloperTitle from '../components/Sub/DeveloperTitle.vue'
   import {router} from '../main'
+  import SignButton from "../components/Util/SignButton.vue";
+  import TopButton from "../components/Util/TopButton.vue";
 
   export default {
     name: 'developer-page',
     components: {
+      SignButton,
+      TopButton,
       Layout,
       Developer,
       DeveloperTitle
@@ -39,9 +41,6 @@
     },
     methods: {
       menu() {
-        window.scrollTo(0, 0);
-      },
-      goToTop() {
         window.scrollTo(0, 0);
       }
     }

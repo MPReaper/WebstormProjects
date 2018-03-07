@@ -1,10 +1,10 @@
-@import "../assets/scss/variables";
-@import "../assets/scss/base";
-@import "../assets/scss/mixin";
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+@import "../../assets/scss/mixin";
 
-.up-to-top-button {
+.sign-button {
   position: fixed;
-  top: 80%;
+  top: 70%;
   left: 93%;
   background-color: $sub-color;
   color: $white-color;
@@ -12,6 +12,7 @@
   padding: 1%;
   border-radius: 100px;
   font-size: 200%;
+  @include transition(all, 0.3s);
 
   &:hover {
     opacity: 1;

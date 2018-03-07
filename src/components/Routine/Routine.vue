@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="committee-wrapper">
+    <div class="routine-wrapper">
       <div-header :header="'赛程详情'"></div-header>
       <div>
         <p>

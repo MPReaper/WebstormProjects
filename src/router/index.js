@@ -18,6 +18,7 @@ import MobilePage from '@/pages/MobilePage'
 import SecurityPage from '@/pages/SecurityPage'
 import WebPage from '@/pages/WebPage'
 import CertificatePage from '@/pages/CertificatePage'
+import NoticePage from '@/pages/NoticePage'
 
 Vue.use(Router);
 
@@ -107,6 +108,11 @@ export default new Router({
       path: '/Certificate',
       name: 'CertificatePage',
       component: CertificatePage
+    },
+    {
+      path: '/Notice',
+      name: 'NoticePage',
+      component: NoticePage
     }
   ]
 })

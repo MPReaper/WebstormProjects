@@ -6,12 +6,16 @@
       <div class="notice-left-wrapper">
         <div-header :header="'大赛焦点'"></div-header>
 
-        <single-notice :title="'2018大赛安排公布'" :time="'2018-03-05'" :link="'http://106.14.14.255/#/Routine'"></single-notice>
-        <single-notice :title="'2018大赛报名通道正式开启'" :time="'2018-03-05'" :link="'http://www.mooctest.net/contest/list'"></single-notice>
-        <single-notice :title="'2018大赛论坛火热开启'" :time="'2018-03-05'" :link="'http://forum.mooctest.net/'"></single-notice>
-        <single-notice :title="'2018北美赛圆满落幕'" :time="'2018-03-05'" :link="'http://106.14.14.255/#/American2018'"></single-notice>
+        <single-notice :title="'2018大赛安排公布'" :time="'2018-03-05'"
+                       :link="'http://106.14.14.255/#/Routine'"></single-notice>
+        <single-notice :title="'2018大赛报名通道正式开启'" :time="'2018-03-05'"
+                       :link="'http://www.mooctest.net/contest/list'"></single-notice>
+        <single-notice :title="'2018大赛论坛火热开启'" :time="'2018-03-05'"
+                       :link="'http://forum.mooctest.net/'"></single-notice>
+        <single-notice :title="'2018北美赛圆满落幕'" :time="'2018-01-28'"
+                       :link="'http://106.14.14.255/#/American2018'"></single-notice>
 
-        <button class="more-button">查看更多</button>
+        <button class="more-button" @click="goToNoticePage">查看更多</button>
       </div>
     </el-col>
 
@@ -26,6 +30,7 @@
   import Photo from './Photo.vue'
   import 'element-ui/lib/theme-chalk/display.css'
   import {Col} from 'element-ui'
+  import {router} from '../../main'
 
   export default {
     name: 'notice',
@@ -38,7 +43,11 @@
     data() {
       return {}
     },
-    methods: {}
+    methods: {
+      goToNoticePage() {
+        router.push({name: 'NoticePage'})
+      }
+    }
   }
 </script>
 

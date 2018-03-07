@@ -3,16 +3,15 @@
 @import "../../assets/scss/mixin";
 
 .single-sub {
-  padding: 2%;
   background-color: $white-color;
   cursor: pointer;
   text-align: center;
-  width: 170px;
+  width: 160px;
   display: inline-block;
 
   &:hover {
 
-    .name, .intro, .phone-name, .phone-intro {
+    .name, .intro, .phone-intro {
       color: $main-color;
       @include transition(all, 0.3s);
     }
@@ -44,16 +43,28 @@
 }
 
 .phone-wrapper {
-
   text-align: left;
-  margin-left: 1%;
   color: $grey;
   display: inline-block;
-  width: 200%;
+  margin: 2%;
+
+  &:hover {
+    .phone-name {
+      background-color: $main-color;
+      color: $white-color;
+      @include transition(all, 0.3s);
+    }
+  }
 
   .phone-name {
+    background-color: $white-color;
+    color: $main-color;
+    border: 1px $main-color solid;
+    border-radius: 100px;
+    padding: 3px 20px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
+    @include transition(all, 0.3s);
   }
 
   .phone-intro {

@@ -8,8 +8,7 @@
 
     </layout>
 
-    <div class="up-to-top-button el-icon-arrow-up" @click="goToTop">
-    </div>
+    <top-button></top-button>
   </div>
 
 </template>
@@ -18,10 +17,14 @@
   import Layout from '../components/Layout/Layout.vue'
   import CertificateTitle from '../components/Certificate/CertificateTitle.vue'
   import Certificate from '../components/Certificate/Certificate.vue'
+  import SignButton from "../components/Util/SignButton.vue";
+  import TopButton from "../components/Util/TopButton.vue";
 
   export default {
     name: 'train-page',
     components: {
+      SignButton,
+      TopButton,
       Layout,
       Certificate,
       CertificateTitle

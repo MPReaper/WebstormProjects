@@ -8,8 +8,8 @@
       </div>
     </layout>
 
-    <div class="up-to-top-button el-icon-arrow-up" @click="goToTop">
-    </div>
+    <sign-button></sign-button>
+    <top-button></top-button>
 
   </div>
 
@@ -20,10 +20,14 @@
   import Embedded from '../components/Sub/Embedded.vue'
   import EmbeddedTitle from '../components/Sub/EmbeddedTitle.vue'
   import {router} from '../main'
+  import SignButton from "../components/Util/SignButton.vue";
+  import TopButton from "../components/Util/TopButton.vue";
 
   export default {
     name: 'developer-page',
     components: {
+      SignButton,
+      TopButton,
       Layout,
       Embedded,
       EmbeddedTitle

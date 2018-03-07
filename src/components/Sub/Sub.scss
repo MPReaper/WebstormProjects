@@ -24,11 +24,11 @@
     font-size: 90%;
     font-weight: 400;
 
-    color: $main-color;
+    color: $white-color;
+    background-color: $main-color;
     padding: 0.2% 2%;
     border-radius: 100px;
-    border: 1px $main-color solid;
-    background-color: $white-color;
+    //border: 1px $main-color solid;
   }
 
   .sub-content {

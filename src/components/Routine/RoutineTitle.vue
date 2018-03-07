@@ -12,7 +12,7 @@
     name: 'routine-title',
     components: {},
     data() {
-      let name = 'routine.png';
+      let name = 'banner.png';
       return {
         bannerUrl: require('../../assets/img/' + name)
       }

@@ -44,5 +44,11 @@ button {
     background-repeat: no-repeat;
     padding: 13% 20%;
     margin-left: 8%; }
+  .international-wrapper span {
+    color: #316fb3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer; }
 
 /*# sourceMappingURL=International.css.map */

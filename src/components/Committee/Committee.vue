@@ -30,7 +30,7 @@
       <div-header :header="'指导委员会'"></div-header>
       <div>
         <ul>
-          <li>吕建 <span>指导委员会主席，南京大学教授、中国科学院院士</span></li>
+          <li>吕建 (主席) <span>南京大学教授、中国科学院院士</span></li>
           <li>黄松 <span>陆军工程大学教授</span></li>
           <li>金芝 <span>北京大学教授</span></li>
           <li>刘超 <span>北京航空航天大学教授</span></li>
