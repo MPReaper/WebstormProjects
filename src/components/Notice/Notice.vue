@@ -13,6 +13,14 @@
                        :link="'http://106.14.14.255/#/American2018'"></single-notice>
       </div>
     </div>
+
+    <div class="notice-wrapper">
+      <div-header :header="'大赛新闻'"></div-header>
+      <div class="main-notice-wrapper">
+        <single-notice :title="'2017大赛IEEE新闻'" :time="'2017-11-30'"
+                       :link="'http://rs.ieee.org/images/files/newsletters/2017/3_2017/d_RSnews/SWTestingContest.html'"></single-notice>
+      </div>
+    </div>
   </div>
 </template>
 

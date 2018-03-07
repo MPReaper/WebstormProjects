@@ -9,7 +9,7 @@
           @click="goToStudentTrainPage">辅导</span>、参加练习赛；师资培训和省赛申请也同时启动。
         </p>
         <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 2018年IEEE北美邀请赛于1月27日举行，IEEE欧洲邀请赛将于7月16日-18日举行。IEEE国际邀请赛详情参阅http://paris.utdallas.edu/qrs18/，邀请2017总决赛和2018练习赛优秀选手。
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 2018年IEEE北美邀请赛于1月27日举行，IEEE欧洲邀请赛将于7月16日-18日举行，邀请2017总决赛和2018练习赛优秀选手。
         </p>
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 每个分项的省赛一等奖3人、二等奖5人、三等奖8人、优胜奖若干；一等奖直接进入总决赛，其他选手参加全国总排名争取总决赛名额。

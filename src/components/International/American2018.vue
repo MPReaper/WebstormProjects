@@ -14,7 +14,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;达拉斯当地时间早上9:30，学生早早地来排队注册报名，场面十分火爆。早上10:00-11:30，首先对所有参赛学生进行了培训，并指导安装了比赛环境。当地时间中午12:15-15:50，正式开始比赛，选手们开始了激烈的角逐。
           </p>
           <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最终，来自德克萨斯大学-达拉斯分校Micro Deniz技高一筹，夺得大学生组的桂冠。而中学组的冠军，则是一名年仅16岁，达拉斯当地的一名中学生Jonathan Browne，小小年纪已经在github上开源了20+多项目了（https://github.com/JBYoshi）。
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最终，来自德克萨斯大学-达拉斯分校Micro Deniz技高一筹，夺得大学生组的桂冠。而中学组的冠军，则是一名年仅16岁，达拉斯当地的一名中学生Jonathan Browne，小小年纪已经在<span
+            @click="goToGithub">github</span>上开源了20+多项目了。
           </p>
           <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本次比赛由IEEE International Software Testing Contest由IEEE Reliability Society官方颁发证书。这次北美赛的开幕，标志着我国软件比赛国际化又向前迈进了一步，推动了全球软件测试人才培养。
@@ -25,6 +26,23 @@
       <div class="american-photo-wrapper hidden-md-and-down"
            :style="{ backgroundImage: 'url(' + photoUrl + ')' }"></div>
     </div>
+
+    <div class="international-wrapper">
+
+      <div-header :header="'相关链接'"></div-header>
+
+      <div>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>> <span @click="goToLink">2018北美邀请赛详情</span>
+        </p>
+        <br>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>> 2018北美邀请赛文件
+        </p>
+        <div class="american-file-wrapper" :style="{ backgroundImage: 'url(' + fileUrl + ')' }"></div>
+      </div>
+
+    </div>
   </div>
 </template>
 
@@ -32,19 +50,28 @@
 
   import DivHeader from '../Util/DivHeader.vue'
   import {Col} from 'element-ui'
+  import {router} from '../../main'
 
   export default {
     name: 'american',
     components: {
       DivHeader,
-      elCol: Col
+      elCol: Col,
     },
     data() {
       return {
-        photoUrl: require('../../assets/img/american.jpeg')
+        photoUrl: require('../../assets/img/american.jpeg'),
+        fileUrl: require('../../assets/img/american2018.png')
       }
     },
-    methods: {}
+    methods: {
+      goToGithub() {
+        window.location.href = 'https://github.com/JBYoshi'
+      },
+      goToLink() {
+        window.location.href = ' http://paris.utdallas.edu/qrs18/'
+      }
+    }
   }
 </script>
 

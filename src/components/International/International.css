@@ -38,6 +38,11 @@ button {
     background-repeat: no-repeat;
     padding: 13% 20%;
     margin-left: 8%; }
+  .international-wrapper .american-file-wrapper {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 55% 40%;
+    margin: 0 5%; }
   .international-wrapper .european-photo-wrapper {
     display: inline-block;
     background-size: 100% 100%;
