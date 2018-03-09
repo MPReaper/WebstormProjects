@@ -9,6 +9,9 @@
       </div>
 
     </layout>
+
+    <sign-button></sign-button>
+    <top-button></top-button>
   </div>
 
 </template>
@@ -18,10 +21,14 @@
   import Routine from '../components/Routine/Routine.vue'
   import RoutineTitle from '../components/Routine/RoutineTitle.vue'
   import RoutineIndex from '../components/Index/RoutineIndex.vue'
+  import SignButton from "../components/Util/SignButton.vue";
+  import TopButton from "../components/Util/TopButton.vue";
 
   export default {
     name: 'routine-page',
     components: {
+      SignButton,
+      TopButton,
       Layout,
       Routine,
       RoutineTitle,

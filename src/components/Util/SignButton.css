@@ -26,7 +26,31 @@ button {
   background-color: #3c64aa;
   color: #ffffff;
   opacity: 0.5;
-  padding: 1%;
+  padding: 0.7% 1.1%;
+  border-radius: 100px;
+  font-size: 90%;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s; }
+  .sign-button:hover {
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transition: all, 0.5s;
+    -moz-transition: all, 0.5s;
+    -ms-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s; }
+
+.sign-button-phone {
+  position: fixed;
+  top: 70%;
+  left: 93%;
+  background-color: #3c64aa;
+  color: #ffffff;
+  opacity: 0.5;
+  padding: 0.7% 1.1%;
   border-radius: 100px;
   font-size: 200%;
   -webkit-transition: all, 0.3s;
@@ -34,7 +58,7 @@ button {
   -ms-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s; }
-  .sign-button:hover {
+  .sign-button-phone:hover {
     opacity: 1;
     cursor: pointer;
     -webkit-transition: all, 0.5s;

@@ -9,9 +9,30 @@
   background-color: $sub-color;
   color: $white-color;
   opacity: 0.5;
-  padding: 1%;
+  padding: 0.7% 1.1%;
+  border-radius: 100px;
+  font-size: 90%;
+
+  @include transition(all, 0.3s);
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+    @include transition(all, 0.5s);
+  }
+}
+
+.sign-button-phone {
+  position: fixed;
+  top: 70%;
+  left: 93%;
+  background-color: $sub-color;
+  color: $white-color;
+  opacity: 0.5;
+  padding: 0.7% 1.1%;
   border-radius: 100px;
   font-size: 200%;
+
   @include transition(all, 0.3s);
 
   &:hover {
