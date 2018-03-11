@@ -68,13 +68,13 @@ button {
   .left-certificate-wrapper b {
     color: #ffffff; }
   .left-certificate-wrapper li {
-    margin: 5% 5%;
+    margin: 1% 5%;
     font-size: 90%;
     color: #ffffff;
     font-weight: 300;
     cursor: pointer; }
     .left-certificate-wrapper li:hover {
-      margin: 5% 6%; }
+      margin: 1% 6%; }
   .left-certificate-wrapper:hover {
     opacity: 1;
     -webkit-transition: all, 0.5s;

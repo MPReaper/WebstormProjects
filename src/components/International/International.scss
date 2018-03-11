@@ -20,12 +20,11 @@
     display: inline-block;
   }
 
-  .american-photo-wrapper {
+  .photo-wrapper {
     display: inline-block;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 13% 20%;
+    width: 40%;
     margin-left: 8%;
+    background-color: #FFF;
   }
 
   .american-file-wrapper {
@@ -35,14 +34,6 @@
     margin: 0 5%;
   }
 
-  .european-photo-wrapper {
-    display: inline-block;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 13% 20%;
-    margin-left: 8%;
-  }
-
   span {
     color: $main-color;
     text-decoration: none;
@@ -50,4 +41,10 @@
     font-weight: 400;
     cursor: pointer;
   }
+}
+
+.el-carousel__item:nth-child(n) {
+  position: absolute;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }

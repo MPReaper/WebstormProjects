@@ -38,7 +38,7 @@
     },
     data() {
       return {
-        photoUrl: require('../../assets/img/european.jpeg')
+//        photoUrl: require('../../assets/img/european.jpeg')
       }
     },
     methods: {

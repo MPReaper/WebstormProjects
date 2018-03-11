@@ -4,7 +4,7 @@
 
 .sub-wrapper {
   margin-top: 3%;
-  padding: 4%;
+  padding: 2%;
   width: 100%;
   height: auto;
   background-color: #FFF;
@@ -27,12 +27,13 @@
     color: $white-color;
     background-color: $main-color;
     padding: 0.2% 2%;
+    margin-top: 1%;
     border-radius: 100px;
     //border: 1px $main-color solid;
   }
 
   .sub-content {
-    margin: 1% 0 2% 0;
+    margin: 1% 0;
 
     p {
       color: $grey;

@@ -3,7 +3,7 @@
     <div class="img-wrapper" :style="{ backgroundImage: 'url(' + bannerUrl + ')' }">
       <div class="title-wrapper">
         <div class="main-title">
-          2018年全国大学生软件测试大赛
+          2018全国大学生软件测试大赛
         </div>
         <div class="sub-title">
           National Student Contest of Software Testing

@@ -6,8 +6,12 @@
 
       <div-header :header="'2017欧洲赛'"></div-header>
 
-      <div class="european-photo-wrapper hidden-md-and-down"
-           :style="{ backgroundImage: 'url(' + photoUrl + ')' }"></div>
+      <el-carousel class="carousel photo-wrapper hidden-md-and-down" height="245px">
+        <el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl1 + ')' }"></el-carousel-item>
+        <el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl2 + ')' }"></el-carousel-item>
+        <el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl3 + ')' }"></el-carousel-item>
+        <el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl4 + ')' }"></el-carousel-item>
+      </el-carousel>
 
       <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
         <div class="words-wrapper">
@@ -44,17 +48,22 @@
 <script>
 
   import DivHeader from '../Util/DivHeader.vue'
-  import {Col} from 'element-ui'
+  import {Col, Carousel, CarouselItem} from 'element-ui'
 
   export default {
     name: 'european',
     components: {
       DivHeader,
-      elCol: Col
+      elCol: Col,
+      elCarousel: Carousel,
+      elCarouselItem: CarouselItem
     },
     data() {
       return {
-        photoUrl: require('../../assets/img/european.jpeg')
+        photoUrl1: require('../../assets/img/european2017-1.jpeg'),
+        photoUrl2: require('../../assets/img/european2017-2.jpg'),
+        photoUrl3: require('../../assets/img/european2017-3.jpg'),
+        photoUrl4: require('../../assets/img/european2017-4.jpg'),
       }
     },
     methods: {

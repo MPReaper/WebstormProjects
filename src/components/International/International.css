@@ -32,28 +32,26 @@ button {
     font-weight: 400; }
   .international-wrapper .words-wrapper {
     display: inline-block; }
-  .international-wrapper .american-photo-wrapper {
+  .international-wrapper .photo-wrapper {
     display: inline-block;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 13% 20%;
-    margin-left: 8%; }
+    width: 40%;
+    margin-left: 8%;
+    background-color: #FFF; }
   .international-wrapper .american-file-wrapper {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 55% 40%;
     margin: 0 5%; }
-  .international-wrapper .european-photo-wrapper {
-    display: inline-block;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 13% 20%;
-    margin-left: 8%; }
   .international-wrapper span {
     color: #316fb3;
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
     cursor: pointer; }
+
+.el-carousel__item:nth-child(n) {
+  position: absolute;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=International.css.map */

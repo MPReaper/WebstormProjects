@@ -23,8 +23,14 @@
         </div>
       </el-col>
 
-      <div class="american-photo-wrapper hidden-md-and-down"
-           :style="{ backgroundImage: 'url(' + photoUrl + ')' }"></div>
+      <el-carousel class="carousel photo-wrapper hidden-md-and-down" height="270px">
+        <el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl1 + ')' }"></el-carousel-item>
+        <el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl2 + ')' }"></el-carousel-item>
+        <el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl3 + ')' }"></el-carousel-item>
+        <el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl4 + ')' }"></el-carousel-item>
+        <!--<el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl5 + ')' }"></el-carousel-item>-->
+        <el-carousel-item :style="{ backgroundImage: 'url(' + photoUrl6 + ')' }"></el-carousel-item>
+      </el-carousel>
     </div>
 
     <div class="international-wrapper">
@@ -49,7 +55,7 @@
 <script>
 
   import DivHeader from '../Util/DivHeader.vue'
-  import {Col} from 'element-ui'
+  import {Col, Carousel, CarouselItem} from 'element-ui'
   import {router} from '../../main'
 
   export default {
@@ -57,10 +63,17 @@
     components: {
       DivHeader,
       elCol: Col,
+      elCarousel: Carousel,
+      elCarouselItem: CarouselItem
     },
     data() {
       return {
-        photoUrl: require('../../assets/img/american.jpeg'),
+        photoUrl1: require('../../assets/img/american2017-1.jpeg'),
+        photoUrl2: require('../../assets/img/american2017-2.jpg'),
+        photoUrl3: require('../../assets/img/american2017-3.jpg'),
+        photoUrl4: require('../../assets/img/american2017-4.jpg'),
+//        photoUrl5: require('../../assets/img/american2017-5.jpg'),
+        photoUrl6: require('../../assets/img/american2017-6.jpg'),
         fileUrl: require('../../assets/img/american2018.png')
       }
     },

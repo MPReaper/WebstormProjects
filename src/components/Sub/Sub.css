@@ -21,7 +21,7 @@ button {
  */
 .sub-wrapper {
   margin-top: 3%;
-  padding: 4%;
+  padding: 2%;
   width: 100%;
   height: auto;
   background-color: #FFF; }
@@ -38,9 +38,10 @@ button {
     color: #ffffff;
     background-color: #316fb3;
     padding: 0.2% 2%;
+    margin-top: 1%;
     border-radius: 100px; }
   .sub-wrapper .sub-content {
-    margin: 1% 0 2% 0; }
+    margin: 1% 0; }
     .sub-wrapper .sub-content p {
       color: #595959;
       font-size: 90%;
