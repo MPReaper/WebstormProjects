@@ -12,7 +12,7 @@
           <div class="sub-content">
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录<a target="_blank"
-                                                       :href="'http://www.mooctest.net/contest/list'">慕测平台</a>，报名“2018年大学生移动应用测试大赛”，报名“2018年大学生移动应用测试大赛”，直接采用慕测WebIDE或者下载安装Eclipse客户端，在比赛前完成“我的任务”中的“2018移动应用测试资格练习”并达到规定分数。
+                                                       :href="'http://www.mooctest.net/contest/list'">慕测平台</a>，报名<b>“2018年大学生移动应用测试大赛”</b>，报名<b>“2018年大学生移动应用测试大赛”</b>，直接采用慕测WebIDE或者下载安装Eclipse客户端，在比赛前完成“我的任务”中的“2018移动应用测试资格练习”并达到规定分数。
             </p>
           </div>
 
@@ -43,7 +43,9 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自企业的待测移动应用和测试需求，在慕测的WebIDE或者Eclipse客户端完成Appium测试脚本。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自企业的待测移动应用和测试需求，在慕测的WebIDE或者<a
+              target="_blank"
+              :href="'http://www.mooctest.net/download'">Eclipse客户端</a>完成Appium测试脚本。
             </p>
           </div>
 
@@ -59,7 +61,7 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 覆盖总分相同，则两道题测试脚本运行时间相加进行二次排序（短优先）；
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 运行时间相同，则按Appium脚本的运行稳定性进行三次排序
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 运行时间相同，则按Appium脚本的运行稳定性进行三次排序。
             </p>
           </div>
         </div>
@@ -73,7 +75,9 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自企业的待测移动应用和测试需求，在慕测的WebIDE或者Eclipse客户端完成Appium测试脚本，在慕测平台完成众包测试。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自企业的待测移动应用和测试需求，在慕测的WebIDE或者<a
+              target="_blank"
+              :href="'http://www.mooctest.net/download'">Eclipse客户端</a>完成Appium测试脚本，在慕测平台完成众包测试。
             </p>
           </div>
 

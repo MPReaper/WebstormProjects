@@ -35,9 +35,9 @@
           <el-dropdown-menu slot="dropdown">
             <el-dropdown-item command="DeveloperPage">开发者测试</el-dropdown-item>
             <el-dropdown-item command="MobilePage">移动应用测试</el-dropdown-item>
+            <el-dropdown-item command="EmbeddedPage">嵌入式测试</el-dropdown-item>
             <el-dropdown-item command="WebPage">Web应用测试</el-dropdown-item>
             <el-dropdown-item command="SecurityPage">Web安全测试</el-dropdown-item>
-            <el-dropdown-item command="EmbeddedPage">嵌入式测试</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 

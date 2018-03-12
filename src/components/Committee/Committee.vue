@@ -105,10 +105,22 @@
       </el-col>
       <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
         <div class="committee-wrapper" :id="'secretary'">
+          <div-header :header="'专家委员会'"></div-header>
+          <div>
+            <br>
+            <ul>
+              <li>专家委员会即将发布</li>
+            </ul>
+            <br>
+          </div>
+        </div>
+      </el-col>
+      <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+        <div class="committee-wrapper" :id="'secretary'">
           <div-header :header="'大赛秘书处'"></div-header>
           <div>
             <ul>
-              <li>慕测科技<br>
+              <li>南京慕测信息科技有限公司<br>
                 联系方式：xujianfeng@mooctest.com（徐老师）
               </li>
               <li>南京大学<br>

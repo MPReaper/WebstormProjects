@@ -2,9 +2,9 @@
   <div>
     <div class="routine-wrapper">
 
-      <button class="sub-title">
-        赛程说明
-      </button>
+      <!--<button class="sub-title">-->
+      <!--赛程说明-->
+      <!--</button>-->
 
       <div>
         <p>
@@ -44,7 +44,6 @@
 
     <div class="routine-intro-wrapper" id="provinceIntro">
       <div-header :header="'省赛说明'"></div-header>
-
       <div>
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;截止到3月12日，还没有申请承办省赛的省市。省赛承办申请相关事宜请联系<span
@@ -52,6 +51,7 @@
           @click="goToCommitteePage">大赛秘书处</span>。
         </p>
       </div>
+      <my-map></my-map>
     </div>
   </div>
 </template>
@@ -59,12 +59,14 @@
 <script>
 
   import DivHeader from '../Util/DivHeader.vue'
+  import MyMap from './MyMap.vue'
   import {router} from '../../main'
 
   export default {
     name: 'education',
     components: {
-      DivHeader
+      DivHeader,
+      MyMap
     },
     data() {
       return {}

@@ -12,7 +12,9 @@
           <div class="sub-content">
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录<a target="_blank"
-                                                       :href="'http://www.mooctest.net/contest/list'">慕测平台</a>，报名“2018年大学生嵌入式测试大赛”，在慕测WebIDE或者客户端完成ETest测试脚本，在比赛前完成“我的任务”中的“2018嵌入式测试资格练习”并达到规定分数。
+                                                       :href="'http://www.mooctest.net/contest/list'">慕测平台</a>，报名<b>“2018年大学生嵌入式测试大赛”</b>，在慕测WebIDE或者<a
+              target="_blank"
+              :href="'http://www.mooctest.net/download'">Eclipse客户端</a>完成ETest测试脚本，在比赛前完成“我的任务”中的<b>“2018嵌入式测试资格练习”</b>并达到规定分数。
             </p>
           </div>
 
@@ -46,7 +48,9 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供基于互联网的模拟嵌入式测试任务，对模拟嵌入式应用程序进行基于工具的自动化黑盒测试，在慕测WebIDE或者客户端完成ETest测试脚本。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供基于互联网的模拟嵌入式测试任务，对模拟嵌入式应用程序进行基于工具的自动化黑盒测试，在慕测WebIDE或者<a
+              target="_blank"
+              :href="'http://www.mooctest.net/download'">Eclipse客户端</a>完成ETest测试脚本。
             </p>
           </div>
 

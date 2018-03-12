@@ -12,7 +12,9 @@
           <div class="sub-content">
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录<a target="_blank"
-                                                       :href="'http://www.mooctest.net/contest/list'">慕测平台</a>，报名“2018年大学生开发者测试大赛”，直接采用慕测WebIDE或者下载安装Eclipse客户端，在比赛前完成“我的任务”中的“2018开发者测试资格练习”并达到规定分数。
+                                                       :href="'http://www.mooctest.net/contest/list'">慕测平台</a>，报名<b>“2018年大学生开发者测试大赛”</b>，直接采用慕测WebIDE或者下载安装<a
+              target="_blank"
+              :href="'http://www.mooctest.net/download'">Eclipse客户端</a>，在比赛前完成“我的任务”中的<b>“2018开发者测试资格练习”</b>并达到规定分数。
             </p>
           </div>
 
@@ -46,7 +48,9 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自开源社区的Java程序代码，在慕测WebIDE或者Eclipse客户端完成JUnit测试脚本。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自开源社区的Java程序代码，在慕测WebIDE或者<a
+              target="_blank"
+              :href="'http://www.mooctest.net/download'">Eclipse客户端</a>完成JUnit测试脚本。
             </p>
           </div>
 
@@ -80,7 +84,9 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自开源社区的Java程序代码，在慕测WebIDE或者Eclipse客户端完成JUnit测试脚本。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供来自开源社区的Java程序代码，在慕测WebIDE或者<a
+              target="_blank"
+              :href="'http://www.mooctest.net/download'">Eclipse客户端</a>完成JUnit测试脚本。
             </p>
           </div>
 
@@ -100,6 +106,7 @@
             </p>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同的选手按测试用例集运行时间二次排名，运行时间短优先。
+            </p>
             </p>
           </div>
 

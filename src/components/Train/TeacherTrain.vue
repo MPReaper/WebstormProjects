@@ -4,7 +4,7 @@
     <div-header :header="'师资培训'"></div-header>
     <div>
       <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大赛师资培训其将启动，敬请关注官网通知。
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大赛师资培训即将启动，敬请关注官网通知。
         <br><br><br><br><br>
       </p>
     </div>

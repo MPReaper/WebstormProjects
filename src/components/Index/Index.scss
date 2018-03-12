@@ -17,18 +17,9 @@
   }
 
   .routine-wrapper {
-    margin: 3% 0 3% -5%;
-  }
-
-  .sub-title {
-    font-size: 90%;
-    font-weight: 400;
-
-    color: $white-color;
-    background-color: $main-color;
-    padding: 0.2% 2%;
-    margin-top: 1%;
-    border-radius: 100px;
-    //border: 1px $main-color solid;
+    padding: 10% 30%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
   }
 }

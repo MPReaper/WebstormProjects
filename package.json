@@ -13,11 +13,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "echarts": "^4.0.4",
     "element-ui": "^2.2.0",
+    "jquery": "^2.2.3",
     "vue": "^2.5.2",
     "vue-pdf": "^3.2.2",
-    "vue-router": "^3.0.1",
-    "jquery": "^2.2.3"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.6",
