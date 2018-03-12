@@ -7,7 +7,7 @@
         <tbody>
         <tr>
           <td colspan="6">
-            <button class="sub-title developer">
+            <button class="sub-title" id="developer">
               开发者测试
             </button>
           </td>
@@ -442,7 +442,7 @@
         </tbody>
 
 
-        <thead class="person-mobile">
+        <thead id="person-mobile">
         <tr>
           <th></th>
           <th>证书编号</th>
@@ -867,7 +867,7 @@
         </tr>
         </tbody>
 
-        <thead class="security">
+        <thead id="security">
         <tr>
           <th></th>
           <th>证书编号</th>
@@ -1202,7 +1202,7 @@
 
         </tbody>
 
-        <thead class="embedded">
+        <thead id="embedded">
         <tr>
           <th></th>
           <th>证书编号</th>
@@ -1627,7 +1627,7 @@
         </tr>
         </tbody>
 
-        <thead class="team-mobile">
+        <thead id="team-mobile">
         <tr>
           <th></th>
           <th>证书编号</th>
@@ -1728,7 +1728,7 @@
         </tr>
         </tbody>
 
-        <thead class="web">
+        <thead id="web">
         <tr>
           <th></th>
           <th>证书编号</th>
@@ -2266,7 +2266,7 @@
         <tbody>
         <tr>
           <td colspan="6">
-            <button class="sub-title developer2016">
+            <button class="sub-title" id="developer2016">
               开发者测试
             </button>
           </td>
@@ -2536,7 +2536,7 @@
         </tbody>
 
 
-        <thead class="mobile2016">
+        <thead id="mobile2016">
         <tr height="15" style="height:25.0pt">
           <th>姓名</th>
           <th>预选赛得分</th>
@@ -2798,7 +2798,7 @@
 
         </tbody>
 
-        <thead class="embedded2016">
+        <thead id="embedded2016">
         <tr height="14" style="height:14.0pt">
           <th>姓名</th>
           <th>预选赛得分</th>
@@ -3050,17 +3050,17 @@
     <div class="left-certificate-wrapper hidden-xs-only">
       <ul>
         <b>2017年</b>
-        <li @click="goToSub('.developer')">开发者测试</li>
-        <li @click="goToSub('.person-mobile')">移动应用测试 (个人)</li>
-        <li @click="goToSub('.security')">Web安全测试</li>
-        <li @click="goToSub('.embedded')">嵌入式测试</li>
-        <li @click="goToSub('.team-mobile')">移动应用测试 (团队)</li>
-        <li @click="goToSub('.web')">Web应用测试</li>
+        <li @click="goToSub('#developer')">开发者测试</li>
+        <li @click="goToSub('#person-mobile')">移动应用测试 (个人)</li>
+        <li @click="goToSub('#security')">Web安全测试</li>
+        <li @click="goToSub('#embedded')">嵌入式测试</li>
+        <li @click="goToSub('#team-mobile')">移动应用测试 (团队)</li>
+        <li @click="goToSub('#web')">Web应用测试</li>
 
         <b>2016年</b>
-        <li @click="goTo2016Sub('.developer2016')">开发者测试</li>
-        <li @click="goTo2016Sub('.mobile2016')">移动应用测试</li>
-        <li @click="goTo2016Sub('.embedded2016')">嵌入式测试</li>
+        <li @click="goToSub('#developer2016')">开发者测试</li>
+        <li @click="goToSub('#mobile2016')">移动应用测试</li>
+        <li @click="goToSub('#embedded2016')">嵌入式测试</li>
       </ul>
     </div>
   </div>
@@ -3081,32 +3081,7 @@
     },
     methods: {
       goToSub(sub) {
-        const jump = document.querySelector(sub)
-        // 获取需要滚动的距离
-        let total = jump.offsetTop + 200
-
-        console.log('2017' + total)
-
-        // Chrome
-        document.body.scrollTop = total
-        // Firefox
-        document.documentElement.scrollTop = total
-        // Safari
-        window.pageYOffset = total
-      },
-      goTo2016Sub(sub) {
-        const jump = document.querySelector(sub)
-        // 获取需要滚动的距离
-        let total = jump.offsetTop + document.querySelector('.year2016').offsetTop + 500
-
-        console.log('2016' + total)
-
-        // Chrome
-        document.body.scrollTop = total
-        // Firefox
-        document.documentElement.scrollTop = total
-        // Safari
-        window.pageYOffset = total
+        $("html, body").animate({scrollTop: $(sub).offset().top - 140}, 500);
       }
     }
   }

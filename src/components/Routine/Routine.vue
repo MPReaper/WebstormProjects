@@ -42,7 +42,7 @@
       </p>
     </div>
 
-    <div class="routine-intro-wrapper provinceIntro">
+    <div class="routine-intro-wrapper" id="provinceIntro">
       <div-header :header="'省赛说明'"></div-header>
 
       <div>
@@ -83,18 +83,7 @@
         router.push({name: 'CommitteePage'})
       },
       goToProvinceIntro() {
-        const jump = document.querySelector('.provinceIntro')
-        // 获取需要滚动的距离
-        let total = jump.offsetTop * 2
-
-        console.log(total)
-
-        // Chrome
-        document.body.scrollTop = total
-        // Firefox
-        document.documentElement.scrollTop = total
-        // Safari
-        window.pageYOffset = total
+        $("html, body").animate({scrollTop: $("#provinceIntro").offset().top - 140}, 500);
       }
     }
   }
