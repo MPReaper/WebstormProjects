@@ -19,20 +19,16 @@ button {
 /*
  * grid
  */
-.education-list-table {
-  text-align: center;
+.committee-table {
   width: 100%;
   font-size: 90%;
   font-weight: 400;
-  border-collapse: collapse; }
-  .education-list-table th {
-    color: #316fb3;
-    border-top: 1px #bababa solid;
-    border-bottom: 1px #bababa solid;
-    padding: 0.5% 0; }
-  .education-list-table td {
+  border-collapse: collapse;
+  margin-left: 1%; }
+  .committee-table td {
     color: #595959;
-    border-bottom: 1px #bababa solid;
-    padding: 0.5% 5%; }
+    padding: 0.5% 0; }
+    .committee-table td li {
+      font-size: 100%; }
 
-/*# sourceMappingURL=EducationListTable.css.map */
+/*# sourceMappingURL=CommitteeTable.css.map */

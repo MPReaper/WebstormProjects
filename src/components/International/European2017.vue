@@ -39,6 +39,11 @@
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>> <span @click="goToLink">2017欧洲邀请赛详情</span>
         </p>
+        <br>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>> 2018欧洲邀请赛文件
+        </p>
+        <div class="file-wrapper" :style="{ backgroundImage: 'url(' + fileUrl + ')' }"></div>
       </div>
 
     </div>
@@ -64,6 +69,7 @@
         photoUrl2: require('../../assets/img/european2017-2.jpg'),
         photoUrl3: require('../../assets/img/european2017-3.jpg'),
         photoUrl4: require('../../assets/img/european2017-4.jpg'),
+        fileUrl: require('../../assets/img/european2017.png')
       }
     },
     methods: {

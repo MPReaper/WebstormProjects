@@ -45,7 +45,7 @@
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>> 2018北美邀请赛文件
         </p>
-        <div class="american-file-wrapper" :style="{ backgroundImage: 'url(' + fileUrl + ')' }"></div>
+        <div class="file-wrapper" :style="{ backgroundImage: 'url(' + fileUrl + ')' }"></div>
       </div>
 
     </div>

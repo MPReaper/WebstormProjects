@@ -10,14 +10,14 @@
       </p>
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018大赛面向所有在校大学生设置个人赛，包括专科、本科、研究生。开发者测试、移动应用测试和Web应用测试均采用慕测内置系统，分别为xUnit、Appium和Selenium测试脚本；提供WebIDE和Eclipse插件两者方案；性能测试采用Jmeter。Web安全测试和嵌入式测试采用集成慕测的第三方比赛平台。
-       本次大赛题目来自开源社区和软件企业，大赛分为6月夏季预选赛和11月秋季预选赛、分区决赛和总决赛，总决赛奖金为36万元。每个分项赛独立评分和颁奖，设特等奖、一等奖、二等奖和三等奖。
+        本次大赛题目来自开源社区和软件企业，大赛分为6月夏季预选赛和11月秋季预选赛、分区决赛和总决赛，每个分项赛独立评分和颁奖。
       </p>
     </div>
 
-      <single-intro-card v-for="item in 4"
-                         :key="item"
-                         :photoName="photoNames[item - 1]"
-                         :intro="intros[item - 1]"></single-intro-card>
+    <single-intro-card v-for="item in 4"
+                       :key="item"
+                       :photoName="photoNames[item - 1]"
+                       :intro="intros[item - 1]"></single-intro-card>
 
   </div>
 

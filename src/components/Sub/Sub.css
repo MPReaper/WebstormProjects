@@ -20,8 +20,10 @@ button {
  * grid
  */
 .sub-wrapper {
+  display: inline-block;
   margin-top: 3%;
-  padding: 2%;
+  vertical-align: top;
+  padding: 5%;
   width: 100%;
   height: auto;
   background-color: #FFF; }

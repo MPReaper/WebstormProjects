@@ -29,7 +29,9 @@ button {
   .committee-wrapper li {
     color: #595959;
     font-size: 90%;
-    font-weight: 400; }
+    font-weight: 400;
+    list-style-type: circle;
+    margin-left: 5%; }
     .committee-wrapper li span {
       color: #595959;
       font-size: 90%;

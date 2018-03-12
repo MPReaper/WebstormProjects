@@ -22,7 +22,7 @@ button {
 .index-wrapper {
   display: inline-block;
   margin-top: 3%;
-  padding: 4%;
+  padding: 2%;
   width: 100%;
   height: auto;
   background-color: #FFF; }
@@ -31,6 +31,14 @@ button {
     font-size: 90%;
     font-weight: 400; }
   .index-wrapper .routine-wrapper {
-    margin-left: -5%; }
+    margin: 3% 0 3% -5%; }
+  .index-wrapper .sub-title {
+    font-size: 90%;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #316fb3;
+    padding: 0.2% 2%;
+    margin-top: 1%;
+    border-radius: 100px; }
 
 /*# sourceMappingURL=Index.css.map */

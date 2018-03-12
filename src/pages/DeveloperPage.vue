@@ -9,7 +9,7 @@
     </layout>
 
     <sign-button></sign-button>
-    <top-button></top-button>
+    <!--<top-button></top-button>-->
   </div>
 
 </template>
