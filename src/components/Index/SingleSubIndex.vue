@@ -4,13 +4,13 @@
 
     <!--pc-->
     <!--<div class="hidden-xs-only">-->
-    <!--<el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">-->
-    <!--<div class="img-wrapper"-->
-    <!--:style="{ backgroundImage: 'url(' + photoUrl + ')' }">-->
-    <!--</div>-->
-    <!--<div class="name">{{name}}</div>-->
-    <!--<div class="intro">{{intro}}</div>-->
-    <!--</el-col>-->
+      <!--<el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">-->
+        <!--<div class="img-wrapper"-->
+             <!--:style="{ backgroundImage: 'url(' + photoUrl + ')' }">-->
+        <!--</div>-->
+        <!--<div class="name">{{name}}</div>-->
+        <!--<div class="intro">{{intro}}</div>-->
+      <!--</el-col>-->
     <!--</div>-->
 
     <!--phone-->

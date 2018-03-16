@@ -19,22 +19,29 @@ button {
 /*
  * grid
  */
-.education-wrapper {
+.data-open-wrapper {
   display: inline-block;
   margin-top: 3%;
   padding: 4%;
   width: 100%;
   height: auto;
   background-color: #FFF; }
-  .education-wrapper p {
+  .data-open-wrapper p {
     color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: justify; }
-  .education-wrapper a {
+    font-size: 90%;
+    font-weight: 400; }
+  .data-open-wrapper .words-wrapper {
+    display: inline-block;
+    padding: 0 10%; }
+    .data-open-wrapper .words-wrapper .english {
+      font-size: 100%;
+      line-height: 30px;
+      text-align: justify; }
+  .data-open-wrapper span {
     color: #316fb3;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 400; }
+    font-weight: 400;
+    cursor: pointer; }
 
-/*# sourceMappingURL=Education.css.map */
+/*# sourceMappingURL=DataOpen.css.map */

@@ -29,7 +29,8 @@ button {
   .international-wrapper p {
     color: #595959;
     font-size: 90%;
-    font-weight: 400; }
+    font-weight: 400;
+    text-align: justify; }
   .international-wrapper .words-wrapper {
     display: inline-block; }
   .international-wrapper .photo-wrapper {

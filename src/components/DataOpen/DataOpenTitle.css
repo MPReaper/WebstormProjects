@@ -19,22 +19,19 @@ button {
 /*
  * grid
  */
-.education-wrapper {
+.title-wrapper {
   display: inline-block;
-  margin-top: 3%;
-  padding: 4%;
+  margin-top: 10%;
+  padding: 2% 5%;
   width: 100%;
-  height: auto;
-  background-color: #FFF; }
-  .education-wrapper p {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: justify; }
-  .education-wrapper a {
-    color: #316fb3;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400; }
+  background-size: 100% 100%;
+  color: #ffffff;
+  font-size: 300%;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #595959; }
+  .title-wrapper .english-title {
+    float: right;
+    letter-spacing: 0; }
 
-/*# sourceMappingURL=Education.css.map */
+/*# sourceMappingURL=DataOpenTitle.css.map */

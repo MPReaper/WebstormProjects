@@ -19,6 +19,7 @@ import SecurityPage from '@/pages/SecurityPage'
 import WebPage from '@/pages/WebPage'
 import CertificatePage from '@/pages/CertificatePage'
 import NoticePage from '@/pages/NoticePage'
+import DataOpenPage from '@/pages/DataOpenPage'
 
 Vue.use(Router);
 
@@ -113,6 +114,11 @@ export default new Router({
       path: '/Notice',
       name: 'NoticePage',
       component: NoticePage
+    },
+    {
+      path: '/DataOpen',
+      name: 'DataOpenPage',
+      component: DataOpenPage
     }
   ]
 })

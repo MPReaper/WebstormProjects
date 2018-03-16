@@ -2,8 +2,8 @@
   <div class="body-wrapper">
     <layout>
       <div class="container">
-        <international-title></international-title>
-        <european2017></european2017>
+        <data-open-title></data-open-title>
+        <data-open></data-open>
       </div>
 
     </layout>
@@ -13,17 +13,15 @@
 
 <script>
   import Layout from '../components/Layout/Layout.vue'
-  import European2017 from '../components/International/European2017.vue'
-  import InternationalTitle from '../components/International/InternationalTitle.vue'
-  import Photo from '../components/Index/Photo.vue'
+  import DataOpen from '../components/DataOpen/DataOpen.vue'
+  import DataOpenTitle from '../components/DataOpen/DataOpenTitle.vue'
 
   export default {
     name: 'index-page',
     components: {
       Layout,
-      InternationalTitle,
-      European2017,
-      Photo
+      DataOpen,
+      DataOpenTitle
     },
     data() {
       return {}

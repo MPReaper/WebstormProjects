@@ -26,7 +26,8 @@ button {
   padding: 5%;
   width: 100%;
   height: auto;
-  background-color: #FFF; }
+  background-color: #FFF;
+  text-align: justify; }
   .sub-wrapper a {
     color: #316fb3;
     text-decoration: none;
