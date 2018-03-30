@@ -48,7 +48,7 @@
           <el-dropdown-menu slot="dropdown" @command="">
             <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
             <el-dropdown-item command="TeacherTrainPage">师资培训</el-dropdown-item>
-            <el-dropdown-item command="EmployPage">就业通道</el-dropdown-item>
+            <el-dropdown-item command="EmployPage">人才招聘</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 
@@ -115,7 +115,7 @@
               <el-dropdown-menu slot="dropdown" @command="">
                 <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
                 <el-dropdown-item command="TeacherTrainPage">师资培训</el-dropdown-item>
-                <el-dropdown-item command="EmployPage">就业通道</el-dropdown-item>
+                <el-dropdown-item command="EmployPage">人才招聘</el-dropdown-item>
               </el-dropdown-menu>
             </el-dropdown>
 

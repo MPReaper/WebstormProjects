@@ -1,0 +1,22 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+@import "../../assets/scss/mixin";
+
+.notice-wrapper {
+  margin-top: 3%;
+  padding: 2%;
+  width: 100%;
+  height: auto;
+  background-color: #FFF;
+
+  p {
+    color: $grey;
+    font-size: 90%;
+    font-weight: 400;
+  }
+
+  .main-notice-wrapper {
+    //width: 60%;
+    //margin-left: 10%;
+  }
+}

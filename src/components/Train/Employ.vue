@@ -1,12 +1,12 @@
 <template>
 
-  <div class="train-wrapper">
-    <div-header :header="'就业通道'"></div-header>
+  <div class="notice-wrapper">
+    <div-header :header="'人才招聘'"></div-header>
     <div>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;就业通道还未发布，敬请期待。
-        <br><br><br><br><br>
-      </p>
+      <div class="main-notice-wrapper">
+        <single-notice :title="'西南科技大学2018年度人才招聘公告'" :time="'2018-03-30'"
+                       :link="xinankejiUrl"></single-notice>
+      </div>
     </div>
 
   </div>
@@ -16,17 +16,22 @@
 <script>
 
   import DivHeader from '../Util/DivHeader.vue'
+  import SingleNotice from '../Index/SingleNotice.vue'
+  import xinankejiPdf from '../../assets/pdf/xinankeji.pdf'
 
   export default {
     name: 'education',
     components: {
-      DivHeader
+      DivHeader,
+      SingleNotice
     },
     data() {
-      return {}
+      return {
+        xinankejiUrl: xinankejiPdf
+      }
     },
     methods: {}
   }
 </script>
 
-<style scoped src="./Train.css"></style>
+<style scoped src="./Employ.css"></style>

@@ -85,7 +85,7 @@
         router.push({name: 'CommitteePage'})
       },
       goToProvinceIntro() {
-        $("html, body").animate({scrollTop: $("#provinceIntro").offset().top - 140}, 500);
+        $("html, body").animate({scrollTop: $("#provinceIntro").offset().top}, 500);
       }
     }
   }

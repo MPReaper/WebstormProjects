@@ -1,7 +1,7 @@
 <template>
 
   <div class="title-wrapper" :style="{ backgroundImage: 'url(' + bannerUrl + ')' }">
-    就业通道
+    人才招聘
   </div>
 
 </template>

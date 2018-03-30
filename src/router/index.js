@@ -116,9 +116,15 @@ export default new Router({
       component: NoticePage
     },
     {
-      path: '/DataOpen',
-      name: 'DataOpenPage',
-      component: DataOpenPage
+      path: '/contest',
+      component: DataOpenPage,
+      children: [
+        {
+          path: 'data',
+          name: 'DataOpenPage',
+          component: DataOpenPage
+        }
+      ]
     }
   ]
 })

@@ -22,7 +22,7 @@
     props: ['title', 'time', 'link'],
     methods: {
       jumpTo(link) {
-        window.location.href = link
+        window.open(link)
       }
     }
   }

@@ -3,6 +3,8 @@
     <div class="notice-wrapper">
       <div-header :header="'大赛通知'"></div-header>
       <div class="main-notice-wrapper">
+        <single-notice :title="'西南科技大学2018年度人才招聘公告'" :time="'2018-03-30'"
+                       :link="xinankejiUrl"></single-notice>
         <single-notice :title="'2018大赛安排公布'" :time="'2018-03-10'"
                        :link="'http://mooctest.org/#/Routine'"></single-notice>
         <single-notice :title="'2018大赛报名通道正式开启'" :time="'2018-03-10'"
@@ -23,6 +25,7 @@
   import DivHeader from '../Util/DivHeader.vue'
   import {router} from '../../main'
   import SingleNotice from '../Index/SingleNotice.vue'
+  import xinankejiPdf from '../../assets/pdf/xinankeji.pdf'
 
   export default {
     name: 'notice',
@@ -31,7 +34,9 @@
       SingleNotice
     },
     data() {
-      return {}
+      return {
+        xinankejiUrl: xinankejiPdf
+      }
     },
     methods: {}
   }

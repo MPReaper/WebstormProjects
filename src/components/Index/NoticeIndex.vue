@@ -6,14 +6,14 @@
       <div class="notice-left-wrapper">
         <div-header :header="'大赛焦点'"></div-header>
 
+        <single-notice :title="'西南科技大学2018年度人才招聘公告'" :time="'2018-03-30'"
+                       :link="xinankejiUrl"></single-notice>
         <single-notice :title="'2018大赛安排公布'" :time="'2018-03-10'"
                        :link="'http://mooctest.org/#/Routine'"></single-notice>
         <single-notice :title="'2018大赛报名通道正式开启'" :time="'2018-03-10'"
                        :link="'http://www.mooctest.net/contest/list'"></single-notice>
         <single-notice :title="'2018大赛论坛火热开启'" :time="'2018-03-10'"
                        :link="'http://forum.mooctest.net/'"></single-notice>
-        <single-notice :title="'2018北美赛圆满落幕'" :time="'2018-01-28'"
-                       :link="'http://mooctest.org/#/American2018'"></single-notice>
 
         <button class="more-button" @click="goToNoticePage">查看更多</button>
       </div>
@@ -31,6 +31,7 @@
   import 'element-ui/lib/theme-chalk/display.css'
   import {Col} from 'element-ui'
   import {router} from '../../main'
+  import xinankejiPdf from '../../assets/pdf/xinankeji.pdf'
 
   export default {
     name: 'notice',
@@ -41,7 +42,9 @@
       elCol: Col
     },
     data() {
-      return {}
+      return {
+        xinankejiUrl: xinankejiPdf
+      }
     },
     methods: {
       goToNoticePage() {
