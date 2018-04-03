@@ -33,6 +33,15 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 运行时间相同，则按Appium脚本的运行稳定性进行三次排序。
             </p>
           </div>
+
+          <button class="sub-title">
+            注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;意
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移动应用测试大赛<b>A组（在校大学生）</b>、<b>B组（高职高专学生）</b>均可报名。
+            </p>
+          </div>
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">

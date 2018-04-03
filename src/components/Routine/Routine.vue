@@ -46,9 +46,9 @@
       <div-header :header="'省赛说明'"></div-header>
       <div>
         <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;截止到3月12日，还没有申请承办省赛的省市。省赛承办申请相关事宜请联系<span
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;省赛承办申请相关事宜请联系<span
           class="href-span"
-          @click="goToCommitteePage">大赛秘书处</span>。
+          @click="goToCommitteePage">大赛秘书处</span>：xujianfeng@mooctest.com（徐老师），zychen@nju.edu.cn（陈老师）。
         </p>
       </div>
       <my-map></my-map>

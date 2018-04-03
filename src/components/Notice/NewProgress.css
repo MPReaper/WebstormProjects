@@ -1,0 +1,73 @@
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  list-style: none; }
+
+html {
+  height: 100%; }
+
+* {
+  position: relative;
+  box-sizing: border-box; }
+
+button {
+  outline: none; }
+
+/*
+ * grid
+ */
+.education-wrapper {
+  display: inline-block;
+  margin-top: 3%;
+  padding: 4%;
+  width: 100%;
+  height: auto;
+  background-color: #FFF; }
+  .education-wrapper p {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify; }
+  .education-wrapper a {
+    color: #316fb3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400; }
+  .education-wrapper .href-span {
+    color: #316fb3;
+    cursor: pointer; }
+
+.sub-list-table {
+  text-align: center;
+  margin: 2% auto;
+  width: 100%;
+  font-size: 90%;
+  font-weight: 400;
+  border-collapse: collapse;
+  color: #595959; }
+  .sub-list-table th {
+    border-top: 1px #bababa solid;
+    border-bottom: 1px #bababa solid;
+    padding: 0.5% 1%;
+    font-weight: 400;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer; }
+    .sub-list-table th:hover {
+      color: #316fb3;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .sub-list-table td {
+    border-bottom: 1px #bababa solid;
+    padding: 0.5% 1%; }
+
+/*# sourceMappingURL=NewProgress.css.map */

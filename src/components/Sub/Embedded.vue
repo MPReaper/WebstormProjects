@@ -34,6 +34,15 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同则按最后提交时间二次排序，早提交者优先。
             </p>
           </div>
+
+          <button class="sub-title">
+            注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;意
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;嵌入式测试大赛仅限<b>A组（在校大学生）</b>报名。
+            </p>
+          </div>
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">

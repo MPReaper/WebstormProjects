@@ -1,0 +1,39 @@
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  list-style: none; }
+
+html {
+  height: 100%; }
+
+* {
+  position: relative;
+  box-sizing: border-box; }
+
+button {
+  outline: none; }
+
+/*
+ * grid
+ */
+.province-list-table {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 90%;
+  font-weight: 400;
+  border-collapse: collapse; }
+  .province-list-table th {
+    color: #316fb3;
+    border-top: 1px #bababa solid;
+    border-bottom: 1px #bababa solid;
+    padding: 0.5% 0; }
+  .province-list-table td {
+    color: #595959;
+    border-bottom: 1px #bababa solid;
+    padding: 0.5% 5%; }
+
+/*# sourceMappingURL=ProvinceListTable.css.map */

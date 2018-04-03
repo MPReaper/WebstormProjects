@@ -1,0 +1,25 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+@import "../../assets/scss/mixin";
+
+.province-list-table {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 90%;
+  font-weight: 400;
+  border-collapse: collapse;
+
+  th {
+    color: $main-color;
+    border-top: 1px $light-grey solid;
+    border-bottom: 1px $light-grey solid;
+    padding: 0.5% 0;
+  }
+
+  td {
+    color: $grey;
+    border-bottom: 1px $light-grey solid;
+    padding: 0.5% 5%;
+  }
+}

@@ -6,14 +6,14 @@
       <div class="notice-left-wrapper">
         <div-header :header="'大赛焦点'"></div-header>
 
+        <single-notice :title="'大赛最新进展'" :time="'2018-04-02'"
+                       :link="'http://mooctest.org/#/NewProgress'"></single-notice>
         <single-notice :title="'西南科技大学2018年度人才招聘公告'" :time="'2018-03-30'"
                        :link="xinankejiUrl"></single-notice>
         <single-notice :title="'2018大赛安排公布'" :time="'2018-03-10'"
                        :link="'http://mooctest.org/#/Routine'"></single-notice>
         <single-notice :title="'2018大赛报名通道正式开启'" :time="'2018-03-10'"
                        :link="'http://www.mooctest.net/contest/list'"></single-notice>
-        <single-notice :title="'2018大赛论坛火热开启'" :time="'2018-03-10'"
-                       :link="'http://forum.mooctest.net/'"></single-notice>
 
         <button class="more-button" @click="goToNoticePage">查看更多</button>
       </div>

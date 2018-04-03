@@ -36,6 +36,15 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同按测试用例集运行时间二次排名，运行时间短优先。
             </p>
           </div>
+
+          <button class="sub-title">
+            注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;意
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开发者测试大赛仅限<b>A组（在校大学生）</b>报名。
+            </p>
+          </div>
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
@@ -106,7 +115,6 @@
             </p>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同的选手按测试用例集运行时间二次排名，运行时间短优先。
-            </p>
             </p>
           </div>
 

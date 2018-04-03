@@ -20,6 +20,7 @@ import WebPage from '@/pages/WebPage'
 import CertificatePage from '@/pages/CertificatePage'
 import NoticePage from '@/pages/NoticePage'
 import DataOpenPage from '@/pages/DataOpenPage'
+import NewProgressPage from '@/pages/NewProgressPage'
 
 Vue.use(Router);
 
@@ -114,6 +115,11 @@ export default new Router({
       path: '/Notice',
       name: 'NoticePage',
       component: NoticePage
+    },
+    {
+      path: '/NewProgress',
+      name: 'NewProgressPage',
+      component: NewProgressPage
     },
     {
       path: '/contest',

@@ -34,6 +34,15 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 当参赛选手积分相同时，先达到该分数的选手排名靠前。
             </p>
           </div>
+
+          <button class="sub-title">
+            注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;意
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web安全测试大赛仅限<b>A组（在校大学生）</b>报名。
+            </p>
+          </div>
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
