@@ -2286,246 +2286,247 @@
         </tr>
         </thead>
         <tbody>
-        <tr>
-          <td height="14" class="xl68" style="height:14.0pt">孙金磊</td>
-          <td class="xl68">228</td>
-          <td class="xl67">94.4</td>
-          <td class="xl68">解放军理工大学</td>
-          <td class="xl67">洪宇</td>
-          <td class="xl70">1</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">钱颉伟</td>
+          <td class="xl65">258.37</td>
+          <td class="xl65">225.22</td>
+          <td class="xl65">南京邮电大学</td>
+          <td class="xl65">王子元</td>
+          <td class="xl66">1</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">于辛</td>
-          <td class="xl68">256</td>
-          <td class="xl67">92</td>
-          <td class="xl68">南京航空航天大学</td>
-          <td class="xl67">钱巨</td>
-          <td class="xl70">2</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">杨镒箫</td>
+          <td class="xl65">258.68</td>
+          <td class="xl65">204.775</td>
+          <td class="xl65">清华大学</td>
+          <td class="xl65">姜宇</td>
+          <td class="xl66">2</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl69" style="height:14.0pt">周文博</td>
-          <td class="xl68">224</td>
-          <td class="xl67">87.4</td>
-          <td class="xl68">吉林大学</td>
-          <td class="xl67">吕帅</td>
-          <td class="xl70">3</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">李留义</td>
+          <td class="xl65">223.03</td>
+          <td class="xl65">168.575</td>
+          <td class="xl65">解放军理工大学</td>
+          <td class="xl65">黄松</td>
+          <td class="xl66">3</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">吴开舜</td>
-          <td class="xl68">268</td>
-          <td class="xl67">83</td>
-          <td class="xl68">解放军理工大学</td>
-          <td class="xl67">郑长友</td>
-          <td class="xl70">4</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">王怀瑾</td>
+          <td class="xl65">230.39</td>
+          <td class="xl65">154.63</td>
+          <td class="xl65">南京大学</td>
+          <td class="xl65">张瑾玉</td>
+          <td class="xl66">4</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">张翠香</td>
-          <td class="xl68">201</td>
-          <td class="xl67">80.7</td>
-          <td class="xl68">西南科技大学</td>
-          <td class="xl67">吴亚东</td>
-          <td class="xl70">5</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">王泳璨</td>
+          <td class="xl65">231.84</td>
+          <td class="xl65">154.625</td>
+          <td class="xl65">北京科技大学</td>
+          <td class="xl65"></td>
+          <td class="xl66">5</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">王进华</td>
-          <td class="xl68">177</td>
-          <td class="xl67">79.6</td>
-          <td class="xl68">解放军理工大学</td>
-          <td class="xl71">姚奕</td>
-          <td class="xl70">6</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">雷婷</td>
+          <td class="xl65">230.31</td>
+          <td class="xl65">149.875</td>
+          <td class="xl65">南京大学</td>
+          <td class="xl65">张瑾玉</td>
+          <td class="xl66">6</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">罗爱荣</td>
-          <td class="xl68">172</td>
-          <td class="xl67">79.5</td>
-          <td class="xl68">西安电子科技大学</td>
-          <td class="xl71">张立勇</td>
-          <td class="xl70">7</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">陈井爽</td>
+          <td class="xl65">231.75</td>
+          <td class="xl65">148.2</td>
+          <td class="xl65">西北工业大学</td>
+          <td class="xl65">郑炜</td>
+          <td class="xl66">7</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">李留义</td>
-          <td class="xl68">195</td>
-          <td class="xl67">78.9</td>
-          <td class="xl68">解放军理工大学</td>
-          <td class="xl67">洪宇</td>
-          <td class="xl70">8</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">张苏可</td>
+          <td class="xl65">240.77</td>
+          <td class="xl65">142.945</td>
+          <td class="xl65">南京大学</td>
+          <td class="xl65">刘峰</td>
+          <td class="xl66">8</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">林伟聪</td>
-          <td class="xl68">233</td>
-          <td class="xl67">77</td>
-          <td class="xl68">暨南大学</td>
-          <td class="xl67">孙玉霞</td>
-          <td class="xl70">9</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">李文浚</td>
+          <td class="xl65">243.85</td>
+          <td class="xl65">142.85</td>
+          <td class="xl65">广州大学</td>
+          <td class="xl65">金政哲</td>
+          <td class="xl66">9</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl67" style="height:14.0pt">雷宇</td>
-          <td class="xl67">161</td>
-          <td class="xl67">77</td>
-          <td class="xl67">解放军理工大学</td>
-          <td class="xl66">惠战伟</td>
-          <td class="xl70">10</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">胡圣佑</td>
+          <td class="xl65">218.3</td>
+          <td class="xl65">138.055</td>
+          <td class="xl65">西北工业大学</td>
+          <td class="xl65">郑炜</td>
+          <td class="xl66">10</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">蒋超</td>
-          <td class="xl68">203</td>
-          <td class="xl67">76.6</td>
-          <td class="xl68">解放军理工大学</td>
-          <td class="xl67">洪宇</td>
-          <td class="xl70">11</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">刘坤</td>
+          <td class="xl65">228.73</td>
+          <td class="xl65">130.33</td>
+          <td class="xl65">南京航空航天大学</td>
+          <td class="xl65">钱巨</td>
+          <td class="xl66">11</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">张兴隆</td>
-          <td class="xl68">197</td>
-          <td class="xl67">73</td>
-          <td class="xl68">解放军信息工程大学</td>
-          <td class="xl67">于磊</td>
-          <td class="xl70">12</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">陶嘉恒</td>
+          <td class="xl65">225.52</td>
+          <td class="xl65">127.295</td>
+          <td class="xl65">金陵科技学院</td>
+          <td class="xl65">王智钢</td>
+          <td class="xl66">12</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">郑雨</td>
-          <td class="xl68">185</td>
-          <td class="xl67">70.5</td>
-          <td class="xl68">解放军理工大学</td>
-          <td class="xl71">姚奕</td>
-          <td class="xl70">13</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">肖庆赛</td>
+          <td class="xl65">221.49</td>
+          <td class="xl65">124.905</td>
+          <td class="xl65">郑州大学</td>
+          <td class="xl65">李晓宇</td>
+          <td class="xl66">13</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">李刚</td>
-          <td class="xl68">178</td>
-          <td class="xl67">65</td>
-          <td class="xl68">大连理工大学</td>
-          <td class="xl71">赖晓晨</td>
-          <td class="xl70">14</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">李强</td>
+          <td class="xl65">216.07</td>
+          <td class="xl65">123.965</td>
+          <td class="xl65">大连理工大学</td>
+          <td class="xl65"></td>
+          <td class="xl66">14</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">刘怡</td>
-          <td class="xl68">190</td>
-          <td class="xl67">63</td>
-          <td class="xl68">解放军信息工程大学</td>
-          <td class="xl67">李志博</td>
-          <td class="xl70">15</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">徐铨</td>
+          <td class="xl65">222.64</td>
+          <td class="xl65">121.09</td>
+          <td class="xl65">浙江理工大学</td>
+          <td class="xl65"></td>
+          <td class="xl66">15</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl67" style="height:14.0pt">程星星</td>
-          <td class="xl67">161</td>
-          <td class="xl67">63</td>
-          <td class="xl67">解放军理工大学</td>
-          <td class="xl66">惠战伟</td>
-          <td class="xl70">16</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">刘佳鑫</td>
+          <td class="xl65">224.28</td>
+          <td class="xl65">108.145</td>
+          <td class="xl65">湘潭大学</td>
+          <td class="xl65"></td>
+          <td class="xl66">16</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">杨红</td>
-          <td class="xl68">173</td>
-          <td class="xl67">62</td>
-          <td class="xl68">四川大学</td>
-          <td class="xl71">杨秋辉</td>
-          <td class="xl70">17</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">邓鹏</td>
+          <td class="xl65">216.6</td>
+          <td class="xl65">106.115</td>
+          <td class="xl65">东南大学</td>
+          <td class="xl65">汪鹏</td>
+          <td class="xl66">17</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl67" style="height:14.0pt">吉春</td>
-          <td class="xl67">159</td>
-          <td class="xl67">60</td>
-          <td class="xl67">金陵科技学院</td>
-          <td class="xl67">董如婵</td>
-          <td class="xl70">18</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">陈伟</td>
+          <td class="xl65">222.13</td>
+          <td class="xl65">103.835</td>
+          <td class="xl65">四川大学</td>
+          <td class="xl65">杨秋辉</td>
+          <td class="xl66">18</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">王钦玉</td>
-          <td class="xl68">168</td>
-          <td class="xl67">57</td>
-          <td class="xl68">金陵科技学院</td>
-          <td class="xl67">王智钢</td>
-          <td class="xl70">19</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">陈俊铭</td>
+          <td class="xl65">218.43</td>
+          <td class="xl65">99.095</td>
+          <td class="xl65">广东工业大学</td>
+          <td class="xl65">周彬</td>
+          <td class="xl66">19</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">苏子棚</td>
-          <td class="xl68">161</td>
-          <td class="xl67">56.3</td>
-          <td class="xl68">青岛科技大学</td>
-          <td class="xl67">杜军威</td>
-          <td class="xl70">20</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">马银建</td>
+          <td class="xl65">217.75</td>
+          <td class="xl65">95.63</td>
+          <td class="xl65">广州大学</td>
+          <td class="xl65">金政哲</td>
+          <td class="xl66">20</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">唐瑜栋</td>
-          <td class="xl68">188</td>
-          <td class="xl67">53.15</td>
-          <td class="xl68">西北工业大学</td>
-          <td class="xl67">郑炜</td>
-          <td class="xl70">21</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">程星星</td>
+          <td class="xl65">222.96</td>
+          <td class="xl65">94.965</td>
+          <td class="xl65">解放军理工大学</td>
+          <td class="xl65">黄松</td>
+          <td class="xl66">21</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">于嘉维</td>
-          <td class="xl68">188</td>
-          <td class="xl67">52.8</td>
-          <td class="xl68">海军工程大学</td>
-          <td class="xl67">赵翀</td>
-          <td class="xl70">22</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">祝梓俊</td>
+          <td class="xl65">219.48</td>
+          <td class="xl65">79.26</td>
+          <td class="xl65">西北工业大学</td>
+          <td class="xl65">郑炜</td>
+          <td class="xl66">22</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">刘仕鑫</td>
-          <td class="xl68">195</td>
-          <td class="xl67">52.4</td>
-          <td class="xl68">解放军理工大学</td>
-          <td class="xl67">惠战伟</td>
-          <td class="xl70">23</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">邓文杰</td>
+          <td class="xl65">215.79</td>
+          <td class="xl65">76.555</td>
+          <td class="xl65">广州大学华软软件学院</td>
+          <td class="xl65"></td>
+          <td class="xl66">23</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl69" style="height:14.0pt">陈雁佳</td>
-          <td class="xl68">163</td>
-          <td class="xl67">50.5</td>
-          <td class="xl68">暨南大学</td>
-          <td class="xl71">孙玉霞</td>
-          <td class="xl70">24</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">何迎丽</td>
+          <td class="xl65">216.67</td>
+          <td class="xl65">76.15</td>
+          <td class="xl65">南通大学</td>
+          <td class="xl65">陈翔</td>
+          <td class="xl66">24</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">姜明鲲</td>
-          <td class="xl68">171</td>
-          <td class="xl67">45.75</td>
-          <td class="xl68">金陵科技学院</td>
-          <td class="xl71">董如婵</td>
-          <td class="xl70">25</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">丁梦迪</td>
+          <td class="xl65">216.89</td>
+          <td class="xl65">75.795</td>
+          <td class="xl65">南通大学</td>
+          <td class="xl65">陈翔</td>
+          <td class="xl66">25</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">樊哲宁</td>
-          <td class="xl68">186</td>
-          <td class="xl67">45</td>
-          <td class="xl68">四川大学</td>
-          <td class="xl71">杨秋辉</td>
-          <td class="xl70">26</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">沈志彬</td>
+          <td class="xl65">217.59</td>
+          <td class="xl65">65.945</td>
+          <td class="xl65">深圳信息职业技术学院</td>
+          <td class="xl65">何涛</td>
+          <td class="xl66">26</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">杜晓寒</td>
-          <td class="xl68">204</td>
-          <td class="xl67">44.2</td>
-          <td class="xl68">北京工业大学</td>
-          <td class="xl67">林筑英</td>
-          <td class="xl70">27</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">张悦霞</td>
+          <td class="xl65">229.54</td>
+          <td class="xl65">61.24</td>
+          <td class="xl65">深圳信息职业技术学院</td>
+          <td class="xl65">陈勖</td>
+          <td class="xl66">27</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">陈小林</td>
-          <td class="xl68">191</td>
-          <td class="xl67">42</td>
-          <td class="xl68">四川大学</td>
-          <td class="xl67">杨邱辉</td>
-          <td class="xl70">28</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">陈飘明</td>
+          <td class="xl65">220.51</td>
+          <td class="xl65">50.705</td>
+          <td class="xl65">深圳信息职业技术学院</td>
+          <td class="xl65">陈勖</td>
+          <td class="xl66">28</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">张毅伟</td>
-          <td class="xl68">161</td>
-          <td class="xl67">42</td>
-          <td class="xl68">海军工程大学</td>
-          <td class="xl71">赵翀</td>
-          <td class="xl70">29</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">冯勇</td>
+          <td class="xl65">220.39</td>
+          <td class="xl65">43.5</td>
+          <td class="xl65">西北工业大学</td>
+          <td class="xl65">郑玮</td>
+          <td class="xl66">29</td>
         </tr>
-        <tr height="14" style="height:14.0pt">
-          <td height="14" class="xl68" style="height:14.0pt">万莹</td>
-          <td class="xl68">177</td>
-          <td class="xl67">40.5</td>
-          <td class="xl68">四川大学</td>
-          <td class="xl67">洪玫</td>
-          <td class="xl70">30</td>
+        <tr height="15" style="height:15.0pt">
+          <td height="15" class="xl65" style="height:15.0pt">吉人</td>
+          <td class="xl65">231.75</td>
+          <td class="xl65">31.575</td>
+          <td class="xl65">南通大学</td>
+          <td class="xl65">陈翔</td>
+          <td class="xl66">30</td>
         </tr>
+
         <tr>
           <td colspan="6">
             <button class="sub-title">
@@ -2809,6 +2810,14 @@
         </tr>
         </thead>
         <tbody>
+        <tr height="14" style="height:14.0pt">
+          <td height="14" class="xl68" style="height:14.0pt">孙金磊</td>
+          <td class="xl68">228</td>
+          <td class="xl67">94.4</td>
+          <td class="xl68">解放军理工大学</td>
+          <td class="xl67">洪宇</td>
+          <td class="xl70">1</td>
+        </tr>
         <tr height="14" style="height:14.0pt">
           <td height="14" class="xl68" style="height:14.0pt">于辛</td>
           <td class="xl68">256</td>
