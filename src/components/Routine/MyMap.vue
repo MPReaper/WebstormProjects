@@ -127,7 +127,7 @@
                 {name: '上海', selected: true},
 //                {name: '浙江', selected: true},
                 {name: '福建', selected: true},
-                {name: '广州', selected: true},
+                {name: '广东', selected: true},
 //                {name: '云南', selected: true},
                 {name: '重庆', selected: true},
                 {name: '湖北', selected: true}

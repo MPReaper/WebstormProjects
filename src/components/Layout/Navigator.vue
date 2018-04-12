@@ -35,10 +35,10 @@
           <el-dropdown-menu slot="dropdown">
             <el-dropdown-item command="DeveloperPage" class="long-dropdown">"上海软件中心杯"开发者测试</el-dropdown-item>
             <el-dropdown-item command="MobilePage" class="long-dropdown">"拓思杯"移动应用测试</el-dropdown-item>
-            <el-dropdown-item command="EmbeddedPage" class="long-dropdown">"凯云杯"嵌入式测试</el-dropdown-item>
-            <el-dropdown-item command="WebPage" class="long-dropdown">"虚席以待"Web应用测试</el-dropdown-item>
+            <el-dropdown-item command="EmbeddedPage" class="long-dropdown">"旋极杯"嵌入式测试</el-dropdown-item>
+            <el-dropdown-item command="WebPage" class="long-dropdown">"慕测杯"Web应用测试</el-dropdown-item>
             <el-dropdown-item command="SecurityPage" class="long-dropdown">"安恒杯"Web安全测试</el-dropdown-item>
-            <el-dropdown-item command="" class="long-dropdown">"虚席以待"深度学习测试</el-dropdown-item>
+            <el-dropdown-item command="" class="long-dropdown">"虚席以待"AI系统测试</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 

@@ -70,7 +70,8 @@ li {
       color: #316fb3; }
 
 .el-dropdown {
-  margin-left: 10px; }
+  margin-left: 10px;
+  cursor: pointer; }
 
 .el-dropdown-menu {
   margin-left: 20px; }
