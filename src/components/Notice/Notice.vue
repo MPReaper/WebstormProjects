@@ -3,10 +3,12 @@
     <div class="notice-wrapper">
       <div-header :header="'大赛通知'"></div-header>
       <div class="main-notice-wrapper">
-        <single-notice :title="'2018大赛最新进展'" :time="'2018-04-12'"
+        <single-notice :title="'大赛新增开发者测试B组'" :time="'2018-04-12'"
                        :link="'http://mooctest.org/#/NewProgress'"></single-notice>
         <single-notice :title="'2018大赛正式开放报名'" :time="'2018-04-09'"
                        :link="'http://www.mooctest.net/contest/list'"></single-notice>
+        <single-notice :title="'大赛新增AI系统测试分项'" :time="'2018-04-02'"
+                       :link="'http://mooctest.org/#/NewProgress'"></single-notice>
         <single-notice :title="'西南科技大学人才招聘公告'" :time="'2018-03-30'"
                        :link="xinankejiUrl"></single-notice>
         <single-notice :title="'2018大赛安排公布'" :time="'2018-03-10'"

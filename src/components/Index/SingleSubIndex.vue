@@ -4,26 +4,24 @@
 
     <!--pc-->
     <!--<div class="hidden-xs-only">-->
-      <!--<el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">-->
-        <!--<div class="img-wrapper"-->
-             <!--:style="{ backgroundImage: 'url(' + photoUrl + ')' }">-->
-        <!--</div>-->
-        <!--<div class="name">{{name}}</div>-->
-        <!--<div class="intro">{{intro}}</div>-->
-      <!--</el-col>-->
+    <!--<el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">-->
+    <!--<div class="img-wrapper"-->
+    <!--:style="{ backgroundImage: 'url(' + photoUrl + ')' }">-->
+    <!--</div>-->
+    <!--<div class="name">{{name}}</div>-->
+    <!--<div class="intro">{{intro}}</div>-->
+    <!--</el-col>-->
     <!--</div>-->
 
     <!--phone-->
     <!--<div class="hidden-sm-and-up">-->
-    <div>
-      <el-col :xs="24" :sm="24" :md="24" :lg="4" :xl="4">
-        <!--<div class="phone-wrapper">-->
-          <div class="name">{{name}}</div>
-          <div class="intro">{{intro}}</div>
-        <!--</div>-->
-      </el-col>
-    </div>
 
+    <el-col :xs="24" :sm="24" :md="24" :lg="8" :xl="8">
+      <div class="single-sub-wrapper">
+        <p class="name">{{name}}</p>
+        <p class="intro">{{intro}}</p>
+      </div>
+    </el-col>
   </div>
 
 </template>

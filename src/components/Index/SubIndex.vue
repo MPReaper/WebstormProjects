@@ -33,8 +33,8 @@
     data() {
       return {
         photoNames: ['index1.png', 'index2.png', 'index3.png', 'index4.png', 'index6.png'],
-        names: ['开发者测试', '移动应用测试', '嵌入式测试', 'Web应用测试', 'Web安全测试', 'AI系统测试'],
-        intros: ['"上海软件中心杯"测试大赛', '"拓思杯"测试大赛', '"旋极杯"测试大赛', '"慕测杯"测试大赛', '"安恒杯"测试大赛', '"虚席以待"测试大赛'],
+        names: ['上海软件中心杯', '拓思杯', '旋极杯', '慕测杯', '安恒杯', '虚席以待'],
+        intros: ['开发者测试大赛', '移动应用测试大赛', '嵌入式测试大赛', 'Web应用测试大赛', 'Web安全测试大赛', 'AI系统测试大赛'],
         link: ['DeveloperPage', 'MobilePage', 'EmbeddedPage', 'WebPage', 'SecurityPage', '']
       }
     },
