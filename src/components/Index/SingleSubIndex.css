@@ -36,11 +36,12 @@ button {
     background-color: #ffffff;
     color: #316fb3; }
     .single-sub .single-sub-wrapper .name {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 400; }
     .single-sub .single-sub-wrapper .intro {
-      font-size: 16px;
-      color: #595959; }
+      font-size: 14px;
+      color: #595959;
+      font-weight: 400; }
   .single-sub:hover .single-sub-wrapper {
     border: 1px #316fb3 solid;
     background-color: #316fb3;

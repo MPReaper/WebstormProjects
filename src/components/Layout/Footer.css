@@ -34,5 +34,8 @@ button {
     padding-top: 1%; }
     .footer-wrapper .info-wrapper span {
       font-size: 90%; }
+  .footer-wrapper a {
+    color: #EEE;
+    text-decoration: none; }
 
 /*# sourceMappingURL=Footer.css.map */

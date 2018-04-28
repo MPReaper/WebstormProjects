@@ -42,7 +42,7 @@
           </button>
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开发者测试大赛仅限<b>A组（在校大学生）</b>报名。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开发者测试大赛<b>A组（在校大学生）</b>、<b>B组（高职高专学生）</b>均可报名。
             </p>
           </div>
         </div>
