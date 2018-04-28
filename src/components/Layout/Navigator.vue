@@ -42,19 +42,20 @@
           </el-dropdown-menu>
         </el-dropdown>
 
+        <el-button type="text" @click="goToArticlePage" class="hidden-xs-only">大赛文件
+        </el-button>
+
         <el-dropdown placement="bottom-start" @command="handleTrainCommand" class="hidden-xs-only">
           <span class="el-dropdown-link">
-          培训就业<i class="el-icon-caret-bottom el-icon--right"></i>
+          产教融合<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
           <el-dropdown-menu slot="dropdown" @command="">
-            <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
             <el-dropdown-item command="TeacherTrainPage">师资培训</el-dropdown-item>
+            <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
             <el-dropdown-item command="EmployPage">人才招聘</el-dropdown-item>
+            <el-dropdown-item command="EducationPage">教育部协同育人</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
-
-        <el-button type="text" @click="goToEducationPage" class="hidden-xs-only">协同育人
-        </el-button>
 
         <el-dropdown placement="bottom-start" @command="handleInternationalCommand" class="hidden-xs-only">
           <span class="el-dropdown-link">
@@ -100,6 +101,7 @@
             <a target="_blank" :href="'http://forum.mooctest.net/'">
               <el-dropdown-item>大赛论坛</el-dropdown-item>
             </a>
+            <el-dropdown-item command="ArticlePage">大赛文件</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 
@@ -108,19 +110,17 @@
           大赛相关<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
           <el-dropdown-menu slot="dropdown" @command="">
-
             <el-dropdown placement="bottom-start" @command="handleTrainCommand">
           <span class="el-dropdown-link">
-          培训就业<i class="el-icon-caret-bottom el-icon--right"></i>
+          产教融合<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
               <el-dropdown-menu slot="dropdown" @command="">
-                <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
                 <el-dropdown-item command="TeacherTrainPage">师资培训</el-dropdown-item>
+                <el-dropdown-item command="StudentTrainPage">学生培训</el-dropdown-item>
                 <el-dropdown-item command="EmployPage">人才招聘</el-dropdown-item>
+                <el-dropdown-item command="EducationPage">教育部协同育人</el-dropdown-item>
               </el-dropdown-menu>
             </el-dropdown>
-
-            <el-dropdown-item command="EducationPage">协同育人</el-dropdown-item>
 
             <el-dropdown placement="bottom-start" @command="handleInternationalCommand">
           <span class="el-dropdown-link">
@@ -192,6 +192,9 @@
       },
       goToCommitteePage() {
         router.push({name: 'CommitteePage'})
+      },
+      goToArticlePage() {
+        router.push({name: 'ArticlePage'})
       },
       handleIndexCommand(command) {
         router.push({name: command})
