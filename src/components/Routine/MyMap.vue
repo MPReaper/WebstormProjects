@@ -8,72 +8,65 @@
       <tr>
         <th>省份</th>
         <th>承办单位</th>
-        <th>冠名企业</th>
+        <th>冠名</th>
+        <th>省赛文件</th>
       </tr>
       </thead>
       <tbody>
       <tr>
         <td>江苏</td>
-        <td>金陵科技学院</td>
+        <td>南京大学、陆军工程大学、金陵科技学院</td>
         <td></td>
+        <td><a :href="jiangsuUrl" target="_blank">查看文件</a></td>
       </tr>
       <tr>
         <td>上海</td>
         <td>上海市计算机软件评测重点实验室</td>
         <td></td>
+        <td></td>
       </tr>
       <!--<tr>-->
-        <!--<td>浙江</td>-->
-        <!--<td>浙江理工大学</td>-->
-        <!--<td></td>-->
+      <!--<td>浙江</td>-->
+      <!--<td>浙江理工大学</td>-->
+      <!--<td></td>-->
       <!--</tr>-->
       <tr>
         <td>福建</td>
         <td>厦门理工学院</td>
         <td></td>
+        <td><a :href="fujianUrl" target="_blank">查看文件</a></td>
       </tr>
       <tr>
         <td>广东</td>
         <td>广东拓思软件科学园有限公司</td>
         <td></td>
+        <td><a :href="guangdongUrl" target="_blank">查看文件</a></td>
       </tr>
       <!--<tr>-->
-        <!--<td>云南</td>-->
-        <!--<td>云南大学</td>-->
-        <!--<td></td>-->
+      <!--<td>云南</td>-->
+      <!--<td>云南大学</td>-->
+      <!--<td></td>-->
       <!--</tr>-->
       <tr>
         <td>重庆</td>
         <td>重庆邮电大学</td>
         <td></td>
+        <td><a :href="chongqingUrl" target="_blank">查看文件</a></td>
       </tr>
       <tr>
         <td>湖北</td>
         <td>武汉科技大学</td>
         <td></td>
+        <td><a :href="hubeiUrl" target="_blank">查看文件</a></td>
       </tr>
       <!--<tr>-->
-        <!--<td>山东</td>-->
-        <!--<td>青岛科技大学</td>-->
-        <!--<td></td>-->
+      <!--<td>山东</td>-->
+      <!--<td>青岛科技大学</td>-->
+      <!--<td></td>-->
       <!--</tr>-->
       <tr>
-        <td>四川</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>陕西</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>湖南</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
         <td>……</td>
+        <td></td>
         <td></td>
         <td></td>
       </tr>
@@ -87,12 +80,23 @@
 
   import echarts from 'echarts'
   import 'echarts/map/js/china.js';
+  import chongqingPdf from '../../assets/pdf/chongqing.pdf'
+  import jiangsuPdf from '../../assets/pdf/jiangsu.pdf'
+  import hubeiPdf from '../../assets/pdf/hubei.pdf'
+  import guangdongPdf from '../../assets/pdf/guangdong.pdf'
+  import fujianPdf from '../../assets/pdf/fujian.pdf'
 
   export default {
     name: 'map-chart',
     components: {},
     data() {
-      return {}
+      return {
+        chongqingUrl: chongqingPdf,
+        jiangsuUrl: jiangsuPdf,
+        hubeiUrl: hubeiPdf,
+        guangdongUrl: guangdongPdf,
+        fujianUrl: fujianPdf
+      }
     },
     watch: {
       // 如果路由有变化，会再次执行该方法
