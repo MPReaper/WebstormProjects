@@ -42,11 +42,6 @@
         <td></td>
         <td><a :href="guangdongUrl" target="_blank">查看文件</a></td>
       </tr>
-      <!--<tr>-->
-      <!--<td>云南</td>-->
-      <!--<td>云南大学</td>-->
-      <!--<td></td>-->
-      <!--</tr>-->
       <tr>
         <td>重庆</td>
         <td>重庆邮电大学</td>
@@ -64,6 +59,18 @@
         <td>安徽工业大学、芜湖职业技术学院</td>
         <td></td>
         <td><a :href="anhuiUrl" target="_blank">查看文件</a></td>
+      </tr>
+      <tr>
+        <td>陕西</td>
+        <td>西北工业大学、西安邮电大学 </td>
+        <td></td>
+        <td><a :href="shanxiUrl" target="_blank">查看文件</a></td>
+      </tr>
+      <tr>
+        <td>黑龙江</td>
+        <td>哈尔滨工程大学、哈尔滨工业大学、黑龙江省软件学会 </td>
+        <td></td>
+        <td><a :href="heilongjiangUrl" target="_blank">查看文件</a></td>
       </tr>
       <tr>
         <td>……</td>
@@ -87,6 +94,8 @@
   import guangdongPdf from '../../assets/pdf/guangdong.pdf'
   import fujianPdf from '../../assets/pdf/fujian.pdf'
   import anhuiPdf from '../../assets/pdf/anhui.pdf'
+  import shanxiPdf from '../../assets/pdf/shanxi.pdf'
+  import heilongjiangPdf from '../../assets/pdf/heilongjiang.pdf'
 
   export default {
     name: 'map-chart',
@@ -98,7 +107,9 @@
         hubeiUrl: hubeiPdf,
         guangdongUrl: guangdongPdf,
         fujianUrl: fujianPdf,
-        anhuiUrl: anhuiPdf
+        anhuiUrl: anhuiPdf,
+        shanxiUrl: shanxiPdf,
+        heilongjiangUrl: heilongjiangPdf
       }
     },
     watch: {
@@ -132,10 +143,10 @@
               data: [
                 {name: '江苏', selected: true},
                 {name: '上海', selected: true},
-//                {name: '浙江', selected: true},
+                {name: '黑龙江', selected: true},
                 {name: '福建', selected: true},
                 {name: '广东', selected: true},
-//                {name: '云南', selected: true},
+                {name: '陕西', selected: true},
                 {name: '重庆', selected: true},
                 {name: '湖北', selected: true},
                 {name: '安徽', selected: true}

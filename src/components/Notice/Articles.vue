@@ -23,6 +23,10 @@
                        :link="fujianUrl"></single-notice>
         <single-notice :title="'关于举办2018年全国大学生软件测试大赛安徽省赛的通知'" :time="'2018-05-07'"
                        :link="anhuiUrl"></single-notice>
+        <single-notice :title="'关于举办2018年全国大学生软件测试大赛陕西省赛的通知'" :time="'2018-05-07'"
+                       :link="shanxiUrl"></single-notice>
+        <single-notice :title="'关于举办2018年全国大学生软件测试大赛黑龙江省赛的通知'" :time="'2018-05-07'"
+                       :link="heilongjiangUrl"></single-notice>
       </div>
     </div>
   </div>
@@ -40,6 +44,8 @@
   import guangdongPdf from '../../assets/pdf/guangdong.pdf'
   import fujianPdf from '../../assets/pdf/fujian.pdf'
   import anhuiPdf from '../../assets/pdf/anhui.pdf'
+  import shanxiPdf from '../../assets/pdf/shanxi.pdf'
+  import heilongjiangPdf from '../../assets/pdf/heilongjiang.pdf'
 
   export default {
     name: 'article',
@@ -55,7 +61,9 @@
         hubeiUrl: hubeiPdf,
         guangdongUrl: guangdongPdf,
         fujianUrl: fujianPdf,
-        anhuiUrl: anhuiPdf
+        anhuiUrl: anhuiPdf,
+        shanxiUrl: shanxiPdf,
+        heilongjiangUrl: heilongjiangPdf
       }
     },
     methods: {}
