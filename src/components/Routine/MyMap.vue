@@ -59,11 +59,12 @@
         <td></td>
         <td><a :href="hubeiUrl" target="_blank">查看文件</a></td>
       </tr>
-      <!--<tr>-->
-      <!--<td>山东</td>-->
-      <!--<td>青岛科技大学</td>-->
-      <!--<td></td>-->
-      <!--</tr>-->
+      <tr>
+        <td>安徽</td>
+        <td>安徽工业大学、芜湖职业技术学院</td>
+        <td></td>
+        <td><a :href="anhuiUrl" target="_blank">查看文件</a></td>
+      </tr>
       <tr>
         <td>……</td>
         <td></td>
@@ -85,6 +86,7 @@
   import hubeiPdf from '../../assets/pdf/hubei.pdf'
   import guangdongPdf from '../../assets/pdf/guangdong.pdf'
   import fujianPdf from '../../assets/pdf/fujian.pdf'
+  import anhuiPdf from '../../assets/pdf/anhui.pdf'
 
   export default {
     name: 'map-chart',
@@ -95,7 +97,8 @@
         jiangsuUrl: jiangsuPdf,
         hubeiUrl: hubeiPdf,
         guangdongUrl: guangdongPdf,
-        fujianUrl: fujianPdf
+        fujianUrl: fujianPdf,
+        anhuiUrl: anhuiPdf
       }
     },
     watch: {
@@ -134,8 +137,8 @@
                 {name: '广东', selected: true},
 //                {name: '云南', selected: true},
                 {name: '重庆', selected: true},
-                {name: '湖北', selected: true}
-//                {name: '山东', selected: true}
+                {name: '湖北', selected: true},
+                {name: '安徽', selected: true}
               ]
             }
           ]
