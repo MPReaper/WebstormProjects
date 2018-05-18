@@ -92,7 +92,7 @@
           2018赛事<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
           <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item>大赛通知</el-dropdown-item>
+            <el-dropdown-item command="NoticePage">大赛通知</el-dropdown-item>
             <a target="_blank" :href="'http://www.mooctest.net/contest/list'">
               <el-dropdown-item>大赛报名
               </el-dropdown-item>
@@ -102,6 +102,7 @@
               <el-dropdown-item>大赛论坛</el-dropdown-item>
             </a>
             <el-dropdown-item command="ArticlePage">大赛文件</el-dropdown-item>
+            <el-dropdown-item command="CommitteePage">组织机构</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 
@@ -122,6 +123,8 @@
               </el-dropdown-menu>
             </el-dropdown>
 
+            <br>
+
             <el-dropdown placement="bottom-start" @command="handleInternationalCommand">
           <span class="el-dropdown-link">
           国际赛事<i class="el-icon-caret-bottom el-icon--right"></i>
@@ -133,7 +136,7 @@
               </el-dropdown-menu>
             </el-dropdown>
 
-            <el-dropdown-item command="CommitteePage">组织机构</el-dropdown-item>
+            <br>
 
             <el-dropdown placement="bottom-start" @command="handleCertificateCommand">
           <span class="el-dropdown-link">

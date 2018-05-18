@@ -1,8 +1,6 @@
 <template>
 
   <div>
-    <div ref="mapChart" :style="{width: '100%', height: '600px'}"></div>
-
     <table class="province-list-table">
       <thead>
       <tr>
@@ -50,7 +48,7 @@
       </tr>
       <tr>
         <td>湖北</td>
-        <td>武汉科技大学</td>
+        <td>武汉科技大学、湖北省软件行业协会</td>
         <td></td>
         <td><a :href="hubeiUrl" target="_blank">查看文件</a></td>
       </tr>
@@ -80,6 +78,7 @@
       </tr>
       </tbody>
     </table>
+    <div ref="mapChart" :style="{width: '100%', height: '600px'}"></div>
 
   </div>
 </template>

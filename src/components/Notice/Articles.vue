@@ -1,32 +1,66 @@
 <template>
   <div>
-    <div class="notice-wrapper">
-      <div-header :header="'国赛文件'"></div-header>
-      <div class="main-notice-wrapper">
-        <single-notice :title="'关于举办2018年全国大学生软件测试大赛的通知'" :time="'2018-04-28'"
-                       :link="countryUrl"></single-notice>
+    <div class="hidden-xs-only">
+      <div class="notice-wrapper">
+        <div-header :header="'国赛文件'"></div-header>
+        <div class="main-notice-wrapper">
+          <single-notice :title="'关于举办2018年全国大学生软件测试大赛的通知'" :time="'2018-04-28'"
+                         :link="countryUrl"></single-notice>
+        </div>
+      </div>
+
+      <div class="notice-wrapper">
+        <div-header :header="'省赛文件'"></div-header>
+        <div class="main-notice-wrapper">
+          <single-notice :title="'关于举办2018年全国大学生软件测试大赛江苏省赛的通知'" :time="'2018-04-29'"
+                         :link="jiangsuUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软件测试大赛重庆省赛的通知'" :time="'2018-04-29'"
+                         :link="chongqingUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软件测试大赛湖北省赛的通知'" :time="'2018-04-29'"
+                         :link="hubeiUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软件测试大赛广东省赛的通知'" :time="'2018-04-29'"
+                         :link="guangdongUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软件测试大赛福建省赛的通知'" :time="'2018-04-29'"
+                         :link="fujianUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软件测试大赛安徽省赛的通知'" :time="'2018-05-07'"
+                         :link="anhuiUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软件测试大赛陕西省赛的通知'" :time="'2018-05-07'"
+                         :link="shanxiUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软件测试大赛黑龙江省赛的通知'" :time="'2018-05-07'"
+                         :link="heilongjiangUrl"></single-notice>
+        </div>
       </div>
     </div>
 
-    <div class="notice-wrapper">
-      <div-header :header="'省赛文件'"></div-header>
-      <div class="main-notice-wrapper">
-        <single-notice :title="'关于举办2018年全国大学生软件测试大赛江苏省赛的通知'" :time="'2018-04-29'"
-                       :link="jiangsuUrl"></single-notice>
-        <single-notice :title="'关于举办2018年全国大学生软件测试大赛重庆省赛的通知'" :time="'2018-04-29'"
-                       :link="chongqingUrl"></single-notice>
-        <single-notice :title="'关于举办2018年全国大学生软件测试大赛湖北省赛的通知'" :time="'2018-04-29'"
-                       :link="hubeiUrl"></single-notice>
-        <single-notice :title="'关于举办2018年全国大学生软件测试大赛广东省赛的通知'" :time="'2018-04-29'"
-                       :link="guangdongUrl"></single-notice>
-        <single-notice :title="'关于举办2018年全国大学生软件测试大赛福建省赛的通知'" :time="'2018-04-29'"
-                       :link="fujianUrl"></single-notice>
-        <single-notice :title="'关于举办2018年全国大学生软件测试大赛安徽省赛的通知'" :time="'2018-05-07'"
-                       :link="anhuiUrl"></single-notice>
-        <single-notice :title="'关于举办2018年全国大学生软件测试大赛陕西省赛的通知'" :time="'2018-05-07'"
-                       :link="shanxiUrl"></single-notice>
-        <single-notice :title="'关于举办2018年全国大学生软件测试大赛黑龙江省赛的通知'" :time="'2018-05-07'"
-                       :link="heilongjiangUrl"></single-notice>
+    <div class="hidden-sm-and-up">
+      <div class="notice-wrapper">
+        <div-header :header="'国赛文件'"></div-header>
+        <div class="main-notice-wrapper">
+          <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-04-28'"
+                         :link="countryUrl"></single-notice>
+        </div>
+      </div>
+
+      <div class="notice-wrapper">
+        <div-header :header="'省赛文件'"></div-header>
+        <div class="main-notice-wrapper">
+          <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-04-29'"
+                         :link="jiangsuUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-04-29'"
+                         :link="chongqingUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-04-29'"
+                         :link="hubeiUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-04-29'"
+                         :link="guangdongUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-04-29'"
+                         :link="fujianUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-05-07'"
+                         :link="anhuiUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-05-07'"
+                         :link="shanxiUrl"></single-notice>
+          <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-05-07'"
+                         :link="heilongjiangUrl"></single-notice>
+        </div>
       </div>
     </div>
   </div>
