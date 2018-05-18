@@ -1,10 +1,34 @@
 <template>
+<div>
+  <div class="train-wrapper">
+    <div-header :header="'全国大学生软件测试大赛学生培训安排'"></div-header>
+    <div>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018大赛学生培训由大开科技协助提供。
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.线下培训:单个赛项有20人参赛并参加培训，大开科技提供线下培训和指导；
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.在线指导:与大开科技签订测试大赛指导协议后，负责通过在线工具提供大赛支持和指导。
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;具体信息请联系曹老师，电话：13910077365  微信:manokle
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a :href="peixunUrl" target="_blank">《全国大学生测试大赛培训指导协议》</a>
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 暑期教师培训另行通知。
+      </p>
+    </div>
+  </div>
 
   <div class="train-wrapper">
     <div-header :header="'学生在线培训计划'"></div-header>
     <div>
       <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大赛学生培训将在5月份开课，敬请关注官网通知。
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大赛学生培训将在9月份开课，敬请关注官网通知。
       </p>
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 在线培训主要为短期（10课时左右）技术性培训，以测试脚本编写为主，不包含测试基础知识。
@@ -24,12 +48,13 @@
     </div>
 
   </div>
-
+</div>
 </template>
 
 <script>
 
   import DivHeader from '../Util/DivHeader.vue'
+  import peixunPdf from '../../assets/pdf/peixun.pdf'
 
   export default {
     name: 'education',
@@ -37,7 +62,9 @@
       DivHeader
     },
     data() {
-      return {}
+      return {
+        peixunUrl:peixunPdf
+      }
     },
     methods: {}
   }

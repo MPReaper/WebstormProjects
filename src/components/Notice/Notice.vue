@@ -3,6 +3,10 @@
     <div class="notice-wrapper">
       <div-header :header="'大赛通知'"></div-header>
       <div class="main-notice-wrapper">
+        <single-notice :title="'全国大学生软件测试大赛学生培训安排'" :time="'2018-05-18'"
+                       :link="'http://mooctest.org/#/StudentTrain'"></single-notice>
+        <single-notice :title="'“杰出指导教师奖”和“杰出组织教师奖”评选办法'" :time="'2018-05-11'"
+                       :link="jiechuUrl"></single-notice>
         <single-notice :title="'关于举办2018年全国大学生软件测试大赛的通知'" :time="'2018-04-28'"
                        :link="countryUrl"></single-notice>
         <single-notice :title="'北京旋极信息技术集团人才招聘公告'" :time="'2018-04-28'"
@@ -36,6 +40,7 @@
   import xinankejiPdf from '../../assets/pdf/xinankeji.pdf'
   import xuanjiPdf from '../../assets/pdf/xuanji.pdf'
   import countryPdf from '../../assets/pdf/country.pdf'
+  import jiechuPdf from '../../assets/pdf/jiechu.pdf'
 
   export default {
     name: 'notice',
@@ -47,7 +52,8 @@
       return {
         xinankejiUrl: xinankejiPdf,
         xuanjiUrl: xuanjiPdf,
-        countryUrl: countryPdf
+        countryUrl: countryPdf,
+        jiechuUrl: jiechuPdf
       }
     },
     methods: {}
