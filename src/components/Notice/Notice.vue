@@ -5,11 +5,11 @@
       <div class="main-notice-wrapper">
         <single-notice :title="'2018大赛学生培训安排'" :time="'2018-05-18'"
                        :link="'http://mooctest.org/#/StudentTrain'"></single-notice>
-        <single-notice :title="'“杰出指导教师奖”和“杰出组织...'" :time="'2018-05-11'"
+        <single-notice :title="'“杰出指导教师奖”和“杰出组织教师奖”评选办法'" :time="'2018-05-11'"
                        :link="jiechuUrl"></single-notice>
-        <single-notice :title="'关于举办2018年全国大学生软...'" :time="'2018-04-28'"
+        <single-notice :title="'关于举办2018年全国大学生软件测试大赛的通知'" :time="'2018-04-28'"
                        :link="countryUrl"></single-notice>
-        <single-notice :title="'北京旋极信息技术集团人才招...'" :time="'2018-04-28'"
+        <single-notice :title="'北京旋极信息技术集团人才招聘公告'" :time="'2018-04-28'"
                        :link="xuanjiUrl"></single-notice>
         <single-notice :title="'大赛新增开发者测试B组'" :time="'2018-04-12'"
                        :link="'http://mooctest.org/#/NewProgress'"></single-notice>
