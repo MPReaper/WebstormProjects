@@ -72,6 +72,13 @@ module.exports = {
         options: {
           name: utils.assetsPath('pdf/[name].[hash:7].[ext]')
         }
+      },
+      {
+        test: /\.docx$/,
+        loader: 'file-loader',
+        options: {
+          name: utils.assetsPath('docx/[name].[hash:7].[ext]')
+        }
       }
     ]
   },

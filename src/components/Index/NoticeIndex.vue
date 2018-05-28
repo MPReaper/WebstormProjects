@@ -5,9 +5,9 @@
     <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       <div class="notice-left-wrapper hidden-xs-only">
         <div-header :header="'大赛焦点'"></div-header>
-        <single-notice :title="'2018全国大学生软件测试大赛——（Web安全）师资培训班'" :time="'2018-05-28'"
+        <single-notice :title="'2018全国大学生软件测试大赛师资培训班 [Web安全分项]'" :time="'2018-05-28'"
                        :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>
-        <single-notice :title="'全国大学生软件测试大赛学生培训安排'" :time="'2018-05-18'"
+        <single-notice :title="'2018全国大学生软件测试大赛学生培训安排'" :time="'2018-05-18'"
                        :link="'http://mooctest.org/#/StudentTrain'"></single-notice>
         <single-notice :title="'“杰出指导教师奖”和“杰出组织教师奖”评选办法'" :time="'2018-05-11'"
                        :link="jiechuUrl"></single-notice>
@@ -20,9 +20,9 @@
 
       <div class="notice-left-wrapper hidden-sm-and-up">
         <div-header :header="'大赛焦点'"></div-header>
-        <single-notice :title="'...师资培训班（Web安全）'" :time="'2018-05-28'"
+        <single-notice :title="'大赛师资培训班 [Web安全分项]'" :time="'2018-05-28'"
                        :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>
-        <single-notice :title="'2018大赛学生培训安排'" :time="'2018-05-18'"
+        <single-notice :title="'大赛学生培训安排'" :time="'2018-05-18'"
                        :link="'http://mooctest.org/#/StudentTrain'"></single-notice>
         <single-notice :title="'“杰出指导教师奖”和“杰出组织...'" :time="'2018-05-11'"
                        :link="jiechuUrl"></single-notice>

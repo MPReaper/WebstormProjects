@@ -16,10 +16,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;具体信息请联系曹老师，电话：13910077365  微信:manokle
       </p>
       <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a :href="peixunUrl" target="_blank">《全国大学生测试大赛培训指导协议》</a>
-      </p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 暑期教师培训另行通知。
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件：<a :href="peixunUrl" target="_blank">《全国大学生测试大赛培训指导协议》</a>
       </p>
     </div>
   </div>
