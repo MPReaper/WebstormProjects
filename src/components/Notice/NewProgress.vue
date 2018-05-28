@@ -13,7 +13,7 @@
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前分项赛如下（A组为在校大学生，B组为高职高专学生）：
       </p>
-      <table class="sub-list-table">
+      <table class="class-table">
         <thead>
         <tr>
           <th></th>
