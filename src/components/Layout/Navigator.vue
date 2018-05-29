@@ -38,7 +38,7 @@
             <el-dropdown-item command="EmbeddedPage" class="long-dropdown">"旋极杯"嵌入式测试</el-dropdown-item>
             <el-dropdown-item command="WebPage" class="long-dropdown">"慕测杯"Web应用测试</el-dropdown-item>
             <el-dropdown-item command="SecurityPage" class="long-dropdown">"安恒杯"Web安全测试</el-dropdown-item>
-            <el-dropdown-item command="" class="long-dropdown">"虚席以待"AI系统测试</el-dropdown-item>
+            <el-dropdown-item command="AIPage" class="long-dropdown">"虚席以待"AI系统测试</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
 

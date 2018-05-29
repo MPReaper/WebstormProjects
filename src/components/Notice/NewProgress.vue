@@ -8,7 +8,8 @@
                                                              @click="signUp">报名</span>参加开发者测试大赛。
       </p>
       <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 分项赛新增AI系统测试大赛。<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 分项赛新增<span class="href-span"
+                                                          @click="goToAIPage">AI系统测试大赛</span>。<br><br>
       </p>
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前分项赛如下（A组为在校大学生，B组为高职高专学生）：
@@ -22,7 +23,7 @@
           <th @click="goToEmbeddedPage">"旋极杯"嵌入式测试大赛</th>
           <th @click="goToWebPage">"慕测杯"Web应用测试大赛</th>
           <th @click="goToSecurityPage">"安恒杯"Web安全测试大赛</th>
-          <th>"虚席以待"AI系统测试大赛</th>
+          <th @click="goToAIPage">"虚席以待"AI系统测试大赛</th>
         </tr>
         </thead>
         <tbody>
@@ -96,6 +97,9 @@
       },
       goToSecurityPage() {
         router.push({name: 'SecurityPage'})
+      },
+      goToAIPage() {
+        router.push({name: 'AIPage'})
       },
       signUp() {
         window.location.href = 'http://www.mooctest.net/contest/list'

@@ -50,4 +50,35 @@ button {
       font-size: 90%;
       font-weight: 400; }
 
+.one-col-sub-wrapper {
+  display: inline-block;
+  margin-top: 1%;
+  vertical-align: top;
+  padding: 2%;
+  width: 100%;
+  height: auto;
+  background-color: #FFF;
+  text-align: justify; }
+  .one-col-sub-wrapper a {
+    color: #316fb3;
+    text-decoration: none;
+    font-weight: 600; }
+  .one-col-sub-wrapper .href-span {
+    color: #316fb3;
+    cursor: pointer; }
+  .one-col-sub-wrapper .sub-title {
+    font-size: 90%;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #316fb3;
+    padding: 0.1% 0.6%;
+    margin-top: 0.5%;
+    border-radius: 100px; }
+  .one-col-sub-wrapper .sub-content {
+    margin: 0.5% 0; }
+    .one-col-sub-wrapper .sub-content p {
+      color: #595959;
+      font-size: 90%;
+      font-weight: 400; }
+
 /*# sourceMappingURL=Sub.css.map */

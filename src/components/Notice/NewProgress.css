@@ -40,7 +40,7 @@ button {
     color: #316fb3;
     cursor: pointer; }
 
-.sub-list-table {
+.class-table {
   text-align: center;
   margin: 2% auto;
   width: 100%;
@@ -48,7 +48,7 @@ button {
   font-weight: 400;
   border-collapse: collapse;
   color: #595959; }
-  .sub-list-table th {
+  .class-table th {
     border-top: 1px #bababa solid;
     border-bottom: 1px #bababa solid;
     padding: 0.5% 1%;
@@ -59,14 +59,14 @@ button {
     -o-transition: all 0.5s;
     transition: all 0.5s;
     cursor: pointer; }
-    .sub-list-table th:hover {
+    .class-table th:hover {
       color: #316fb3;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
       -ms-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s; }
-  .sub-list-table td {
+  .class-table td {
     border-bottom: 1px #bababa solid;
     padding: 0.5% 1%; }
 

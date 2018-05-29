@@ -15,6 +15,7 @@ import American2018Page from '@/pages/American2018Page'
 import DeveloperPage from '@/pages/DeveloperPage'
 import EmbeddedPage from '@/pages/EmbeddedPage'
 import MobilePage from '@/pages/MobilePage'
+import AIPage from '@/pages/AIPage'
 import SecurityPage from '@/pages/SecurityPage'
 import WebPage from '@/pages/WebPage'
 import CertificatePage from '@/pages/CertificatePage'
@@ -106,6 +107,11 @@ export default new Router({
       path: '/Web',
       name: 'WebPage',
       component: WebPage
+    },
+    {
+      path: '/AI',
+      name: 'AIPage',
+      component: AIPage
     },
     {
       path: '/Certificate',
