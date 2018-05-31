@@ -3,7 +3,7 @@
     <div class="notice-wrapper hidden-xs-only">
       <div-header :header="'大赛通知'"></div-header>
       <div class="main-notice-wrapper">
-        <single-notice :title="'大赛新增AI系统测试分项'" :time="'2018-05-29'"
+        <single-notice :title="'大赛新增AI系统测试邀请赛'" :time="'2018-05-29'"
                        :link="'http://mooctest.org/#/NewProgress'"></single-notice>
         <single-notice :title="'2018全国大学生软件测试大赛师资培训班 [Web安全分项]'" :time="'2018-05-28'"
                        :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>
@@ -35,7 +35,7 @@
     <div class="notice-wrapper hidden-sm-and-up">
       <div-header :header="'大赛通知'"></div-header>
       <div class="main-notice-wrapper">
-        <single-notice :title="'大赛新增AI系统测试分项'" :time="'2018-05-29'"
+        <single-notice :title="'大赛新增AI系统测试邀请赛'" :time="'2018-05-29'"
                        :link="'http://mooctest.org/#/NewProgress'"></single-notice>
         <single-notice :title="'大赛师资培训班 [Web安全分项]'" :time="'2018-05-28'"
                        :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>

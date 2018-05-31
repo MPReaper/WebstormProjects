@@ -9,7 +9,7 @@
       </p>
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 分项赛新增<span class="href-span"
-                                                          @click="goToAIPage">AI系统测试大赛</span>。<br><br>
+                                                          @click="goToAIPage">AI系统测试大赛</span>。感兴趣请联系大赛秘书处<br><br>
       </p>
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前分项赛如下（A组为在校大学生，B组为高职高专学生）：
