@@ -37,9 +37,41 @@
 
     <div class="routine-intro-wrapper">
       <div-header :header="'预选赛说明'"></div-header>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;预选赛报名时间即将发布，请关注官网通知。
-      </p>
+      <table class="date-list-table">
+        <thead>
+        <tr>
+          <th>夏季预选赛项目</th>
+          <th>比赛时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>开发者测试</td>
+          <td>6月9日9:00-12:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>移动应用测试</td>
+          <td>6月9日14:00-17:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Web应用测试</td>
+          <td>6月9日17:00-20:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>嵌入式测试</td>
+          <td>6月10日8:00-12:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Web安全测试</td>
+          <td>6月10日14:00-18:00</td>
+          <td></td>
+        </tr>
+        </tbody>
+      </table>
     </div>
 
     <div class="routine-intro-wrapper" id="provinceIntro">

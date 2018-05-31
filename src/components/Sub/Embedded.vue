@@ -4,7 +4,14 @@
       <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
         <div class="sub-wrapper">
           <div-header :header="'夏季预选赛和秋季预选赛'"></div-header>
-
+          <button class="sub-title">
+            比赛时间
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6月10日8:00-12:00
+            </p>
+          </div>
           <button class="sub-title">
             比赛内容
           </button>
