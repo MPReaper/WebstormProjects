@@ -5,7 +5,7 @@
 .province-list-table {
   text-align: center;
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
   font-size: 90%;
   font-weight: 400;
   border-collapse: collapse;
@@ -14,13 +14,13 @@
     color: $main-color;
     border-top: 1px $light-grey solid;
     border-bottom: 1px $light-grey solid;
-    padding: 0.5% 0;
+    padding: 0.5% 1%;
   }
 
   td {
     color: $grey;
     border-bottom: 1px $light-grey solid;
-    padding: 0.5% 5%;
+    padding: 0.5% 1%;
 
     a{
       color: $main-color;

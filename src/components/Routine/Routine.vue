@@ -2,10 +2,6 @@
   <div>
     <div class="routine-wrapper">
 
-      <!--<button class="sub-title">-->
-      <!--赛程说明-->
-      <!--</button>-->
-
       <div>
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 大赛于3月12日启动后，选手可以进行<a target="_blank"
