@@ -11,9 +11,11 @@
 
         <routine-index></routine-index>
 
+        <figure-index class="hidden-xs-only"></figure-index>
+
         <intro-index></intro-index>
 
-        <figure-index class="hidden-xs-only"></figure-index>
+        <poster class="hidden-xs-only"></poster>
 
       </div>
 
@@ -31,6 +33,7 @@
   import RoutineIndex from '../components/Index/RoutineIndex.vue'
   import IntroIndex from '../components/Index/IntroIndex.vue'
   import FigureIndex from '../components/Index/FigureIndex.vue'
+  import Poster from '../components/Index/Poster.vue'
   import HintIndex from '../components/Index/HintIndex.vue'
 
   export default {
@@ -43,7 +46,8 @@
       RoutineIndex,
       IntroIndex,
       FigureIndex,
-      HintIndex
+      HintIndex,
+      Poster
     },
     data() {
       return {}

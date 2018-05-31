@@ -34,8 +34,9 @@
       return {
         photoNames: ['index1.png', 'index2.png', 'index3.png', 'index4.png', 'index5.png', 'index6.png'],
         names: ['上海软件中心杯', '拓思杯', '旋极杯', '慕测杯', '安恒杯', '虚席以待'],
-        intros: ['开发者测试大赛', '移动应用测试大赛', '嵌入式测试大赛', 'Web应用测试大赛', 'Web安全测试大赛', 'AI系统测试大赛'],
-        link: ['DeveloperPage', 'MobilePage', 'EmbeddedPage', 'WebPage', 'SecurityPage', 'AIPage']
+        intros: ['开发者测试大赛', '移动应用测试大赛', '嵌入式测试大赛', 'Web应用测试大赛', 'Web安全测试大赛', 'AI系统测试邀请赛'],
+        link: ['DeveloperPage', 'MobilePage', 'EmbeddedPage', 'WebPage', 'SecurityPage', 'AIPage'],
+        bannerUrl: require('../../assets/img/poster.jpg')
       }
     },
     methods: {}

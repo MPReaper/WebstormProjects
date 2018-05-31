@@ -62,4 +62,22 @@ button {
     color: #316fb3;
     cursor: pointer; }
 
+.date-list-table {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 90%;
+  font-weight: 400;
+  border-collapse: collapse; }
+  .date-list-table th {
+    color: #316fb3;
+    padding: 0.5% 5%; }
+  .date-list-table td {
+    color: #595959;
+    padding: 0.5% 5%; }
+    .date-list-table td a {
+      color: #316fb3;
+      text-decoration: none;
+      font-weight: 300; }
+
 /*# sourceMappingURL=Routine.css.map */

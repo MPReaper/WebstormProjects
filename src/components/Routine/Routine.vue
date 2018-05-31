@@ -36,7 +36,7 @@
     </div>
 
     <div class="routine-intro-wrapper">
-      <div-header :header="'预选赛说明'"></div-header>
+      <div-header :header="'夏季预选赛时间'"></div-header>
       <table class="date-list-table">
         <thead>
         <tr>
