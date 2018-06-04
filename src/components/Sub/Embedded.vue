@@ -18,8 +18,8 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录<a target="_blank"
-                                                       :href="'http://www.mooctest.net/contest/list'">慕测平台</a>，报名<b>“2018年大学生嵌入式测试大赛”</b>，在慕测WebIDE或者客户端完成ETest测试脚本，在比赛前完成“我的任务”中的<b>“2018嵌入式测试资格练习”</b>并达到规定分数。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供嵌入式系统的测试任务，采用<b>模拟嵌入式应用软件</b>作为被测件，参赛选手在<a target="_blank"
+                                                                              :href="'http://www.mooctest.net/contest/list'">慕测平台</a>下载被测件、测试要求及测试工具ETest，使用ETest进行测试，按规定要求提交测试结果。
             </p>
           </div>
 
@@ -29,16 +29,13 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 评分标准1：测试脚本的需求覆盖率；
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 预选赛、省赛、决赛各发布一道题，预埋问题难度占比：易（50%）、中（30%）、难（20%）；
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 评分标准2：测试脚本的Bug检测率；
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 进行检错率评价：按照选手发现问题的个数及相应难度进行评分；
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 评分标准1和2进行加权累计得该题总分；
-            </p>
-            <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同则按最后提交时间二次排序，早提交者优先。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 如评分结果相等，按提交时间先后排序。
             </p>
           </div>
 
@@ -62,7 +59,8 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供基于互联网的模拟嵌入式测试任务，对模拟嵌入式应用程序进行基于工具的自动化黑盒测试，在慕测WebIDE或者客户端完成ETest测试脚本。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供嵌入式系统的测试任务，采用<b>模拟嵌入式应用软件</b>作为被测件，参赛选手在<a target="_blank"
+                                                                                                                  :href="'http://www.mooctest.net/contest/list'">慕测平台</a>下载被测件、测试要求及测试工具ETest，使用ETest进行测试，按规定要求提交测试结果。
             </p>
           </div>
 
@@ -72,16 +70,13 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 评分标准1：测试脚本的需求覆盖率；
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 预选赛、省赛、决赛各发布一道题，预埋问题难度占比：易（50%）、中（30%）、难（20%）；
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 评分标准2：测试脚本的Bug检测率；
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 进行检错率评价：按照选手发现问题的个数及相应难度进行评分；
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 评分标准1和2进行加权累计得该题总分；
-            </p>
-            <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同则按最后提交时间二次排序，早提交者优先。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 如评分结果相等，按提交时间先后排序。
             </p>
           </div>
         </div>
@@ -95,7 +90,8 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总决赛现场仍使用ETest作为测试环境，被测件为嵌入式教学工具箱中的嵌入式软件，比赛过程中使用组委会配发电脑，不得私自外接各类设备，选手可自带笔记本以参考相关资料。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;组委会提供嵌入式系统的测试任务，采用<b>真实嵌入式系统</b>作为被测件，参赛选手在<a target="_blank"
+                                                                                                                  :href="'http://www.mooctest.net/contest/list'">慕测平台</a>下载被测件、测试要求及测试工具ETest，使用ETest进行测试，按规定要求提交测试结果。
             </p>
           </div>
 
@@ -105,16 +101,16 @@
 
           <div class="sub-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 评分标准1：测试脚本的Bug检测率；
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 预选赛、省赛、决赛各发布一道题，预埋问题难度占比：易（50%）、中（30%）、难（20%）；
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 评分标准2：测试脚本及测试数据质量评价；
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 检错率评价：按照选手发现问题的个数及相应难度进行评分；
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 评分标准1和2进行加权累计得该题总分；
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 进行检错率评价、测试数据和测试脚本覆盖率评价；
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 总分相同选手根据最后一次提交时间二次排名。
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 如评分结果相等，按提交时间先后排序。
             </p>
           </div>
         </div>
