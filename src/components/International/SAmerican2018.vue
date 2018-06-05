@@ -1,22 +1,29 @@
 <template>
 
+
   <div>
 
-    <div class="international-wrapper">
+    <div>
 
-      <div-header :header="'2018南美赛'"></div-header>
+      <div class="international-wrapper">
+        <div-header :header="'2018南美赛'"></div-header>
 
-      <div>
-        <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>> <span @click="goToLink">2018南美邀请赛详情</span>
-        </p>
-        <br>
-        <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>> 2018南美邀请赛文件
-        </p>
-        <div class="file-wrapper" :style="{ backgroundImage: 'url(' + fileUrl + ')' }"></div>
+        <!--<div class="european-photo-wrapper hidden-md-and-down"-->
+        <!--:style="{ backgroundImage: 'url(' + photoUrl + ')' }"></div>-->
+
+        <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+          <div class="words-wrapper">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018年南美 赛内容待定，敬请期待！
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>> 查看2018年大赛<span @click="goToRoutinePage">赛程安排</span>
+              <br><br><br><br>
+            </p>
+
+          </div>
+        </el-col>
       </div>
-
     </div>
   </div>
 </template>
@@ -33,12 +40,12 @@
     },
     data() {
       return {
-        fileUrl: require('../../assets/img/samerican2018.jpg')
+
       }
     },
     methods: {
-      goToLink() {
-        window.location.href = 'http://paris.utdallas.edu/qrs18/contest.html'
+      goToRoutinePage() {
+        router.push({name: 'RoutinePage'})
       }
     }
   }
