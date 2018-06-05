@@ -55,4 +55,36 @@ button {
   background-size: 100% 100%;
   background-repeat: no-repeat; }
 
+.international-list-table {
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 90%;
+  font-weight: 400;
+  border-collapse: collapse; }
+  .international-list-table tr {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer; }
+    .international-list-table tr:hover td {
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      color: #316fb3; }
+  .international-list-table th {
+    color: #316fb3;
+    padding: 0.5% 5%;
+    border-top: 1px #bababa solid;
+    border-bottom: 1px #bababa solid; }
+  .international-list-table td {
+    color: #595959;
+    padding: 0.5% 5%;
+    border-top: 1px #bababa solid;
+    border-bottom: 1px #bababa solid; }
+
 /*# sourceMappingURL=International.css.map */

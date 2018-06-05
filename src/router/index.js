@@ -12,6 +12,7 @@ import RoutinePage from '@/pages/RoutinePage'
 import European2017Page from '@/pages/European2017Page'
 import European2018Page from '@/pages/European2018Page'
 import American2018Page from '@/pages/American2018Page'
+import SAmerican2018Page from '@/pages/SAmerican2018Page'
 import DeveloperPage from '@/pages/DeveloperPage'
 import EmbeddedPage from '@/pages/EmbeddedPage'
 import MobilePage from '@/pages/MobilePage'
@@ -82,6 +83,11 @@ export default new Router({
       path: '/American2018',
       name: 'American2018Page',
       component: American2018Page
+    },
+    {
+      path: '/SAmerican2018',
+      name: 'SAmerican2018Page',
+      component: SAmerican2018Page
     },
     {
       path: '/Developer',

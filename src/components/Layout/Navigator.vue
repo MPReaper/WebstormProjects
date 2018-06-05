@@ -62,6 +62,7 @@
           国际赛事<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
           <el-dropdown-menu slot="dropdown" @command="">
+            <el-dropdown-item command="SAmerican2018Page">2018南美赛</el-dropdown-item>
             <el-dropdown-item command="European2018Page">2018欧洲赛</el-dropdown-item>
             <el-dropdown-item command="American2018Page">2018北美赛</el-dropdown-item>
             <el-dropdown-item command="European2017Page">2017欧洲赛</el-dropdown-item>
@@ -130,6 +131,7 @@
           国际赛事<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
               <el-dropdown-menu slot="dropdown" @command="">
+                <el-dropdown-item command="SAmerican2018Page">2018南美赛</el-dropdown-item>
                 <el-dropdown-item command="European2018Page">2018欧洲赛</el-dropdown-item>
                 <el-dropdown-item command="American2018Page">2018北美赛</el-dropdown-item>
                 <el-dropdown-item command="European2017Page">2017欧洲赛</el-dropdown-item>

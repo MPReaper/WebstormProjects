@@ -64,9 +64,9 @@
 }
 
 .date-list-table {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
-  width: 40%;
+  width: 80%;
   font-size: 90%;
   font-weight: 400;
   border-collapse: collapse;
@@ -74,11 +74,15 @@
   th {
     color: $main-color;
     padding: 0.5% 5%;
+    border-top: 1px $light-grey solid;
+    border-bottom: 1px $light-grey solid;
   }
 
   td {
     color: $grey;
     padding: 0.5% 5%;
+    border-top: 1px $light-grey solid;
+    border-bottom: 1px $light-grey solid;
 
     a {
       color: $main-color;

@@ -6,6 +6,14 @@
           <div-header :header="'邀请赛'"></div-header>
 
           <button class="sub-title">
+            比赛时间
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;待定
+            </p>
+          </div>
+          <button class="sub-title">
             比赛内容
           </button>
 

@@ -49,3 +49,38 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
+.international-list-table {
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 90%;
+  font-weight: 400;
+  border-collapse: collapse;
+
+  tr {
+    @include transition(all .5s);
+    cursor: pointer;
+
+    &:hover {
+      td {
+        @include transition(all .5s);
+        color: $main-color;
+      }
+    }
+  }
+
+  th {
+    color: $main-color;
+    padding: 0.5% 5%;
+    border-top: 1px $light-grey solid;
+    border-bottom: 1px $light-grey solid;
+  }
+
+  td {
+    color: $grey;
+    padding: 0.5% 5%;
+    border-top: 1px $light-grey solid;
+    border-bottom: 1px $light-grey solid;
+  }
+}

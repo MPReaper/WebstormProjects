@@ -63,18 +63,22 @@ button {
     cursor: pointer; }
 
 .date-list-table {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
-  width: 40%;
+  width: 80%;
   font-size: 90%;
   font-weight: 400;
   border-collapse: collapse; }
   .date-list-table th {
     color: #316fb3;
-    padding: 0.5% 5%; }
+    padding: 0.5% 5%;
+    border-top: 1px #bababa solid;
+    border-bottom: 1px #bababa solid; }
   .date-list-table td {
     color: #595959;
-    padding: 0.5% 5%; }
+    padding: 0.5% 5%;
+    border-top: 1px #bababa solid;
+    border-bottom: 1px #bababa solid; }
     .date-list-table td a {
       color: #316fb3;
       text-decoration: none;
