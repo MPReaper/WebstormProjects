@@ -75,6 +75,11 @@
     padding: 0.5% 5%;
     border-top: 1px $light-grey solid;
     border-bottom: 1px $light-grey solid;
+    text-decoration: underline;
+  }
+
+  .no-decoration {
+    text-decoration: none;
   }
 
   td {

@@ -80,7 +80,10 @@ button {
     color: #316fb3;
     padding: 0.5% 5%;
     border-top: 1px #bababa solid;
-    border-bottom: 1px #bababa solid; }
+    border-bottom: 1px #bababa solid;
+    text-decoration: underline; }
+  .international-list-table .no-decoration {
+    text-decoration: none; }
   .international-list-table td {
     color: #595959;
     padding: 0.5% 5%;
