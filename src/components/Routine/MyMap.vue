@@ -23,11 +23,12 @@
         <td></td>
         <td></td>
       </tr>
-      <!--<tr>-->
-      <!--<td>浙江</td>-->
-      <!--<td>浙江理工大学</td>-->
-      <!--<td></td>-->
-      <!--</tr>-->
+      <tr>
+      <td>浙江</td>
+      <td>浙江理工大学</td>
+      <td></td>
+      <td></td>
+      </tr>
       <tr>
         <td>福建</td>
         <td>厦门理工学院</td>
@@ -69,6 +70,42 @@
         <td>哈尔滨工程大学、哈尔滨工业大学、黑龙江省软件学会 </td>
         <td></td>
         <td><a :href="heilongjiangUrl" target="_blank">查看文件</a></td>
+      </tr>
+      <tr>
+        <td>辽宁</td>
+        <td>东北大学</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>云南</td>
+        <td>云南大学</td>
+        <td></td>
+        <td></td>
+      <tr>
+        <td>四川</td>
+        <td>四川大学</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>山东</td>
+        <td>青岛科技大学</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>广西</td>
+        <td>广西师范大学</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>河南</td>
+        <td>河南工业大学</td>
+        <td></td>
+        <td></td>
+      </tr>
       </tr>
       <tr>
         <td>……</td>
@@ -148,7 +185,14 @@
                 {name: '陕西', selected: true},
                 {name: '重庆', selected: true},
                 {name: '湖北', selected: true},
-                {name: '安徽', selected: true}
+                {name: '安徽', selected: true},
+                {name: '辽宁', selected: true},
+                {name: '云南', selected: true},
+                {name: '四川', selected: true},
+                {name: '山东', selected: true},
+                {name: '浙江', selected: true},
+                {name: '广西', selected: true},
+                {name: '河南', selected: true}
               ]
             }
           ]
