@@ -1,6 +1,24 @@
 <template>
 
   <div class="train-wrapper">
+    <div-header :header="'师资培训班 [Web与移动应用]'"></div-header>
+    <div>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>师资培训班详情
+      </p>
+         <div class="file-wrapper" :style="{ backgroundImage: 'url(' + WebTrain1Url + ')' }"></div>
+         <div class="file-wrapper" :style="{ backgroundImage: 'url(' + WebTrain2Url + ')' }"></div>
+      <br>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>师资培训班文件
+      </p>
+      <br>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrainUrl">《全国大学生软件大赛师资培训班_Web与移动应用》</a>
+      </p>
+      <br><br>
+    </div>
+
     <div-header :header="'师资培训班 [Web安全分项]'"></div-header>
     <div>
       <p>
@@ -208,16 +226,21 @@
 
   import DivHeader from '../Util/DivHeader.vue'
   import SecurityTrainDocx from '../../assets/docx/security-train.docx'
+  import WebTrainPdf from '../../assets/pdf/webtrain.pdf'
 
   export default {
     name: 'education',
     components: {
       DivHeader,
-      SecurityTrainDocx
+      SecurityTrainDocx,
+      WebTrainPdf
     },
     data() {
       return {
-        SecurityTrainUrl: SecurityTrainDocx
+        WebTrain1Url: require('../../assets/img/0_1.jpg'),
+        WebTrain2Url: require('../../assets/img/0_2.jpg'),
+        SecurityTrainUrl: SecurityTrainDocx,
+        WebTrainUrl:WebTrainPdf
       }
     },
     methods: {}

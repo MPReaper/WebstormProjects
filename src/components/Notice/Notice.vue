@@ -3,6 +3,8 @@
     <div class="notice-wrapper hidden-xs-only">
       <div-header :header="'大赛通知'"></div-header>
       <div class="main-notice-wrapper">
+        <single-notice :title="'大学生软件测试大赛 [Web与移动应用]师资培训班'" :time="'2018-06-12'"
+                       :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>
         <single-notice :title="'软件测试国际邀请赛系列发布'" :time="'2018-06-05'"
                        :link="'http://mooctest.org/#/International'"></single-notice>
         <single-notice :title="'大赛夏季预选赛时间公布'" :time="'2018-05-31'"
@@ -39,6 +41,8 @@
     <div class="notice-wrapper hidden-sm-and-up">
       <div-header :header="'大赛通知'"></div-header>
       <div class="main-notice-wrapper">
+        <single-notice :title="'[Web与移动应用]师资培训班'" :time="'2018-06-12'"
+                       :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>
         <single-notice :title="'软件测试国际邀请赛系列发布'" :time="'2018-06-05'"
                        :link="'http://mooctest.org/#/International'"></single-notice>
         <single-notice :title="'大赛夏季预选赛时间公布'" :time="'2018-05-31'"

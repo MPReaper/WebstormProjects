@@ -5,28 +5,27 @@
     <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       <div class="notice-left-wrapper hidden-xs-only">
         <div-header :header="'大赛焦点'"></div-header>
+        <single-notice :title="'大学生软件测试大赛 [Web与移动应用]师资培训班'" :time="'2018-06-12'"
+                       :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>
         <single-notice :title="'软件测试国际邀请赛系列发布'" :time="'2018-06-05'"
                        :link="'http://mooctest.org/#/International'"></single-notice>
         <single-notice :title="'大赛夏季预选赛时间公布'" :time="'2018-05-31'"
                        :link="'http://mooctest.org/#/Routine'"></single-notice>
         <single-notice :title="'大赛新增AI系统测试邀请赛'" :time="'2018-05-29'"
                        :link="'http://mooctest.org/#/NewProgress'"></single-notice>
-        <single-notice :title="'2018全国大学生软件测试大赛师资培训班 [Web安全分项]'" :time="'2018-05-28'"
-                       :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>
-
         <button class="more-button" @click="goToNoticePage">查看更多</button>
       </div>
 
       <div class="notice-left-wrapper hidden-sm-and-up">
         <div-header :header="'大赛焦点'"></div-header>
+        <single-notice :title="'[Web与移动应用]师资培训班'" :time="'2018-06-12'"
+                       :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>
         <single-notice :title="'软件测试国际邀请赛系列发布'" :time="'2018-06-05'"
                        :link="'http://mooctest.org/#/International'"></single-notice>
         <single-notice :title="'大赛夏季预选赛时间公布'" :time="'2018-05-31'"
                        :link="'http://mooctest.org/#/Routine'"></single-notice>
         <single-notice :title="'大赛新增AI系统测试邀请赛'" :time="'2018-05-29'"
                        :link="'http://mooctest.org/#/NewProgress'"></single-notice>
-        <single-notice :title="'大赛师资培训班 [Web安全分项]'" :time="'2018-05-28'"
-                       :link="'http://www.mooctest.org/#/TeacherTrain'"></single-notice>
         <button class="more-button" @click="goToNoticePage">查看更多</button>
       </div>
 
