@@ -18,7 +18,7 @@
           <br><br>
         </p>
         <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为提高各高校教师的教学水平，提升Web测试、移动应用测试教学能力。教育部高等学校软件工程专业教学指导委员会、南京大学软件学院和机械工业出版社华章分社（北京华章图文信息有限公司）将于2018年8月9日- 15日在江苏省扬州市举办“Web与移动应用测试师资培训班”活动。培训班将通过与导师面对面交流探讨、实验实操等形式促进专业教师的互动交流，增强科研兴趣，拓展学术视野，明确研究方向。
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为提高各高校教师的教学水平，提升Web测试、移动应用测试教学能力。南京大学软件学院和机械工业出版社华章分社（北京华章图文信息有限公司）将于2018年8月9日- 15日在江苏省扬州市举办“Web与移动应用测试师资培训班”活动。培训班将通过与导师面对面交流探讨、实验实操等形式促进专业教师的互动交流，增强科研兴趣，拓展学术视野，明确研究方向。
         </p>
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此次培训班邀请对象为全国高校从事相关工作的教师，提供测试体系的全面学习。 欢迎相关学科教师踊跃报名。
@@ -142,7 +142,6 @@
           <br><br>
         </p>
         <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教育部高等学校软件工程专业教学指导委员会<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南京大学软件学院<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机械工业出版社华章分社（北京华章图文信息有限公司）<br>
           <br><br>
@@ -169,7 +168,6 @@
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱：xujf@nju.edu.cn<br><br>
         </p>
         <p style="text-align: right">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教育部高等学校软件工程专业教学指导委员会<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南京大学软件学院<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机械工业出版社华章分社（北京华章图文信息有限公司）<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018年6月5日<br><br>
@@ -177,12 +175,12 @@
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" HuiZhiDocx">《报名回执表》</a>
         </p>
-        <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrainUrl">《全国大学生软件大赛师资培训班_Web与移动应用通知》（北京华章图文信息有限公司盖章版）</a>
-        </p>
-        <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrain2Url">《全国大学生软件大赛师资培训班_Web与移动应用通知》（南京大学软件学院盖章版）</a>
-        </p>
+        <!--<p>-->
+          <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrainUrl">《全国大学生软件大赛师资培训班_Web与移动应用通知》（北京华章图文信息有限公司盖章版）</a>-->
+        <!--</p>-->
+        <!--<p>-->
+          <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrain2Url">《全国大学生软件大赛师资培训班_Web与移动应用通知》（南京大学软件学院盖章版）</a>-->
+        <!--</p>-->
         <br><br>
       </div>
     </div>
