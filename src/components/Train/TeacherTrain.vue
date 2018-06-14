@@ -405,12 +405,11 @@
       DivHeader,
       SecurityTrainDocx,
       WebTrainPdf,
-      WebTrain2Url,
+      WebTrain2Pdf,
       HuiZhiDocx
     },
     data() {
       return {
-
         SecurityTrainUrl: SecurityTrainDocx,
         WebTrainUrl: WebTrainPdf,
         WebTrain2Url:WebTrain2Pdf,
