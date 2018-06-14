@@ -5,17 +5,183 @@
       <div-header :header="'师资培训班 [Web与移动应用]'"></div-header>
       <div>
         <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>师资培训班详情
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>一，大赛背景：</b>
+          <br><br>
         </p>
-        <div class="file-wrapper" :style="{ backgroundImage: 'url(' + WebTrain1Url + ')' }"></div>
-        <div class="file-wrapper" :style="{ backgroundImage: 'url(' + WebTrain2Url + ')' }"></div>
-        <br>
         <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>师资培训班文件
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          由教育部高等学校软件工程专业教学指导委员会、全国高等院校计算机基础教育研究会、中国软件测评机构联盟、中国计算机学会软件工程专业委员会、中国计算机学会系统软件专业委员会和中国计算机学会容错计算专业委员会主办，南京大学、陆军工程大学、金陵科技学院、江苏软件产业人才发展基金会、江苏省软件新技术与产业化协同创新中心总承办的“全国大学生软件测试大赛”，于2016年举办首届，2017年举办第二届，参赛人次已超过25000人，涉及高校超过330所。 为了继续深化软件工程实践教学改革、探索产教研融合的软件测试专业培养模式、推进高等院校软件测试专业建设、建立软件产业和高等教育的产学研对接平台，举办2018年“全国大学生软件测试大赛”。
+          <br><br>
         </p>
-        <br>
         <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrainUrl">《全国大学生软件大赛师资培训班_Web与移动应用》</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>二，活动简介：</b>
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为提高各高校教师的教学水平，提升Web测试、移动应用测试教学能力。教育部高等学校软件工程专业教学指导委员会、南京大学软件学院和机械工业出版社华章分社（北京华章图文信息有限公司）将于2018年8月9日- 15日在江苏省扬州市举办“Web与移动应用测试师资培训班”活动。培训班将通过与导师面对面交流探讨、实验实操等形式促进专业教师的互动交流，增强科研兴趣，拓展学术视野，明确研究方向。
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此次培训班邀请对象为全国高校从事相关工作的教师，提供测试体系的全面学习。 欢迎相关学科教师踊跃报名。
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>三，活动安排：</b>
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;采取专家主题报告、分类辅导和互动交流相结合的形式。
+        </p>
+
+        <table class="train-table">
+
+          <thead>
+          <tr>
+            <th colspan="2">课程安排</th>
+            <th>内容</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>8月9日</td>
+            <td>12:00-20:00</td>
+            <td>报到</td>
+          </tr>
+          <tr>
+            <td rowspan="6">8月10日</td>
+            <td rowspan="3">上午（9:00-12:00）</td>
+            <td>移动应用测试概述</td>
+          </tr>
+          <tr>
+            <td>功能测试方法</td>
+          </tr>
+          <tr>
+            <td>兼容性测试方法</td>
+          </tr>
+          <tr>
+            <td rowspan="3">下午（14:00-18:00）</td>
+            <td>性能测试方法</td>
+          </tr>
+          <tr>
+            <td>用户体验测试方法</td>
+          </tr>
+          <tr>
+            <td>移动应用测试实践</td>
+          <tr>
+            <td rowspan="3">8月11日</td>
+            <td>上午（9:00-12:00）</td>
+            <td>自动化测试概述</td>
+          </tr>
+          <tr>
+            <td rowspan="2">下午（14:00-18:00）</td>
+            <td>Appium基础及配置</td>
+          </tr>
+          <tr>
+            <td> Appium测试实践</td>
+          </tr>
+          <tr>
+            <td rowspan="4">8月12日</td>
+            <td rowspan="2">上午（9:00-12:00）</td>
+            <td>Monkey测试方法及实践</td>
+          </tr>
+          <tr>
+            <td>企业测试案例实战</td>
+          </tr>
+          <tr>
+            <td rowspan="2">下午（14:00-18:00）</td>
+            <td>Web测试概述</td>
+          </tr>
+          <tr>
+            <td>WebDrive实践</td>
+          </tr>
+          <tr>
+            <td rowspan="4">8月13日</td>
+            <td rowspan="2">上午（9:00-12:00）</td>
+            <td>WebDrive的API</td>
+          </tr>
+          <tr>
+            <td>测试案例实战</td>
+          </tr>
+          <tr>
+            <td rowspan="2">下午（14:00-18:00）</td>
+            <td>JMeter--性能测试</td>
+          </tr>
+          <tr>
+            <td>测试案例实战</td>
+          </tr>
+          <tr>
+            <td rowspan="3">8月14日</td>
+            <td rowspan="2">上午（9:00-12:00）</td>
+            <td>数据驱动：组合测试</td>
+          </tr>
+          <tr>
+            <td>行为驱动：探索式测试</td>
+          </tr>
+          <tr>
+            <td>下午（14:00-18:00）</td>
+            <td>测试案例实战</td>
+          </tr>
+          <tr>
+            <td>8月15日</td>
+            <td>全天</td>
+            <td>返程</td>
+          </tr>
+          </tbody>
+        </table>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>四，培训时间及地点：</b>
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;时间：2018年8月9日-15日
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地点：江苏省扬州市广陵区东关街357号长乐客栈
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>五、活动组织机构：</b>
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教育部高等学校软件工程专业教学指导委员会<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南京大学软件学院<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机械工业出版社华章分社（北京华章图文信息有限公司）<br>
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>六、费用：</b>
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;培训费：4300元/人，由机械工业出版社华章分社（北京华章图文信息有限公司）统一收取。（培训期间住宿由会务组统一安排380元/间，费用自理。交通餐饮自理）。<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请于7月20日前汇款或现场刷卡。汇款信息：<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开户名称：北京华章图文信息有限公司<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开户银行：中国工商银行百万庄分理处，银行12位代码：102100000144<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;银行账号：0200 0014 0900 6799 252<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;途：2018软件测试培训会务费
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>七，联系方式：</b>
+          <br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;徐老师，电话：13382010055；<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱：xujf@nju.edu.cn<br><br>
+        </p>
+        <p style="text-align: right">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教育部高等学校软件工程专业教学指导委员会<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南京大学软件学院<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机械工业出版社华章分社（北京华章图文信息有限公司）<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018年6月5日<br><br>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" HuiZhiDocx">《报名回执表》</a>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrainUrl">《全国大学生软件大赛师资培训班_Web与移动应用通知》（北京华章图文信息有限公司盖章版）</a>
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrain2Url">《全国大学生软件大赛师资培训班_Web与移动应用通知》（南京大学软件学院盖章版）</a>
         </p>
         <br><br>
       </div>
@@ -230,20 +396,25 @@
   import DivHeader from '../Util/DivHeader.vue'
   import SecurityTrainDocx from '../../assets/docx/security-train.docx'
   import WebTrainPdf from '../../assets/pdf/webtrain.pdf'
+  import WebTrain2Pdf from '../../assets/pdf/webtrain2.pdf'
+  import HuiZhiDocx from  '../../assets/docx/huizhi.docx'
 
   export default {
     name: 'education',
     components: {
       DivHeader,
       SecurityTrainDocx,
-      WebTrainPdf
+      WebTrainPdf,
+      WebTrain2Url,
+      HuiZhiDocx
     },
     data() {
       return {
-        WebTrain1Url: require('../../assets/img/0_1.jpg'),
-        WebTrain2Url: require('../../assets/img/0_2.jpg'),
+
         SecurityTrainUrl: SecurityTrainDocx,
-        WebTrainUrl: WebTrainPdf
+        WebTrainUrl: WebTrainPdf,
+        WebTrain2Url:WebTrain2Pdf,
+        HuiZhiDocx:HuiZhiDocx
       }
     },
     methods: {}
