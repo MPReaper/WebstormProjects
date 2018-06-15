@@ -78,10 +78,10 @@
           </span>
           <el-dropdown-menu slot="dropdown" @command="handleCertificateCommand">
             <el-dropdown-item command="CertificatePage">证书查询</el-dropdown-item>
-            <a target="_blank" :href="'http://mooctest.org/cst2017/cst2017'">
+            <a target="_blank" :href="'http://www.mooctest.org/cst2017/cst2017'">
               <el-dropdown-item>2017赛事</el-dropdown-item>
             </a>
-            <a target="_blank" :href="'http://mooctest.org/cst2017/cst2016'">
+            <a target="_blank" :href="'http://www.mooctest.org/cst2017/cst2016'">
               <el-dropdown-item>2016赛事</el-dropdown-item>
             </a>
           </el-dropdown-menu>
@@ -146,10 +146,10 @@
           </span>
               <el-dropdown-menu slot="dropdown" @command="">
                 <el-dropdown-item command="CertificatePage">证书查询</el-dropdown-item>
-                <a target="_blank" :href="'http://mooctest.org/cst2017/cst2017'">
+                <a target="_blank" :href="'http://www.mooctest.org/cst2017/cst2017'">
                   <el-dropdown-item>2017赛事</el-dropdown-item>
                 </a>
-                <a target="_blank" :href="'http://mooctest.org/cst2017/cst2016'">
+                <a target="_blank" :href="'http://www.mooctest.org/cst2017/cst2016/'">
                   <el-dropdown-item>2016赛事</el-dropdown-item>
                 </a>
               </el-dropdown-menu>
