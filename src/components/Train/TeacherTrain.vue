@@ -178,9 +178,9 @@
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrainUrl">《全国大学生软件大赛师资培训班_Web与移动应用通知》（北京华章图文信息有限公司盖章版）</a>
         </p>
-        <!--<p>-->
-          <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrain2Url">《全国大学生软件大赛师资培训班_Web与移动应用通知》（南京大学软件学院盖章版）</a>-->
-        <!--</p>-->
+        <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> 附件下载：<a :href=" WebTrain2Url">《全国大学生软件大赛师资培训班_Web与移动应用通知》（南京大学软件学院盖章版）</a>
+        </p>
         <br><br>
       </div>
     </div>
