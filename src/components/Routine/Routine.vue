@@ -32,38 +32,53 @@
     </div>
 
     <div class="routine-intro-wrapper">
-      <div-header :header="'夏季预选赛时间'"></div-header>
-      <table class="date-list-table">
-        <thead>
-        <tr>
-          <th>夏季预选赛项目</th>
-          <th>比赛时间</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td>开发者测试</td>
-          <td>6月9日9:00-12:00</td>
-        </tr>
-        <tr>
-          <td>移动应用测试</td>
-          <td>6月9日14:00-17:00</td>
-        </tr>
-        <tr>
-          <td>Web应用测试</td>
-          <td>6月9日17:00-20:00</td>
-        </tr>
-        <tr>
-          <td>嵌入式测试</td>
-          <td>6月10日8:00-12:00</td>
-        </tr>
-        <tr>
-          <td>Web安全测试</td>
-          <td>6月10日14:00-18:00</td>
-        </tr>
-        </tbody>
-      </table>
+      <div-header :header="'夏季预选赛入选资格和分数查询'"></div-header>
+      <p>
+        各位同学：
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夏季预选赛入选资格和分数已经发布，请登录<a
+        target="_blank"
+        :href="'http://www.mooctest.net'">慕测平台</a>各自查询。由于部分同学的身份核实还没有完成，组委会将于2018年6月30日截止身份资料上传，并公布最后入选名单。
+      </p>
+      <p style="text-align: right">
+        全国大学生软件测试大赛组委会
+      </p>
     </div>
+
+    <!--<div class="routine-intro-wrapper">-->
+      <!--<div-header :header="'夏季预选赛时间'"></div-header>-->
+      <!--<table class="date-list-table">-->
+        <!--<thead>-->
+        <!--<tr>-->
+          <!--<th>夏季预选赛项目</th>-->
+          <!--<th>比赛时间</th>-->
+        <!--</tr>-->
+        <!--</thead>-->
+        <!--<tbody>-->
+        <!--<tr>-->
+          <!--<td>开发者测试</td>-->
+          <!--<td>6月9日9:00-12:00</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<td>移动应用测试</td>-->
+          <!--<td>6月9日14:00-17:00</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<td>Web应用测试</td>-->
+          <!--<td>6月9日17:00-20:00</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<td>嵌入式测试</td>-->
+          <!--<td>6月10日8:00-12:00</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<td>Web安全测试</td>-->
+          <!--<td>6月10日14:00-18:00</td>-->
+        <!--</tr>-->
+        <!--</tbody>-->
+      <!--</table>-->
+    <!--</div>-->
 
     <div class="routine-intro-wrapper" id="provinceIntro">
       <div-header :header="'省赛说明'"></div-header>
