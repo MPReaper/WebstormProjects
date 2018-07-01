@@ -52,6 +52,19 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web应用测试大赛仅限<b>B组（高职高专学生）</b>报名。
             </p>
           </div>
+
+          <button class="sub-title">
+            成绩公示
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夏季预选赛<a :href="'http://mooctest.org/#/NewProgress'">成绩公示</a>与资格查询:
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a
+              :href="SummerWebUrl">夏季预选赛Web应用测试</a>
+            </p>
+          </div>
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
@@ -138,15 +151,20 @@
   import {Col, Row} from 'element-ui'
   import {router} from '../../main'
 
+  import SummerWebPdf from '../../assets/pdf/summer-web.pdf'
+
   export default {
     name: 'web',
     components: {
       DivHeader,
       elCol: Col,
-      elRow: Row
+      elRow: Row,
+      SummerWebPdf,
     },
     data() {
-      return {}
+      return {
+        SummerWebUrl: SummerWebPdf,
+      }
     },
     methods: {}
   }

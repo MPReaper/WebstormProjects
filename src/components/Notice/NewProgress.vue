@@ -32,6 +32,10 @@
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a :href="SummerEmbeddedUrl">夏季预选赛嵌入式测试</a>
       </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a
+        :href="SummerWebUrl">夏季预选赛Web应用测试</a>
+      </p>
 
       <p style="text-align: right">
         全国大学生软件测试大赛组委会
@@ -110,6 +114,7 @@
   import SummerMobileGPdf from '../../assets/pdf/summer-mobile-g.pdf'
   import SummerMobilePPdf from '../../assets/pdf/summer-mobile-p.pdf'
   import SummerSecurityPdf from '../../assets/pdf/summer-security.pdf'
+  import SummerWebPdf from '../../assets/pdf/summer-web.pdf'
   import SummerEmbeddedPdf from '../../assets/pdf/summer-embedded.pdf'
 
   export default {
@@ -121,6 +126,7 @@
       SummerMobileGPdf,
       SummerMobilePPdf,
       SummerSecurityPdf,
+      SummerWebPdf,
       SummerEmbeddedPdf
     },
     data() {
@@ -130,6 +136,7 @@
         SummerMobileGUrl: SummerMobileGPdf,
         SummerMobilePUrl: SummerMobilePPdf,
         SummerSecurityUrl: SummerSecurityPdf,
+        SummerWebUrl: SummerWebPdf,
         SummerEmbeddedUrl: SummerEmbeddedPdf
       }
     },
