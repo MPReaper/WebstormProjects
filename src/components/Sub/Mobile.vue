@@ -50,6 +50,23 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移动应用测试大赛<b>A组（在校大学生）</b>、<b>B组（高职高专学生）</b>均可报名。
             </p>
           </div>
+
+          <button class="sub-title">
+            成绩公示
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夏季预选赛<a :href="'http://mooctest.org/#/NewProgress'">成绩公示</a>与资格查询:
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a
+              :href="SummerMobilePUrl">夏季预选赛移动应用测试（个人）</a>
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a
+              :href="SummerMobileGUrl">夏季预选赛移动应用测试（团队）</a>
+            </p>
+          </div>
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
@@ -130,15 +147,23 @@
   import {Col, Row} from 'element-ui'
   import {router} from '../../main'
 
+  import SummerMobileGPdf from '../../assets/pdf/summer-mobile-g.pdf'
+  import SummerMobilePPdf from '../../assets/pdf/summer-mobile-p.pdf'
+
   export default {
     name: 'mobile',
     components: {
       DivHeader,
       elCol: Col,
-      elRow: Row
+      elRow: Row,
+      SummerMobileGPdf,
+      SummerMobilePPdf,
     },
     data() {
-      return {}
+      return {
+        SummerMobileGUrl: SummerMobileGPdf,
+        SummerMobilePUrl: SummerMobilePPdf,
+      }
     },
     methods: {}
   }

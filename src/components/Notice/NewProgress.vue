@@ -2,7 +2,7 @@
 
   <div>
     <div class="education-wrapper">
-      <div-header :header="'夏季预选赛入选资格和分数查询'"></div-header>
+      <div-header :header="'夏季预选赛成绩公示'"></div-header>
       <p>
         各位同学：
       </p>
@@ -11,6 +11,28 @@
         target="_blank"
         :href="'http://www.mooctest.net'">慕测平台</a>各自查询。由于部分同学的身份核实还没有完成，组委会将于2018年6月30日截止身份资料上传，并公布最后入选名单。
       </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a :href="SummerDeveloperPUrl">夏季预选赛开发者测试（个人）</a>
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a :href="SummerDeveloperGUrl">夏季预选赛开发者测试（团队）</a>
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a
+        :href="SummerMobilePUrl">夏季预选赛移动应用测试（个人）</a>
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a
+        :href="SummerMobileGUrl">夏季预选赛移动应用测试（团队）</a>
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a
+        :href="SummerSecurityUrl">夏季预选赛Web安全测试</a>
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a :href="SummerEmbeddedUrl">夏季预选赛嵌入式测试</a>
+      </p>
+
       <p style="text-align: right">
         全国大学生软件测试大赛组委会
       </p>
@@ -83,13 +105,33 @@
   import DivHeader from '../Util/DivHeader.vue'
   import {router} from '../../main'
 
+  import SummerDeveloperPPdf from '../../assets/pdf/summer-developer-p.pdf'
+  import SummerDeveloperGPdf from '../../assets/pdf/summer-developer-g.pdf'
+  import SummerMobileGPdf from '../../assets/pdf/summer-mobile-g.pdf'
+  import SummerMobilePPdf from '../../assets/pdf/summer-mobile-p.pdf'
+  import SummerSecurityPdf from '../../assets/pdf/summer-security.pdf'
+  import SummerEmbeddedPdf from '../../assets/pdf/summer-embedded.pdf'
+
   export default {
     name: 'new-progress',
     components: {
-      DivHeader
+      DivHeader,
+      SummerDeveloperPPdf,
+      SummerDeveloperGPdf,
+      SummerMobileGPdf,
+      SummerMobilePPdf,
+      SummerSecurityPdf,
+      SummerEmbeddedPdf
     },
     data() {
-      return {}
+      return {
+        SummerDeveloperPUrl: SummerDeveloperPPdf,
+        SummerDeveloperGUrl: SummerDeveloperGPdf,
+        SummerMobileGUrl: SummerMobileGPdf,
+        SummerMobilePUrl: SummerMobilePPdf,
+        SummerSecurityUrl: SummerSecurityPdf,
+        SummerEmbeddedUrl: SummerEmbeddedPdf
+      }
     },
     methods: {
       goToRoutinePage() {

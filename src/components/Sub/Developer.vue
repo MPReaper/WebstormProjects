@@ -53,6 +53,21 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开发者测试大赛<b>A组（在校大学生）</b>、<b>B组（高职高专学生）</b>均可报名。
             </p>
           </div>
+
+          <button class="sub-title">
+            成绩公示
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夏季预选赛<a :href="'http://mooctest.org/#/NewProgress'">成绩公示</a>与资格查询:
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a :href="SummerDeveloperPUrl">夏季预选赛开发者测试（个人）</a>
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a :href="SummerDeveloperGUrl">夏季预选赛开发者测试（团队）</a>
+            </p>
+          </div>
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
@@ -146,17 +161,25 @@
   import {Col, Row} from 'element-ui'
   import {router} from '../../main'
 
+  import SummerDeveloperPPdf from '../../assets/pdf/summer-developer-p.pdf'
+  import SummerDeveloperGPdf from '../../assets/pdf/summer-developer-g.pdf'
+
   export default {
     name: 'developer',
     components: {
       DivHeader,
       elCol: Col,
-      elRow: Row
+      elRow: Row,
+      SummerDeveloperPPdf,
+      SummerDeveloperGPdf,
     },
     data() {
       return {}
     },
-    methods: {}
+    methods: {
+      SummerDeveloperPUrl: SummerDeveloperPPdf,
+      SummerDeveloperGUrl: SummerDeveloperGPdf,
+    }
   }
 </script>
 

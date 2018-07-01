@@ -3,6 +3,8 @@
     <div class="notice-wrapper hidden-xs-only">
       <div-header :header="'大赛通知'"></div-header>
       <div class="main-notice-wrapper">
+        <single-notice :title="'夏季预选赛成绩公示'" :time="'2018-06-30'"
+                       :link="'http://mooctest.org/#/NewProgress'"></single-notice>
         <single-notice :title="'[提醒] 获得下一轮比赛资格的同学上传学生证明'" :time="'2018-06-26'"
                        :link="'http://www.mooctest.net/user/info'"></single-notice>
         <single-notice :title="'夏季预选赛入选资格和分数查询'" :time="'2018-06-26'"
@@ -45,6 +47,8 @@
     <div class="notice-wrapper hidden-sm-and-up">
       <div-header :header="'大赛通知'"></div-header>
       <div class="main-notice-wrapper">
+        <single-notice :title="'夏季预选赛成绩公示'" :time="'2018-06-30'"
+                       :link="'http://mooctest.org/#/NewProgress'"></single-notice>
         <single-notice :title="'[提醒] 获得资格的同学上传证明'" :time="'2018-06-26'"
                        :link="'http://www.mooctest.net/user/info'"></single-notice>
         <single-notice :title="'夏季预选赛入选资格和分数查询'" :time="'2018-06-26'"

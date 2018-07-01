@@ -24,6 +24,7 @@ import NoticePage from '@/pages/NoticePage'
 import DataOpenPage from '@/pages/DataOpenPage'
 import NewProgressPage from '@/pages/NewProgressPage'
 import ArticlePage from '@/pages/ArticlePage'
+import SummerScorePage from '@/pages/SummerScorePage'
 
 Vue.use(Router);
 
@@ -149,6 +150,11 @@ export default new Router({
           component: DataOpenPage
         }
       ]
-    }
+    },
+    // {
+    //   path: '/SummerScore',
+    //   name: 'SummerScorePage',
+    //   component: SummerScorePage
+    // }
   ]
 })

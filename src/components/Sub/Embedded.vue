@@ -47,6 +47,18 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;嵌入式测试大赛仅限<b>A组（在校大学生）</b>报名。
             </p>
           </div>
+
+          <button class="sub-title">
+            成绩公示
+          </button>
+          <div class="sub-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夏季预选赛<a :href="'http://mooctest.org/#/NewProgress'">成绩公示</a>与资格查询:
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="el-icon-download"></i> <a :href="SummerEmbeddedUrl">夏季预选赛嵌入式测试</a>
+            </p>
+          </div>
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
@@ -124,16 +136,20 @@
   import DivHeader from '../Util/DivHeader.vue'
   import {Col, Row} from 'element-ui'
   import {router} from '../../main'
+  import SummerEmbeddedPdf from '../../assets/pdf/summer-embedded.pdf'
 
   export default {
     name: 'embed',
     components: {
       DivHeader,
       elCol: Col,
-      elRow: Row
+      elRow: Row,
+      SummerEmbeddedPdf
     },
     data() {
-      return {}
+      return {
+        SummerEmbeddedUrl: SummerEmbeddedPdf
+      }
     },
     methods: {}
   }
