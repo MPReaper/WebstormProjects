@@ -56,7 +56,6 @@ button {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-    cursor: pointer;
     font-weight: 400; }
   .train-table td {
     border: 1px #bababa solid;

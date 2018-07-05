@@ -81,7 +81,8 @@ button {
     padding: 0.5% 5%;
     border-top: 1px #bababa solid;
     border-bottom: 1px #bababa solid;
-    text-decoration: underline; }
+    text-decoration: underline;
+    cursor: default; }
   .international-list-table .no-decoration {
     text-decoration: none; }
   .international-list-table td {
